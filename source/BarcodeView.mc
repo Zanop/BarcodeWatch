@@ -26,6 +26,12 @@ class BarcodeView extends Ui.View {
 
         var w = dc.getWidth();
         var h = dc.getHeight();
+        var labelHeight = 20;
+        if (mName != null && mName.length() > 0) {
+            dc.drawText(w / 2, 2, Gfx.FONT_XTINY, mName, Gfx.TEXT_JUSTIFY_CENTER);
+        } else {
+            labelHeight = 0;
+        }
 
         if (mValue == null || mValue.length() == 0) {
             dc.drawText(w / 2, h / 2, Gfx.FONT_SMALL, "No value set", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
@@ -38,28 +44,28 @@ class BarcodeView extends Ui.View {
                 drawError(dc, w, h, QrEncoder.lastError);
                 return;
             }
-            drawMatrix(dc, matrix, w, h);
+            drawMatrix(dc, matrix, w, h - labelHeight, labelHeight);
         } else if (mType == TYPE_CODE128) {
             var bits = Code128Encoder.encode(mValue);
             if (bits == null) {
                 drawError(dc, w, h, Code128Encoder.lastError);
                 return;
             }
-            drawBars(dc, bits, w, h);
+            drawBars(dc, bits, w, h - labelHeight, labelHeight);
         } else if (mType == TYPE_EAN13) {
             var bits = EanEncoder.encode13(mValue);
             if (bits == null) {
                 drawError(dc, w, h, EanEncoder.lastError);
                 return;
             }
-            drawBars(dc, bits, w, h);
+            drawBars(dc, bits, w, h - labelHeight, labelHeight);
         } else if (mType == TYPE_EAN8) {
             var bits = EanEncoder.encode8(mValue);
             if (bits == null) {
                 drawError(dc, w, h, EanEncoder.lastError);
                 return;
             }
-            drawBars(dc, bits, w, h);
+            drawBars(dc, bits, w, h - labelHeight, labelHeight);
         } else {
             drawError(dc, w, h, "Unknown code type");
         }
@@ -74,7 +80,7 @@ class BarcodeView extends Ui.View {
     // since the display is tiny - most modern phone scanners tolerate this at
     // close range, but if you have scanning trouble, shorten the code text so
     // it fits a lower QR version (bigger modules).
-    function drawMatrix(dc, matrix, w, h) {
+    function drawMatrix(dc, matrix, w, h, top) {
         var n = matrix.size();
         var quiet = 2;
         var avail = (w < h) ? w : h;
@@ -82,7 +88,7 @@ class BarcodeView extends Ui.View {
         if (scale < 1) { scale = 1; }
         var total = (n + quiet * 2) * scale;
         var ox = (w - total) / 2;
-        var oy = (h - total) / 2;
+        var oy = top + (h - total) / 2;
 
         for (var r = 0; r < n; r += 1) {
             var row = matrix[r];
@@ -99,7 +105,7 @@ class BarcodeView extends Ui.View {
     // modules) down to what fits, since the screen is only 176px wide - keep
     // your code text short (under ~15 characters for Code128) for a module
     // width that scans reliably.
-    function drawBars(dc, bits, w, h) {
+    function drawBars(dc, bits, w, h, top) {
         var n = bits.length();
         var quiet = 6;
         var scale = w / (n + quiet * 2);
@@ -108,7 +114,7 @@ class BarcodeView extends Ui.View {
         var ox = (w - total) / 2;
         if (ox < 0) { ox = 0; }
         var barH = (h * 60) / 100;
-        var oy = (h - barH) / 2;
+        var oy = top + (h - barH) / 2;
 
         for (var i = 0; i < n; i += 1) {
             var ch = bits.substring(i, i + 1);
