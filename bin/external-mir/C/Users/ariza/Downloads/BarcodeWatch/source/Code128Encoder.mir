@@ -1,0 +1,620 @@
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 5; @symbol_moduledef = [Code128Encoder,5,7,21]; ]
+module Code128Encoder {
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 5; ]
+    <init> {
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 7 8 ]
+        %tmp.1 = newa 106;
+        %tmp.2 = "11011001100";
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = "11001101100";
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = "11001100110";
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = "10010011000";
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        %tmp.14 = "10010001100";
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 4 %tmp.14;
+        %tmp.17 = "10001001100";
+        %tmp.18 = dup %tmp.16;
+        %tmp.19 = aputv %tmp.18 5 %tmp.17;
+        %tmp.20 = "10011001000";
+        %tmp.21 = dup %tmp.19;
+        %tmp.22 = aputv %tmp.21 6 %tmp.20;
+        %tmp.23 = "10011000100";
+        %tmp.24 = dup %tmp.22;
+        %tmp.25 = aputv %tmp.24 7 %tmp.23;
+        %tmp.26 = "10001100100";
+        %tmp.27 = dup %tmp.25;
+        %tmp.28 = aputv %tmp.27 8 %tmp.26;
+        %tmp.29 = "11001001000";
+        %tmp.30 = dup %tmp.28;
+        %tmp.31 = aputv %tmp.30 9 %tmp.29;
+        %tmp.32 = "11001000100";
+        %tmp.33 = dup %tmp.31;
+        %tmp.34 = aputv %tmp.33 10 %tmp.32;
+        %tmp.35 = "11000100100";
+        %tmp.36 = dup %tmp.34;
+        %tmp.37 = aputv %tmp.36 11 %tmp.35;
+        %tmp.38 = "10110011100";
+        %tmp.39 = dup %tmp.37;
+        %tmp.40 = aputv %tmp.39 12 %tmp.38;
+        %tmp.41 = "10011011100";
+        %tmp.42 = dup %tmp.40;
+        %tmp.43 = aputv %tmp.42 13 %tmp.41;
+        %tmp.44 = "10011001110";
+        %tmp.45 = dup %tmp.43;
+        %tmp.46 = aputv %tmp.45 14 %tmp.44;
+        %tmp.47 = "10111001100";
+        %tmp.48 = dup %tmp.46;
+        %tmp.49 = aputv %tmp.48 15 %tmp.47;
+        %tmp.50 = "10011101100";
+        %tmp.51 = dup %tmp.49;
+        %tmp.52 = aputv %tmp.51 16 %tmp.50;
+        %tmp.53 = "10011100110";
+        %tmp.54 = dup %tmp.52;
+        %tmp.55 = aputv %tmp.54 17 %tmp.53;
+        %tmp.56 = "11001110010";
+        %tmp.57 = dup %tmp.55;
+        %tmp.58 = aputv %tmp.57 18 %tmp.56;
+        %tmp.59 = "11001011100";
+        %tmp.60 = dup %tmp.58;
+        %tmp.61 = aputv %tmp.60 19 %tmp.59;
+        %tmp.62 = "11001001110";
+        %tmp.63 = dup %tmp.61;
+        %tmp.64 = aputv %tmp.63 20 %tmp.62;
+        %tmp.65 = "11011100100";
+        %tmp.66 = dup %tmp.64;
+        %tmp.67 = aputv %tmp.66 21 %tmp.65;
+        %tmp.68 = "11001110100";
+        %tmp.69 = dup %tmp.67;
+        %tmp.70 = aputv %tmp.69 22 %tmp.68;
+        %tmp.71 = "11101101110";
+        %tmp.72 = dup %tmp.70;
+        %tmp.73 = aputv %tmp.72 23 %tmp.71;
+        %tmp.74 = "11101001100";
+        %tmp.75 = dup %tmp.73;
+        %tmp.76 = aputv %tmp.75 24 %tmp.74;
+        %tmp.77 = "11100101100";
+        %tmp.78 = dup %tmp.76;
+        %tmp.79 = aputv %tmp.78 25 %tmp.77;
+        %tmp.80 = "11100100110";
+        %tmp.81 = dup %tmp.79;
+        %tmp.82 = aputv %tmp.81 26 %tmp.80;
+        %tmp.83 = "11101100100";
+        %tmp.84 = dup %tmp.82;
+        %tmp.85 = aputv %tmp.84 27 %tmp.83;
+        %tmp.86 = "11100110100";
+        %tmp.87 = dup %tmp.85;
+        %tmp.88 = aputv %tmp.87 28 %tmp.86;
+        %tmp.89 = "11100110010";
+        %tmp.90 = dup %tmp.88;
+        %tmp.91 = aputv %tmp.90 29 %tmp.89;
+        %tmp.92 = "11011011000";
+        %tmp.93 = dup %tmp.91;
+        %tmp.94 = aputv %tmp.93 30 %tmp.92;
+        %tmp.95 = "11011000110";
+        %tmp.96 = dup %tmp.94;
+        %tmp.97 = aputv %tmp.96 31 %tmp.95;
+        %tmp.98 = "11000110110";
+        %tmp.99 = dup %tmp.97;
+        %tmp.100 = aputv %tmp.99 32 %tmp.98;
+        %tmp.101 = "10100011000";
+        %tmp.102 = dup %tmp.100;
+        %tmp.103 = aputv %tmp.102 33 %tmp.101;
+        %tmp.104 = "10001011000";
+        %tmp.105 = dup %tmp.103;
+        %tmp.106 = aputv %tmp.105 34 %tmp.104;
+        %tmp.107 = "10001000110";
+        %tmp.108 = dup %tmp.106;
+        %tmp.109 = aputv %tmp.108 35 %tmp.107;
+        %tmp.110 = "10110001000";
+        %tmp.111 = dup %tmp.109;
+        %tmp.112 = aputv %tmp.111 36 %tmp.110;
+        %tmp.113 = "10001101000";
+        %tmp.114 = dup %tmp.112;
+        %tmp.115 = aputv %tmp.114 37 %tmp.113;
+        %tmp.116 = "10001100010";
+        %tmp.117 = dup %tmp.115;
+        %tmp.118 = aputv %tmp.117 38 %tmp.116;
+        %tmp.119 = "11010001000";
+        %tmp.120 = dup %tmp.118;
+        %tmp.121 = aputv %tmp.120 39 %tmp.119;
+        %tmp.122 = "11000101000";
+        %tmp.123 = dup %tmp.121;
+        %tmp.124 = aputv %tmp.123 40 %tmp.122;
+        %tmp.125 = "11000100010";
+        %tmp.126 = dup %tmp.124;
+        %tmp.127 = aputv %tmp.126 41 %tmp.125;
+        %tmp.128 = "10110111000";
+        %tmp.129 = dup %tmp.127;
+        %tmp.130 = aputv %tmp.129 42 %tmp.128;
+        %tmp.131 = "10110001110";
+        %tmp.132 = dup %tmp.130;
+        %tmp.133 = aputv %tmp.132 43 %tmp.131;
+        %tmp.134 = "10001101110";
+        %tmp.135 = dup %tmp.133;
+        %tmp.136 = aputv %tmp.135 44 %tmp.134;
+        %tmp.137 = "10111011000";
+        %tmp.138 = dup %tmp.136;
+        %tmp.139 = aputv %tmp.138 45 %tmp.137;
+        %tmp.140 = "10111000110";
+        %tmp.141 = dup %tmp.139;
+        %tmp.142 = aputv %tmp.141 46 %tmp.140;
+        %tmp.143 = "10001110110";
+        %tmp.144 = dup %tmp.142;
+        %tmp.145 = aputv %tmp.144 47 %tmp.143;
+        %tmp.146 = "11101110110";
+        %tmp.147 = dup %tmp.145;
+        %tmp.148 = aputv %tmp.147 48 %tmp.146;
+        %tmp.149 = "11010001110";
+        %tmp.150 = dup %tmp.148;
+        %tmp.151 = aputv %tmp.150 49 %tmp.149;
+        %tmp.152 = "11000101110";
+        %tmp.153 = dup %tmp.151;
+        %tmp.154 = aputv %tmp.153 50 %tmp.152;
+        %tmp.155 = "11011101000";
+        %tmp.156 = dup %tmp.154;
+        %tmp.157 = aputv %tmp.156 51 %tmp.155;
+        %tmp.158 = "11011100010";
+        %tmp.159 = dup %tmp.157;
+        %tmp.160 = aputv %tmp.159 52 %tmp.158;
+        %tmp.161 = "11011101110";
+        %tmp.162 = dup %tmp.160;
+        %tmp.163 = aputv %tmp.162 53 %tmp.161;
+        %tmp.164 = "11101011000";
+        %tmp.165 = dup %tmp.163;
+        %tmp.166 = aputv %tmp.165 54 %tmp.164;
+        %tmp.167 = "11101000110";
+        %tmp.168 = dup %tmp.166;
+        %tmp.169 = aputv %tmp.168 55 %tmp.167;
+        %tmp.170 = "11100010110";
+        %tmp.171 = dup %tmp.169;
+        %tmp.172 = aputv %tmp.171 56 %tmp.170;
+        %tmp.173 = "11101101000";
+        %tmp.174 = dup %tmp.172;
+        %tmp.175 = aputv %tmp.174 57 %tmp.173;
+        %tmp.176 = "11101100010";
+        %tmp.177 = dup %tmp.175;
+        %tmp.178 = aputv %tmp.177 58 %tmp.176;
+        %tmp.179 = "11100011010";
+        %tmp.180 = dup %tmp.178;
+        %tmp.181 = aputv %tmp.180 59 %tmp.179;
+        %tmp.182 = "11101111010";
+        %tmp.183 = dup %tmp.181;
+        %tmp.184 = aputv %tmp.183 60 %tmp.182;
+        %tmp.185 = "11001000010";
+        %tmp.186 = dup %tmp.184;
+        %tmp.187 = aputv %tmp.186 61 %tmp.185;
+        %tmp.188 = "11110001010";
+        %tmp.189 = dup %tmp.187;
+        %tmp.190 = aputv %tmp.189 62 %tmp.188;
+        %tmp.191 = "10100110000";
+        %tmp.192 = dup %tmp.190;
+        %tmp.193 = aputv %tmp.192 63 %tmp.191;
+        %tmp.194 = "10100001100";
+        %tmp.195 = dup %tmp.193;
+        %tmp.196 = aputv %tmp.195 64 %tmp.194;
+        %tmp.197 = "10010110000";
+        %tmp.198 = dup %tmp.196;
+        %tmp.199 = aputv %tmp.198 65 %tmp.197;
+        %tmp.200 = "10010000110";
+        %tmp.201 = dup %tmp.199;
+        %tmp.202 = aputv %tmp.201 66 %tmp.200;
+        %tmp.203 = "10000101100";
+        %tmp.204 = dup %tmp.202;
+        %tmp.205 = aputv %tmp.204 67 %tmp.203;
+        %tmp.206 = "10000100110";
+        %tmp.207 = dup %tmp.205;
+        %tmp.208 = aputv %tmp.207 68 %tmp.206;
+        %tmp.209 = "10110010000";
+        %tmp.210 = dup %tmp.208;
+        %tmp.211 = aputv %tmp.210 69 %tmp.209;
+        %tmp.212 = "10110000100";
+        %tmp.213 = dup %tmp.211;
+        %tmp.214 = aputv %tmp.213 70 %tmp.212;
+        %tmp.215 = "10011010000";
+        %tmp.216 = dup %tmp.214;
+        %tmp.217 = aputv %tmp.216 71 %tmp.215;
+        %tmp.218 = "10011000010";
+        %tmp.219 = dup %tmp.217;
+        %tmp.220 = aputv %tmp.219 72 %tmp.218;
+        %tmp.221 = "10000110100";
+        %tmp.222 = dup %tmp.220;
+        %tmp.223 = aputv %tmp.222 73 %tmp.221;
+        %tmp.224 = "10000110010";
+        %tmp.225 = dup %tmp.223;
+        %tmp.226 = aputv %tmp.225 74 %tmp.224;
+        %tmp.227 = "11000010010";
+        %tmp.228 = dup %tmp.226;
+        %tmp.229 = aputv %tmp.228 75 %tmp.227;
+        %tmp.230 = "11001010000";
+        %tmp.231 = dup %tmp.229;
+        %tmp.232 = aputv %tmp.231 76 %tmp.230;
+        %tmp.233 = "11110111010";
+        %tmp.234 = dup %tmp.232;
+        %tmp.235 = aputv %tmp.234 77 %tmp.233;
+        %tmp.236 = "11000010100";
+        %tmp.237 = dup %tmp.235;
+        %tmp.238 = aputv %tmp.237 78 %tmp.236;
+        %tmp.239 = "10001111010";
+        %tmp.240 = dup %tmp.238;
+        %tmp.241 = aputv %tmp.240 79 %tmp.239;
+        %tmp.242 = "10100111100";
+        %tmp.243 = dup %tmp.241;
+        %tmp.244 = aputv %tmp.243 80 %tmp.242;
+        %tmp.245 = "10010111100";
+        %tmp.246 = dup %tmp.244;
+        %tmp.247 = aputv %tmp.246 81 %tmp.245;
+        %tmp.248 = "10010011110";
+        %tmp.249 = dup %tmp.247;
+        %tmp.250 = aputv %tmp.249 82 %tmp.248;
+        %tmp.251 = "10111100100";
+        %tmp.252 = dup %tmp.250;
+        %tmp.253 = aputv %tmp.252 83 %tmp.251;
+        %tmp.254 = "10011110100";
+        %tmp.255 = dup %tmp.253;
+        %tmp.256 = aputv %tmp.255 84 %tmp.254;
+        %tmp.257 = "10011110010";
+        %tmp.258 = dup %tmp.256;
+        %tmp.259 = aputv %tmp.258 85 %tmp.257;
+        %tmp.260 = "11110100100";
+        %tmp.261 = dup %tmp.259;
+        %tmp.262 = aputv %tmp.261 86 %tmp.260;
+        %tmp.263 = "11110010100";
+        %tmp.264 = dup %tmp.262;
+        %tmp.265 = aputv %tmp.264 87 %tmp.263;
+        %tmp.266 = "11110010010";
+        %tmp.267 = dup %tmp.265;
+        %tmp.268 = aputv %tmp.267 88 %tmp.266;
+        %tmp.269 = "11011011110";
+        %tmp.270 = dup %tmp.268;
+        %tmp.271 = aputv %tmp.270 89 %tmp.269;
+        %tmp.272 = "11011110110";
+        %tmp.273 = dup %tmp.271;
+        %tmp.274 = aputv %tmp.273 90 %tmp.272;
+        %tmp.275 = "11110110110";
+        %tmp.276 = dup %tmp.274;
+        %tmp.277 = aputv %tmp.276 91 %tmp.275;
+        %tmp.278 = "10101111000";
+        %tmp.279 = dup %tmp.277;
+        %tmp.280 = aputv %tmp.279 92 %tmp.278;
+        %tmp.281 = "10100011110";
+        %tmp.282 = dup %tmp.280;
+        %tmp.283 = aputv %tmp.282 93 %tmp.281;
+        %tmp.284 = "10001011110";
+        %tmp.285 = dup %tmp.283;
+        %tmp.286 = aputv %tmp.285 94 %tmp.284;
+        %tmp.287 = "10111101000";
+        %tmp.288 = dup %tmp.286;
+        %tmp.289 = aputv %tmp.288 95 %tmp.287;
+        %tmp.290 = "10111100010";
+        %tmp.291 = dup %tmp.289;
+        %tmp.292 = aputv %tmp.291 96 %tmp.290;
+        %tmp.293 = "11110101000";
+        %tmp.294 = dup %tmp.292;
+        %tmp.295 = aputv %tmp.294 97 %tmp.293;
+        %tmp.296 = "11110100010";
+        %tmp.297 = dup %tmp.295;
+        %tmp.298 = aputv %tmp.297 98 %tmp.296;
+        %tmp.299 = "10111011110";
+        %tmp.300 = dup %tmp.298;
+        %tmp.301 = aputv %tmp.300 99 %tmp.299;
+        %tmp.302 = "10111101110";
+        %tmp.303 = dup %tmp.301;
+        %tmp.304 = aputv %tmp.303 100 %tmp.302;
+        %tmp.305 = "11101011110";
+        %tmp.306 = dup %tmp.304;
+        %tmp.307 = aputv %tmp.306 101 %tmp.305;
+        %tmp.308 = "11110101110";
+        %tmp.309 = dup %tmp.307;
+        %tmp.310 = aputv %tmp.309 102 %tmp.308;
+        %tmp.311 = "11010000100";
+        %tmp.312 = dup %tmp.310;
+        %tmp.313 = aputv %tmp.312 103 %tmp.311;
+        %tmp.314 = "11010010000";
+        %tmp.315 = dup %tmp.313;
+        %tmp.316 = aputv %tmp.315 104 %tmp.314;
+        %tmp.317 = "11010011100";
+        %tmp.318 = dup %tmp.316;
+        %tmp.319 = aputv %tmp.318 105 %tmp.317;
+        putv self :CODES %tmp.319;
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 7; @position = 8; @symbol_vardef = [CODES,7,8,13]; ]
+    var CODES;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 31; @position = 8; @symbol_vardef = [STOP,31,8,12]; ]
+    var STOP = "11000111010";
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 32; @position = 8; @symbol_vardef = [START_B,32,8,15]; ]
+    var START_B = 104;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 34; @position = 8; @symbol_vardef = [lastError,34,8,17]; ]
+    var lastError = "";
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 38; @symbol_functiondef = [encode,38,13,19]; @symbol_param<0> = [text,38,20,24]; ]
+    function encode(text) {
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 39 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_stop" ]
+        %bytes.1 = local;
+        symbol [ bytes %bytes.1 39 12 17 ];
+        %tmp.1 = lgetv %text;
+        symbol [ text %tmp.1 39 20 24 ];
+        symbol [ toUtf8Array %tmp.2 39 25 36 ];
+        %tmp.2 = getv function %tmp.1 :toUtf8Array;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %bytes.1 %tmp.3;
+        symbol [ bytes %bytes.1 39 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 40 8 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_end" ]
+        %i.2 = local;
+        symbol [ i %i.2 40 17 18 ];
+        %tmp.4 = 0;
+        lputv %i.2 %tmp.4;
+        symbol [ i %i.2 40 17 18 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_test:
+        %tmp.5 = lgetv %i.2;
+        symbol [ i %tmp.5 40 24 25 ];
+        %tmp.6 = lgetv %bytes.1;
+        symbol [ bytes %tmp.6 40 28 33 ];
+        symbol [ size %tmp.7 40 34 38 ];
+        %tmp.7 = getv function %tmp.6 :size;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = lt %tmp.5 %tmp.8;
+        bf %tmp.9 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_50_45_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 41 12 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_12_44_12_if_stmt:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_16_41_44_begin:
+        %tmp.10 = lgetv %bytes.1;
+        symbol [ bytes %tmp.10 41 16 21 ];
+        %tmp.11 = lgetv %i.2;
+        symbol [ i %tmp.11 41 22 23 ];
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        %tmp.13 = 32;
+        %tmp.14 = lt %tmp.12 %tmp.13;
+        bt %tmp.14 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_12_44_12_if_true;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_33_41_44_false:
+        %tmp.15 = lgetv %bytes.1;
+        symbol [ bytes %tmp.15 41 33 38 ];
+        %tmp.16 = lgetv %i.2;
+        symbol [ i %tmp.16 41 39 40 ];
+        %tmp.17 = agetv %tmp.15 %tmp.16;
+        %tmp.18 = 126;
+        %tmp.19 = gt %tmp.17 %tmp.18;
+        push %tmp.19;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_33_41_44_end:
+        %tmp.20 = phi [%tmp.14 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_16_41_44_begin] [%tmp.19 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_33_41_44_false] [%tmp.20 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_33_41_44_end];
+        bf %tmp.20 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_12_44_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_12_44_12_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_49_44_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 42 16 ]
+        %tmp.21 = "Unsupported character for Code128 (use plain ASCII)";
+        symbol [ lastError ? 42 16 25 ];
+        putv self :lastError %tmp.21;
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 43 16 ]
+        %tmp.22 = null;
+        ret %tmp.22;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_49_44_12_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_12_44_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_41_12_44_12_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_50_45_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 40 ]
+        %tmp.23 = lgetv %i.2;
+        symbol [ i %tmp.23 40 42 43 ];
+        %tmp.24 = 1;
+        %tmp.25 = add %tmp.23 %tmp.24;
+        lputv %i.2 %tmp.25;
+        symbol [ i %i.2 40 42 43 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_40_8_45_8_for_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 47 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_stop" ]
+        %values.3 = local;
+        symbol [ values %values.3 47 12 18 ];
+        %tmp.26 = newa 1;
+        symbol [ START_B %tmp.28 47 22 29 ];
+        %tmp.28 = getv ? :START_B;
+        %tmp.29 = dup %tmp.26;
+        %tmp.30 = aputv %tmp.29 0 %tmp.28;
+        lputv %values.3 %tmp.30;
+        symbol [ values %values.3 47 12 18 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 48 8 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_end" ]
+        %i.4 = local;
+        symbol [ i %i.4 48 17 18 ];
+        %tmp.31 = 0;
+        lputv %i.4 %tmp.31;
+        symbol [ i %i.4 48 17 18 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_test:
+        %tmp.32 = lgetv %i.4;
+        symbol [ i %tmp.32 48 24 25 ];
+        %tmp.33 = lgetv %bytes.1;
+        symbol [ bytes %tmp.33 48 28 33 ];
+        symbol [ size %tmp.34 48 34 38 ];
+        %tmp.34 = getv function %tmp.33 :size;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.36 = lt %tmp.32 %tmp.35;
+        bf %tmp.36 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_50_50_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 49 12 ]
+        %tmp.37 = lgetv %values.3;
+        symbol [ values %tmp.37 49 12 18 ];
+        symbol [ add %tmp.38 49 19 22 ];
+        %tmp.38 = getv function %tmp.37 :add;
+        %tmp.39 = lgetv %bytes.1;
+        symbol [ bytes %tmp.39 49 23 28 ];
+        %tmp.40 = lgetv %i.4;
+        symbol [ i %tmp.40 49 29 30 ];
+        %tmp.41 = agetv %tmp.39 %tmp.40;
+        %tmp.42 = 32;
+        %tmp.43 = sub %tmp.41 %tmp.42;
+        invoke %tmp.37 %tmp.38(%tmp.43);
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_50_50_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 48 ]
+        %tmp.44 = lgetv %i.4;
+        symbol [ i %tmp.44 48 42 43 ];
+        %tmp.45 = 1;
+        %tmp.46 = add %tmp.44 %tmp.45;
+        lputv %i.4 %tmp.46;
+        symbol [ i %i.4 48 42 43 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_48_8_50_8_for_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 52 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_stop" ]
+        %checksum.5 = local;
+        symbol [ checksum %checksum.5 52 12 20 ];
+        %tmp.47 = lgetv %values.3;
+        symbol [ values %tmp.47 52 23 29 ];
+        %tmp.48 = 0;
+        %tmp.49 = agetv %tmp.47 %tmp.48;
+        lputv %checksum.5 %tmp.49;
+        symbol [ checksum %checksum.5 52 12 20 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 53 8 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_end" ]
+        %i.6 = local;
+        symbol [ i %i.6 53 17 18 ];
+        %tmp.50 = 1;
+        lputv %i.6 %tmp.50;
+        symbol [ i %i.6 53 17 18 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_test:
+        %tmp.51 = lgetv %i.6;
+        symbol [ i %tmp.51 53 24 25 ];
+        %tmp.52 = lgetv %values.3;
+        symbol [ values %tmp.52 53 28 34 ];
+        symbol [ size %tmp.53 53 35 39 ];
+        %tmp.53 = getv function %tmp.52 :size;
+        %tmp.54 = invoke %tmp.52 %tmp.53();
+        %tmp.55 = lt %tmp.51 %tmp.54;
+        bf %tmp.55 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_51_55_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 54 12 ]
+        %tmp.56 = lgetv %checksum.5;
+        symbol [ checksum %tmp.56 54 12 20 ];
+        %tmp.57 = lgetv %i.6;
+        symbol [ i %tmp.57 54 24 25 ];
+        %tmp.58 = lgetv %values.3;
+        symbol [ values %tmp.58 54 28 34 ];
+        %tmp.59 = lgetv %i.6;
+        symbol [ i %tmp.59 54 35 36 ];
+        %tmp.60 = agetv %tmp.58 %tmp.59;
+        %tmp.61 = mul %tmp.57 %tmp.60;
+        %tmp.62 = add %tmp.56 %tmp.61;
+        lputv %checksum.5 %tmp.62;
+        symbol [ checksum %checksum.5 54 12 20 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_51_55_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 53 ]
+        %tmp.63 = lgetv %i.6;
+        symbol [ i %tmp.63 53 43 44 ];
+        %tmp.64 = 1;
+        %tmp.65 = add %tmp.63 %tmp.64;
+        lputv %i.6 %tmp.65;
+        symbol [ i %i.6 53 43 44 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_53_8_55_8_for_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 56 8 ]
+        %tmp.66 = lgetv %checksum.5;
+        symbol [ checksum %tmp.66 56 19 27 ];
+        %tmp.67 = 103;
+        %tmp.68 = mod %tmp.66 %tmp.67;
+        lputv %checksum.5 %tmp.68;
+        symbol [ checksum %checksum.5 56 8 16 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 57 8 ]
+        %tmp.69 = lgetv %values.3;
+        symbol [ values %tmp.69 57 8 14 ];
+        symbol [ add %tmp.70 57 15 18 ];
+        %tmp.70 = getv function %tmp.69 :add;
+        %tmp.71 = lgetv %checksum.5;
+        symbol [ checksum %tmp.71 57 19 27 ];
+        invoke %tmp.69 %tmp.70(%tmp.71);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 59 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_stop" ]
+        %bits.7 = local;
+        symbol [ bits %bits.7 59 12 16 ];
+        %tmp.72 = "";
+        lputv %bits.7 %tmp.72;
+        symbol [ bits %bits.7 59 12 16 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 60 8 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_end" ]
+        %i.8 = local;
+        symbol [ i %i.8 60 17 18 ];
+        %tmp.73 = 0;
+        lputv %i.8 %tmp.73;
+        symbol [ i %i.8 60 17 18 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_test:
+        %tmp.74 = lgetv %i.8;
+        symbol [ i %tmp.74 60 24 25 ];
+        %tmp.75 = lgetv %values.3;
+        symbol [ values %tmp.75 60 28 34 ];
+        symbol [ size %tmp.76 60 35 39 ];
+        %tmp.76 = getv function %tmp.75 :size;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        %tmp.78 = lt %tmp.74 %tmp.77;
+        bf %tmp.78 @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_51_62_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 61 12 ]
+        %tmp.79 = lgetv %bits.7;
+        symbol [ bits %tmp.79 61 12 16 ];
+        symbol [ CODES %tmp.81 61 20 25 ];
+        %tmp.81 = getv ? :CODES;
+        %tmp.82 = lgetv %values.3;
+        symbol [ values %tmp.82 61 26 32 ];
+        %tmp.83 = lgetv %i.8;
+        symbol [ i %tmp.83 61 33 34 ];
+        %tmp.84 = agetv %tmp.82 %tmp.83;
+        %tmp.85 = agetv %tmp.81 %tmp.84;
+        %tmp.86 = add %tmp.79 %tmp.85;
+        lputv %bits.7 %tmp.86;
+        symbol [ bits %bits.7 61 12 16 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_51_62_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 60 ]
+        %tmp.87 = lgetv %i.8;
+        symbol [ i %tmp.87 60 43 44 ];
+        %tmp.88 = 1;
+        %tmp.89 = add %tmp.87 %tmp.88;
+        lputv %i.8 %tmp.89;
+        symbol [ i %i.8 60 43 44 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_60_8_62_8_for_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 63 8 ]
+        %tmp.90 = lgetv %bits.7;
+        symbol [ bits %tmp.90 63 8 12 ];
+        symbol [ STOP %tmp.92 63 16 20 ];
+        %tmp.92 = getv ? :STOP;
+        %tmp.93 = add %tmp.90 %tmp.92;
+        lputv %bits.7 %tmp.93;
+        symbol [ bits %bits.7 63 8 12 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 64 8 ]
+        %tmp.94 = lgetv %bits.7;
+        symbol [ bits %tmp.94 64 8 12 ];
+        %tmp.95 = "11";
+        %tmp.96 = add %tmp.94 %tmp.95;
+        lputv %bits.7 %tmp.96;
+        symbol [ bits %bits.7 64 8 12 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc" 65 8 ]
+        %tmp.97 = lgetv %bits.7;
+        symbol [ bits %tmp.97 65 15 19 ];
+        ret %tmp.97;
+C__Users_ariza_Downloads_BarcodeWatch_source_Code128Encoder_mc_38_26_66_4_stop:
+    }
+}
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\Code128Encoder.mc"; @line = 5; ]
+<init> {
+}

@@ -1,0 +1,52 @@
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 4; glance = true; @symbol_classdef = [BarcodeGlanceDelegate,4,6,27]; @symbol_extends<0> = [Ui,4,36,38]; @symbol_extends<1> = [GlanceViewDelegate,4,39,57]; ]
+class BarcodeGlanceDelegate extends Ui.GlanceViewDelegate {
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceDelegate_mc_6_26_8_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc" 7 8 ]
+        symbol [ GlanceViewDelegate %tmp.2 7 8 26 ];
+        %tmp.2 = getv ? :GlanceViewDelegate;
+        symbol [ initialize %tmp.3 7 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceDelegate_mc_6_26_8_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 10; @symbol_functiondef = [onGlanceEvent,10,13,26]; @symbol_param<0> = [event,10,27,32]; ]
+    function onGlanceEvent(event) {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceDelegate_mc_10_34_13_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc" 11 8 ]
+        symbol [ Ui %tmp.1 11 8 10 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ switchToView %tmp.2 11 11 23 ];
+        %tmp.2 = getv function %tmp.1 :switchToView;
+        symbol [ CodeListView %tmp.4 11 24 36 ];
+        %tmp.4 = getv ? :CodeListView;
+        symbol [ buildMenu %tmp.5 11 37 46 ];
+        %tmp.5 = getv function %tmp.4 :buildMenu;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        symbol [ CodeListDelegate %tmp.10 11 54 70 ];
+        %tmp.10 = getv ? :CodeListDelegate;
+        %tmp.7 = newc %tmp.10 ();
+        symbol [ Ui %tmp.11 11 74 76 ];
+        %tmp.11 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.12 11 77 92 ];
+        %tmp.12 = getv %tmp.11 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.6, %tmp.7, %tmp.12);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc" 12 8 ]
+        %tmp.13 = true;
+        ret %tmp.13;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceDelegate_mc_10_34_13_4_stop:
+    }
+}
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceDelegate.mc"; @line = 1; ]
+<init> {
+}

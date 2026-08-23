@@ -1,0 +1,494 @@
+{
+  "settings" : [ {
+    "key" : "Slot1Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot1NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot1Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot1TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot1Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot1ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot2Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot2NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot2Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot2TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot2Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot2ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot3Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot3NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot3Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot3TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot3Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot3ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot4Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot4NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot4Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot4TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot4Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot4ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot5Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot5NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot5Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot5TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot5Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot5ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot6Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot6NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot6Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot6TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot6Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot6ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot7Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot7NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot7Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot7TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot7Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot7ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  }, {
+    "key" : "Slot8Name",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot8NameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 18
+  }, {
+    "key" : "Slot8Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot8TypeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TypeQR",
+      "value" : 0
+    }, {
+      "display" : "TypeCode128",
+      "value" : 1
+    }, {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
+      "display" : "TypeEAN8",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot8Value",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "Slot8ValueTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 120
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "Slot7TypeTitle" : "7: Type",
+      "Slot4TypeTitle" : "4: Type",
+      "Slot7ValueTitle" : "7: Value",
+      "Slot1TypeTitle" : "1: Type",
+      "Slot5ValueTitle" : "5: Value",
+      "Slot4NameTitle" : "4: Name",
+      "AppName" : "Codes",
+      "SettingsGroupTitle" : "Codes",
+      "Slot7NameTitle" : "7: Name",
+      "TypeQR" : "QR code",
+      "Slot3ValueTitle" : "3: Value",
+      "TypeCode128" : "Code 128 (text/number)",
+      "Slot2NameTitle" : "2: Name",
+      "Slot3TypeTitle" : "3: Type",
+      "Slot8NameTitle" : "8: Name",
+      "TypeEAN13" : "EAN-13 (retail barcode)",
+      "Slot1ValueTitle" : "1: Value",
+      "Slot6TypeTitle" : "6: Type",
+      "Slot5NameTitle" : "5: Name",
+      "Slot6ValueTitle" : "6: Value",
+      "TypeEAN8" : "EAN-8 (retail barcode)",
+      "Slot8ValueTitle" : "8: Value",
+      "Slot6NameTitle" : "6: Name",
+      "Slot4ValueTitle" : "4: Value",
+      "Slot8TypeTitle" : "8: Type",
+      "Slot3NameTitle" : "3: Name",
+      "Slot2ValueTitle" : "2: Value",
+      "Slot5TypeTitle" : "5: Type",
+      "Slot1NameTitle" : "1: Name",
+      "Slot2TypeTitle" : "2: Type"
+    }
+  }
+}

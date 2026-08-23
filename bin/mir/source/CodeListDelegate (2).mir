@@ -1,0 +1,271 @@
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Application,2,13,24]; @symbol_usingdef<2> = [Properties,2,25,35]; @symbol_usingAlias = [Properties,2,39,49]; ]
+using Toybox.Application.Properties as :Properties;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Lang,3,13,17]; @symbol_usingAlias = [Lang,3,21,25]; ]
+using Toybox.Lang as :Lang;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 5; @symbol_classdef = [CodeListDelegate,5,6,22]; @symbol_extends<0> = [Ui,5,31,33]; @symbol_extends<1> = [Menu2InputDelegate,5,34,52]; ]
+class CodeListDelegate extends Ui.Menu2InputDelegate {
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_7_26_9_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 8 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 8 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 8 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
+    function onSelect(item) {
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 12 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 12 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 12 17 21 ];
+        symbol [ getId %tmp.2 12 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = as %tmp.3 Lang.String;
+        symbol [ Lang %tmp.4 12 33 37 ];
+        symbol [ String %tmp.4 12 38 44 ];
+        lputv %id.1 %tmp.4;
+        symbol [ id %id.1 12 12 14 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 15 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_8_18_8_if_stmt:
+        %tmp.5 = lgetv %id.1;
+        symbol [ id %tmp.5 15 12 14 ];
+        symbol [ equals %tmp.6 15 15 21 ];
+        %tmp.6 = getv function %tmp.5 :equals;
+        %tmp.7 = "testqr";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        bf %tmp.8 @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_8_18_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_8_18_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_33_18_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 16 12 ]
+        symbol [ Ui %tmp.9 16 12 14 ];
+        %tmp.9 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.10 16 15 23 ];
+        %tmp.10 = getv function %tmp.9 :pushView;
+        symbol [ BarcodeView %tmp.14 16 28 39 ];
+        %tmp.14 = getv ? :BarcodeView;
+        %tmp.15 = 0;
+        %tmp.16 = "HELLO";
+        %tmp.17 = "Test QR";
+        %tmp.11 = newc %tmp.14 (%tmp.15, %tmp.16, %tmp.17);
+        symbol [ BarcodeDelegate %tmp.21 16 68 83 ];
+        %tmp.21 = getv ? :BarcodeDelegate;
+        %tmp.18 = newc %tmp.21 ();
+        symbol [ Ui %tmp.22 16 87 89 ];
+        %tmp.22 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.23 16 90 100 ];
+        %tmp.23 = getv %tmp.22 :SLIDE_LEFT;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.18, %tmp.23);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 17 12 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_33_18_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_8_18_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_15_8_18_8_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 19 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_8_22_8_if_stmt:
+        %tmp.24 = lgetv %id.1;
+        symbol [ id %tmp.24 19 12 14 ];
+        symbol [ equals %tmp.25 19 15 21 ];
+        %tmp.25 = getv function %tmp.24 :equals;
+        %tmp.26 = "test128";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        bf %tmp.27 @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_8_22_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_8_22_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_34_22_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 20 12 ]
+        symbol [ Ui %tmp.28 20 12 14 ];
+        %tmp.28 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.29 20 15 23 ];
+        %tmp.29 = getv function %tmp.28 :pushView;
+        symbol [ BarcodeView %tmp.33 20 28 39 ];
+        %tmp.33 = getv ? :BarcodeView;
+        %tmp.34 = 1;
+        %tmp.35 = "MEMBER123";
+        %tmp.36 = "Test Code128";
+        %tmp.30 = newc %tmp.33 (%tmp.34, %tmp.35, %tmp.36);
+        symbol [ BarcodeDelegate %tmp.40 20 77 92 ];
+        %tmp.40 = getv ? :BarcodeDelegate;
+        %tmp.37 = newc %tmp.40 ();
+        symbol [ Ui %tmp.41 20 96 98 ];
+        %tmp.41 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.42 20 99 109 ];
+        %tmp.42 = getv %tmp.41 :SLIDE_LEFT;
+        invoke %tmp.28 %tmp.29(%tmp.30, %tmp.37, %tmp.42);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 21 12 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_34_22_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_8_22_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_19_8_22_8_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 23 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_8_26_8_if_stmt:
+        %tmp.43 = lgetv %id.1;
+        symbol [ id %tmp.43 23 12 14 ];
+        symbol [ equals %tmp.44 23 15 21 ];
+        %tmp.44 = getv function %tmp.43 :equals;
+        %tmp.45 = "testean";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        bf %tmp.46 @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_8_26_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_8_26_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_34_26_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 24 12 ]
+        symbol [ Ui %tmp.47 24 12 14 ];
+        %tmp.47 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.48 24 15 23 ];
+        %tmp.48 = getv function %tmp.47 :pushView;
+        symbol [ BarcodeView %tmp.52 24 28 39 ];
+        %tmp.52 = getv ? :BarcodeView;
+        %tmp.53 = 2;
+        %tmp.54 = "400638133393";
+        %tmp.55 = "Test EAN13";
+        %tmp.49 = newc %tmp.52 (%tmp.53, %tmp.54, %tmp.55);
+        symbol [ BarcodeDelegate %tmp.59 24 78 93 ];
+        %tmp.59 = getv ? :BarcodeDelegate;
+        %tmp.56 = newc %tmp.59 ();
+        symbol [ Ui %tmp.60 24 97 99 ];
+        %tmp.60 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.61 24 100 110 ];
+        %tmp.61 = getv %tmp.60 :SLIDE_LEFT;
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.56, %tmp.61);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 25 12 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_34_26_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_8_26_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_23_8_26_8_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 28 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_8_30_8_if_stmt:
+        %tmp.62 = lgetv %id.1;
+        symbol [ id %tmp.62 28 12 14 ];
+        symbol [ equals %tmp.63 28 15 21 ];
+        %tmp.63 = getv function %tmp.62 :equals;
+        %tmp.64 = "none";
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        bf %tmp.65 @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_8_30_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_8_30_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_31_30_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 29 12 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_31_30_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_8_30_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_28_8_30_8_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 32 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop" ]
+        %numStr.2 = local;
+        symbol [ numStr %numStr.2 32 12 18 ];
+        %tmp.66 = lgetv %id.1;
+        symbol [ id %tmp.66 32 21 23 ];
+        symbol [ substring %tmp.67 32 24 33 ];
+        %tmp.67 = getv function %tmp.66 :substring;
+        %tmp.68 = 4;
+        %tmp.69 = lgetv %id.1;
+        symbol [ id %tmp.69 32 37 39 ];
+        symbol [ length %tmp.70 32 40 46 ];
+        %tmp.70 = getv function %tmp.69 :length;
+        %tmp.71 = invoke %tmp.69 %tmp.70();
+        %tmp.72 = invoke %tmp.66 %tmp.67(%tmp.68, %tmp.71);
+        lputv %numStr.2 %tmp.72;
+        symbol [ numStr %numStr.2 32 12 18 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 33 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop" ]
+        %i.3 = local;
+        symbol [ i %i.3 33 12 13 ];
+        %tmp.73 = lgetv %numStr.2;
+        symbol [ numStr %tmp.73 33 16 22 ];
+        symbol [ toNumber %tmp.74 33 23 31 ];
+        %tmp.74 = getv function %tmp.73 :toNumber;
+        %tmp.75 = invoke %tmp.73 %tmp.74();
+        lputv %i.3 %tmp.75;
+        symbol [ i %i.3 33 12 13 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 35 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop" ]
+        %name.4 = local;
+        symbol [ name %name.4 35 12 16 ];
+        symbol [ Properties %tmp.76 35 19 29 ];
+        %tmp.76 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.77 35 30 38 ];
+        %tmp.77 = getv function %tmp.76 :getValue;
+        %tmp.78 = "Slot";
+        %tmp.79 = lgetv %i.3;
+        symbol [ i %tmp.79 35 48 49 ];
+        %tmp.80 = add %tmp.78 %tmp.79;
+        %tmp.81 = "Name";
+        %tmp.82 = add %tmp.80 %tmp.81;
+        %tmp.83 = invoke %tmp.76 %tmp.77(%tmp.82);
+        lputv %name.4 %tmp.83;
+        symbol [ name %name.4 35 12 16 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 36 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop" ]
+        %type.5 = local;
+        symbol [ type %type.5 36 12 16 ];
+        symbol [ Properties %tmp.84 36 19 29 ];
+        %tmp.84 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.85 36 30 38 ];
+        %tmp.85 = getv function %tmp.84 :getValue;
+        %tmp.86 = "Slot";
+        %tmp.87 = lgetv %i.3;
+        symbol [ i %tmp.87 36 48 49 ];
+        %tmp.88 = add %tmp.86 %tmp.87;
+        %tmp.89 = "Type";
+        %tmp.90 = add %tmp.88 %tmp.89;
+        %tmp.91 = invoke %tmp.84 %tmp.85(%tmp.90);
+        lputv %type.5 %tmp.91;
+        symbol [ type %type.5 36 12 16 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 37 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop" ]
+        %value.6 = local;
+        symbol [ value %value.6 37 12 17 ];
+        symbol [ Properties %tmp.92 37 20 30 ];
+        %tmp.92 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.93 37 31 39 ];
+        %tmp.93 = getv function %tmp.92 :getValue;
+        %tmp.94 = "Slot";
+        %tmp.95 = lgetv %i.3;
+        symbol [ i %tmp.95 37 49 50 ];
+        %tmp.96 = add %tmp.94 %tmp.95;
+        %tmp.97 = "Value";
+        %tmp.98 = add %tmp.96 %tmp.97;
+        %tmp.99 = invoke %tmp.92 %tmp.93(%tmp.98);
+        lputv %value.6 %tmp.99;
+        symbol [ value %value.6 37 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc" 39 8 ]
+        symbol [ Ui %tmp.100 39 8 10 ];
+        %tmp.100 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.101 39 11 19 ];
+        %tmp.101 = getv function %tmp.100 :pushView;
+        symbol [ BarcodeView %tmp.105 39 24 35 ];
+        %tmp.105 = getv ? :BarcodeView;
+        %tmp.106 = lgetv %type.5;
+        symbol [ type %tmp.106 39 36 40 ];
+        %tmp.107 = lgetv %value.6;
+        symbol [ value %tmp.107 39 42 47 ];
+        %tmp.108 = lgetv %name.4;
+        symbol [ name %tmp.108 39 49 53 ];
+        %tmp.102 = newc %tmp.105 (%tmp.106, %tmp.107, %tmp.108);
+        symbol [ BarcodeDelegate %tmp.112 39 60 75 ];
+        %tmp.112 = getv ? :BarcodeDelegate;
+        %tmp.109 = newc %tmp.112 ();
+        symbol [ Ui %tmp.113 39 79 81 ];
+        %tmp.113 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.114 39 82 92 ];
+        %tmp.114 = getv %tmp.113 :SLIDE_LEFT;
+        invoke %tmp.100 %tmp.101(%tmp.102, %tmp.109, %tmp.114);
+C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate__2__mc_11_28_40_4_stop:
+    }
+}
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\CodeListDelegate (2).mc"; @line = 1; ]
+<init> {
+}

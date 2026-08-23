@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\ariza\Downloads\BarcodeWatch\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="1" lineNum="4" parent="globals/BarcodeView" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeDelegate.mc" id="2" lineNum="3" parent="globals/BarcodeDelegate" pc="268435469" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\bin\\gen\\006-B4585-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodesApp.mc" id="4" lineNum="4" parent="globals/BarcodesApp" pc="268435501" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="5" lineNum="12" parent="globals/QrEncoder" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="5" lineNum="13" parent="globals/QrEncoder" pc="268435524" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="6" lineNum="5" parent="globals/CodeListDelegate" pc="268435536" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="38" parent="globals/Code128Encoder" pc="268435548" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="39" parent="globals/Code128Encoder" pc="268435559" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="40" parent="globals/Code128Encoder" pc="268435568" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="41" parent="globals/Code128Encoder" pc="268435584" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="42" parent="globals/Code128Encoder" pc="268435606" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="43" parent="globals/Code128Encoder" pc="268435618" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="47" parent="globals/Code128Encoder" pc="268435630" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="48" parent="globals/Code128Encoder" pc="268435644" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="49" parent="globals/Code128Encoder" pc="268435660" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="52" parent="globals/Code128Encoder" pc="268435688" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="53" parent="globals/Code128Encoder" pc="268435694" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="54" parent="globals/Code128Encoder" pc="268435711" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="56" parent="globals/Code128Encoder" pc="268435734" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="57" parent="globals/Code128Encoder" pc="268435741" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="59" parent="globals/Code128Encoder" pc="268435753" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="60" parent="globals/Code128Encoder" pc="268435760" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="61" parent="globals/Code128Encoder" pc="268435776" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="63" parent="globals/Code128Encoder" pc="268435802" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="64" parent="globals/Code128Encoder" pc="268435812" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\Code128Encoder.mc" id="7" lineNum="65" parent="globals/Code128Encoder" pc="268435822" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="8" lineNum="68" parent="globals/BarcodeView" pc="268435825" symbol="drawError"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="8" lineNum="69" parent="globals/BarcodeView" pc="268435827" symbol="drawError"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="8" lineNum="70" parent="globals/BarcodeView" pc="268435858" symbol="drawError"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="77" parent="globals/BarcodeView" pc="268435884" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="78" parent="globals/BarcodeView" pc="268435887" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="79" parent="globals/BarcodeView" pc="268435896" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="80" parent="globals/BarcodeView" pc="268435900" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="81" parent="globals/BarcodeView" pc="268435917" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="82" parent="globals/BarcodeView" pc="268435930" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="82" parent="globals/BarcodeView" pc="268435938" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="83" parent="globals/BarcodeView" pc="268435942" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="84" parent="globals/BarcodeView" pc="268435955" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="85" parent="globals/BarcodeView" pc="268435965" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="87" parent="globals/BarcodeView" pc="268435975" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="88" parent="globals/BarcodeView" pc="268435986" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="89" parent="globals/BarcodeView" pc="268435993" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="90" parent="globals/BarcodeView" pc="268436004" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="9" lineNum="91" parent="globals/BarcodeView" pc="268436015" symbol="drawMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="102" parent="globals/BarcodeView" pc="268436072" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="103" parent="globals/BarcodeView" pc="268436075" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="104" parent="globals/BarcodeView" pc="268436084" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="105" parent="globals/BarcodeView" pc="268436088" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="106" parent="globals/BarcodeView" pc="268436101" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="106" parent="globals/BarcodeView" pc="268436109" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="107" parent="globals/BarcodeView" pc="268436113" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="108" parent="globals/BarcodeView" pc="268436126" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="109" parent="globals/BarcodeView" pc="268436136" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="109" parent="globals/BarcodeView" pc="268436143" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="110" parent="globals/BarcodeView" pc="268436146" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="111" parent="globals/BarcodeView" pc="268436156" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="113" parent="globals/BarcodeView" pc="268436166" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="114" parent="globals/BarcodeView" pc="268436177" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="115" parent="globals/BarcodeView" pc="268436195" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="116" parent="globals/BarcodeView" pc="268436212" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="10" lineNum="120" parent="globals/BarcodeView" pc="268436249" symbol="drawBars"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="11" lineNum="15" parent="globals/BarcodeView" pc="268436281" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="11" lineNum="16" parent="globals/BarcodeView" pc="268436283" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="11" lineNum="17" parent="globals/BarcodeView" pc="268436295" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="11" lineNum="18" parent="globals/BarcodeView" pc="268436304" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="11" lineNum="19" parent="globals/BarcodeView" pc="268436313" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="22" parent="globals/BarcodeView" pc="268436323" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="23" parent="globals/BarcodeView" pc="268436326" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="24" parent="globals/BarcodeView" pc="268436346" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="25" parent="globals/BarcodeView" pc="268436354" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="27" parent="globals/BarcodeView" pc="268436367" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="28" parent="globals/BarcodeView" pc="268436376" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="30" parent="globals/BarcodeView" pc="268436385" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="31" parent="globals/BarcodeView" pc="268436410" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="32" parent="globals/BarcodeView" pc="268436439" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="35" parent="globals/BarcodeView" pc="268436440" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="36" parent="globals/BarcodeView" pc="268436450" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="37" parent="globals/BarcodeView" pc="268436469" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="38" parent="globals/BarcodeView" pc="268436475" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="39" parent="globals/BarcodeView" pc="268436499" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="41" parent="globals/BarcodeView" pc="268436500" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="42" parent="globals/BarcodeView" pc="268436518" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="43" parent="globals/BarcodeView" pc="268436529" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="44" parent="globals/BarcodeView" pc="268436548" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="45" parent="globals/BarcodeView" pc="268436554" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="46" parent="globals/BarcodeView" pc="268436578" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="48" parent="globals/BarcodeView" pc="268436579" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="49" parent="globals/BarcodeView" pc="268436597" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="50" parent="globals/BarcodeView" pc="268436608" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="51" parent="globals/BarcodeView" pc="268436627" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="52" parent="globals/BarcodeView" pc="268436633" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="53" parent="globals/BarcodeView" pc="268436657" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="55" parent="globals/BarcodeView" pc="268436658" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="56" parent="globals/BarcodeView" pc="268436676" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="57" parent="globals/BarcodeView" pc="268436687" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="58" parent="globals/BarcodeView" pc="268436706" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="59" parent="globals/BarcodeView" pc="268436712" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="60" parent="globals/BarcodeView" pc="268436736" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="62" parent="globals/BarcodeView" pc="268436737" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeView.mc" id="12" lineNum="64" parent="globals/BarcodeView" pc="268436755" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeDelegate.mc" id="13" lineNum="9" parent="globals/BarcodeDelegate" pc="268436776" symbol="onBack"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeDelegate.mc" id="13" lineNum="10" parent="globals/BarcodeDelegate" pc="268436778" symbol="onBack"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeDelegate.mc" id="13" lineNum="11" parent="globals/BarcodeDelegate" pc="268436793" symbol="onBack"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeDelegate.mc" id="14" lineNum="5" parent="globals/BarcodeDelegate" pc="268436795" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodeDelegate.mc" id="14" lineNum="6" parent="globals/BarcodeDelegate" pc="268436797" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="8" parent="globals/CodeListView" pc="268436810" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="9" parent="globals/CodeListView" pc="268436821" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="10" parent="globals/CodeListView" pc="268436861" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="11" parent="globals/CodeListView" pc="268436864" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="12" parent="globals/CodeListView" pc="268436876" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="13" parent="globals/CodeListView" pc="268436904" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="14" parent="globals/CodeListView" pc="268436923" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="15" parent="globals/CodeListView" pc="268436968" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="18" parent="globals/CodeListView" pc="268436981" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="19" parent="globals/CodeListView" pc="268436987" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListView.mc" id="15" lineNum="26" parent="globals/CodeListView" pc="268437036" symbol="buildMenu"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodesApp.mc" id="17" lineNum="16" parent="globals/BarcodesApp" pc="268437039" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodesApp.mc" id="17" lineNum="17" parent="globals/BarcodesApp" pc="268437042" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodesApp.mc" id="17" lineNum="18" parent="globals/BarcodesApp" pc="268437054" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodesApp.mc" id="18" lineNum="6" parent="globals/BarcodesApp" pc="268437085" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\BarcodesApp.mc" id="18" lineNum="7" parent="globals/BarcodesApp" pc="268437087" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="220" parent="globals/QrEncoder" pc="268437100" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="221" parent="globals/QrEncoder" pc="268437111" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="222" parent="globals/QrEncoder" pc="268437123" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="223" parent="globals/QrEncoder" pc="268437128" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="224" parent="globals/QrEncoder" pc="268437133" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="225" parent="globals/QrEncoder" pc="268437144" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="226" parent="globals/QrEncoder" pc="268437152" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="227" parent="globals/QrEncoder" pc="268437160" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="228" parent="globals/QrEncoder" pc="268437171" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="229" parent="globals/QrEncoder" pc="268437180" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="234" parent="globals/QrEncoder" pc="268437209" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="235" parent="globals/QrEncoder" pc="268437258" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="236" parent="globals/QrEncoder" pc="268437269" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="237" parent="globals/QrEncoder" pc="268437278" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="238" parent="globals/QrEncoder" pc="268437288" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="239" parent="globals/QrEncoder" pc="268437300" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="240" parent="globals/QrEncoder" pc="268437312" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="241" parent="globals/QrEncoder" pc="268437319" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="242" parent="globals/QrEncoder" pc="268437326" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="243" parent="globals/QrEncoder" pc="268437356" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="244" parent="globals/QrEncoder" pc="268437359" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="245" parent="globals/QrEncoder" pc="268437391" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="246" parent="globals/QrEncoder" pc="268437397" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="247" parent="globals/QrEncoder" pc="268437427" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="248" parent="globals/QrEncoder" pc="268437434" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="249" parent="globals/QrEncoder" pc="268437466" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="251" parent="globals/QrEncoder" pc="268437473" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="253" parent="globals/QrEncoder" pc="268437476" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="254" parent="globals/QrEncoder" pc="268437486" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="261" parent="globals/QrEncoder" pc="268437525" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="262" parent="globals/QrEncoder" pc="268437540" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="263" parent="globals/QrEncoder" pc="268437558" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="263" parent="globals/QrEncoder" pc="268437568" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="264" parent="globals/QrEncoder" pc="268437577" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="264" parent="globals/QrEncoder" pc="268437587" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="268" parent="globals/QrEncoder" pc="268437606" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="269" parent="globals/QrEncoder" pc="268437622" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="272" parent="globals/QrEncoder" pc="268437637" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="273" parent="globals/QrEncoder" pc="268437649" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="274" parent="globals/QrEncoder" pc="268437665" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="275" parent="globals/QrEncoder" pc="268437681" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="276" parent="globals/QrEncoder" pc="268437688" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="277" parent="globals/QrEncoder" pc="268437695" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="278" parent="globals/QrEncoder" pc="268437749" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="280" parent="globals/QrEncoder" pc="268437752" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="281" parent="globals/QrEncoder" pc="268437764" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="282" parent="globals/QrEncoder" pc="268437776" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="283" parent="globals/QrEncoder" pc="268437794" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="284" parent="globals/QrEncoder" pc="268437812" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="285" parent="globals/QrEncoder" pc="268437829" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="286" parent="globals/QrEncoder" pc="268437845" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="287" parent="globals/QrEncoder" pc="268437861" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="294" parent="globals/QrEncoder" pc="268437916" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="295" parent="globals/QrEncoder" pc="268437927" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="296" parent="globals/QrEncoder" pc="268437936" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="298" parent="globals/QrEncoder" pc="268437955" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="299" parent="globals/QrEncoder" pc="268437970" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="301" parent="globals/QrEncoder" pc="268437989" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="302" parent="globals/QrEncoder" pc="268438004" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="306" parent="globals/QrEncoder" pc="268438023" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="307" parent="globals/QrEncoder" pc="268438031" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="308" parent="globals/QrEncoder" pc="268438042" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="309" parent="globals/QrEncoder" pc="268438053" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="310" parent="globals/QrEncoder" pc="268438068" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="313" parent="globals/QrEncoder" pc="268438103" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="314" parent="globals/QrEncoder" pc="268438108" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="315" parent="globals/QrEncoder" pc="268438115" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="316" parent="globals/QrEncoder" pc="268438119" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="317" parent="globals/QrEncoder" pc="268438130" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="318" parent="globals/QrEncoder" pc="268438146" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="321" parent="globals/QrEncoder" pc="268438166" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="322" parent="globals/QrEncoder" pc="268438173" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="323" parent="globals/QrEncoder" pc="268438178" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="323" parent="globals/QrEncoder" pc="268438189" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="324" parent="globals/QrEncoder" pc="268438212" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="325" parent="globals/QrEncoder" pc="268438223" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="326" parent="globals/QrEncoder" pc="268438230" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="327" parent="globals/QrEncoder" pc="268438237" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="328" parent="globals/QrEncoder" pc="268438256" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="333" parent="globals/QrEncoder" pc="268438285" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="334" parent="globals/QrEncoder" pc="268438289" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="335" parent="globals/QrEncoder" pc="268438305" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="336" parent="globals/QrEncoder" pc="268438312" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="337" parent="globals/QrEncoder" pc="268438323" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="340" parent="globals/QrEncoder" pc="268438361" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="341" parent="globals/QrEncoder" pc="268438364" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="342" parent="globals/QrEncoder" pc="268438373" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="343" parent="globals/QrEncoder" pc="268438380" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="344" parent="globals/QrEncoder" pc="268438383" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="345" parent="globals/QrEncoder" pc="268438390" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="346" parent="globals/QrEncoder" pc="268438398" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="347" parent="globals/QrEncoder" pc="268438405" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="349" parent="globals/QrEncoder" pc="268438408" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="350" parent="globals/QrEncoder" pc="268438412" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="351" parent="globals/QrEncoder" pc="268438417" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="352" parent="globals/QrEncoder" pc="268438424" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="352" parent="globals/QrEncoder" pc="268438431" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="352" parent="globals/QrEncoder" pc="268438443" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="354" parent="globals/QrEncoder" pc="268438453" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="355" parent="globals/QrEncoder" pc="268438456" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="355" parent="globals/QrEncoder" pc="268438464" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="355" parent="globals/QrEncoder" pc="268438476" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="357" parent="globals/QrEncoder" pc="268438486" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="358" parent="globals/QrEncoder" pc="268438502" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="359" parent="globals/QrEncoder" pc="268438509" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="360" parent="globals/QrEncoder" pc="268438528" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="361" parent="globals/QrEncoder" pc="268438539" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="362" parent="globals/QrEncoder" pc="268438546" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="362" parent="globals/QrEncoder" pc="268438557" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="363" parent="globals/QrEncoder" pc="268438560" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="364" parent="globals/QrEncoder" pc="268438563" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="364" parent="globals/QrEncoder" pc="268438571" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="365" parent="globals/QrEncoder" pc="268438578" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="366" parent="globals/QrEncoder" pc="268438585" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="367" parent="globals/QrEncoder" pc="268438606" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="370" parent="globals/QrEncoder" pc="268438639" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="371" parent="globals/QrEncoder" pc="268438644" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="375" parent="globals/QrEncoder" pc="268438654" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="376" parent="globals/QrEncoder" pc="268438658" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="377" parent="globals/QrEncoder" pc="268438663" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="378" parent="globals/QrEncoder" pc="268438670" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="379" parent="globals/QrEncoder" pc="268438674" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="380" parent="globals/QrEncoder" pc="268438685" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="381" parent="globals/QrEncoder" pc="268438701" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="384" parent="globals/QrEncoder" pc="268438721" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="385" parent="globals/QrEncoder" pc="268438732" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="386" parent="globals/QrEncoder" pc="268438737" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="386" parent="globals/QrEncoder" pc="268438748" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="388" parent="globals/QrEncoder" pc="268438771" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="388" parent="globals/QrEncoder" pc="268438782" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="389" parent="globals/QrEncoder" pc="268438805" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="390" parent="globals/QrEncoder" pc="268438818" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="391" parent="globals/QrEncoder" pc="268438831" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="392" parent="globals/QrEncoder" pc="268438844" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="392" parent="globals/QrEncoder" pc="268438856" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="393" parent="globals/QrEncoder" pc="268438882" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="393" parent="globals/QrEncoder" pc="268438893" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="394" parent="globals/QrEncoder" pc="268438922" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="394" parent="globals/QrEncoder" pc="268438934" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="20" lineNum="396" parent="globals/QrEncoder" pc="268438963" symbol="buildMatrix"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="416" parent="globals/QrEncoder" pc="268438966" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="417" parent="globals/QrEncoder" pc="268438977" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="418" parent="globals/QrEncoder" pc="268438986" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="419" parent="globals/QrEncoder" pc="268438989" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="420" parent="globals/QrEncoder" pc="268439005" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="420" parent="globals/QrEncoder" pc="268439017" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="422" parent="globals/QrEncoder" pc="268439030" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="423" parent="globals/QrEncoder" pc="268439044" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="424" parent="globals/QrEncoder" pc="268439050" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="425" parent="globals/QrEncoder" pc="268439062" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="427" parent="globals/QrEncoder" pc="268439064" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="21" lineNum="428" parent="globals/QrEncoder" pc="268439080" symbol="encode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="22" lineNum="98" parent="globals/QrEncoder" pc="268439093" symbol="qrSize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="22" lineNum="99" parent="globals/QrEncoder" pc="268439103" symbol="qrSize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="16" parent="globals/QrEncoder" pc="268439112" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="17" parent="globals/QrEncoder" pc="268439123" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="17" parent="globals/QrEncoder" pc="268439131" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="18" parent="globals/QrEncoder" pc="268439132" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="19" parent="globals/QrEncoder" pc="268439136" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="20" parent="globals/QrEncoder" pc="268439148" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="21" parent="globals/QrEncoder" pc="268439158" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="22" parent="globals/QrEncoder" pc="268439168" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="23" parent="globals/QrEncoder" pc="268439175" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="24" parent="globals/QrEncoder" pc="268439186" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="27" parent="globals/QrEncoder" pc="268439204" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="28" parent="globals/QrEncoder" pc="268439218" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="23" lineNum="30" parent="globals/QrEncoder" pc="268439248" symbol="initTables"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="24" lineNum="53" parent="globals/QrEncoder" pc="268439257" symbol="rsGeneratorPoly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="24" lineNum="54" parent="globals/QrEncoder" pc="268439268" symbol="rsGeneratorPoly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="24" lineNum="55" parent="globals/QrEncoder" pc="268439275" symbol="rsGeneratorPoly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="24" lineNum="56" parent="globals/QrEncoder" pc="268439286" symbol="rsGeneratorPoly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="24" lineNum="58" parent="globals/QrEncoder" pc="268439326" symbol="rsGeneratorPoly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="25" lineNum="80" parent="globals/QrEncoder" pc="268439329" symbol="qrL"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="25" lineNum="81" parent="globals/QrEncoder" pc="268439340" symbol="qrL"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="25" lineNum="85" parent="globals/QrEncoder" pc="268439427" symbol="qrL"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="26" lineNum="212" parent="globals/QrEncoder" pc="268439433" symbol="alignCenters"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="26" lineNum="213" parent="globals/QrEncoder" pc="268439444" symbol="alignCenters"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="26" lineNum="217" parent="globals/QrEncoder" pc="268439528" symbol="alignCenters"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="27" lineNum="89" parent="globals/QrEncoder" pc="268439534" symbol="qrLBlocks"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="27" lineNum="90" parent="globals/QrEncoder" pc="268439545" symbol="qrLBlocks"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="27" lineNum="94" parent="globals/QrEncoder" pc="268439635" symbol="qrLBlocks"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="27" lineNum="94" parent="globals/QrEncoder" pc="268439649" symbol="qrLBlocks"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="27" lineNum="95" parent="globals/QrEncoder" pc="268439655" symbol="qrLBlocks"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="28" lineNum="33" parent="globals/QrEncoder" pc="268439657" symbol="gmul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="28" lineNum="34" parent="globals/QrEncoder" pc="268439667" symbol="gmul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="28" lineNum="34" parent="globals/QrEncoder" pc="268439681" symbol="gmul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="28" lineNum="35" parent="globals/QrEncoder" pc="268439683" symbol="gmul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="121" parent="globals/QrEncoder" pc="268439707" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="122" parent="globals/QrEncoder" pc="268439718" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="123" parent="globals/QrEncoder" pc="268439725" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="124" parent="globals/QrEncoder" pc="268439737" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="125" parent="globals/QrEncoder" pc="268439743" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="127" parent="globals/QrEncoder" pc="268439750" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="128" parent="globals/QrEncoder" pc="268439770" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="129" parent="globals/QrEncoder" pc="268439775" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="130" parent="globals/QrEncoder" pc="268439789" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="132" parent="globals/QrEncoder" pc="268439803" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="133" parent="globals/QrEncoder" pc="268439817" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="134" parent="globals/QrEncoder" pc="268439844" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="135" parent="globals/QrEncoder" pc="268439860" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="138" parent="globals/QrEncoder" pc="268439887" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="139" parent="globals/QrEncoder" pc="268439894" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="140" parent="globals/QrEncoder" pc="268439898" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="140" parent="globals/QrEncoder" pc="268439919" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="141" parent="globals/QrEncoder" pc="268439936" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="141" parent="globals/QrEncoder" pc="268439943" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="142" parent="globals/QrEncoder" pc="268439946" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="143" parent="globals/QrEncoder" pc="268439959" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="144" parent="globals/QrEncoder" pc="268439979" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="147" parent="globals/QrEncoder" pc="268439998" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="148" parent="globals/QrEncoder" pc="268440002" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="149" parent="globals/QrEncoder" pc="268440005" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="150" parent="globals/QrEncoder" pc="268440023" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="151" parent="globals/QrEncoder" pc="268440026" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="152" parent="globals/QrEncoder" pc="268440037" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="154" parent="globals/QrEncoder" pc="268440067" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="155" parent="globals/QrEncoder" pc="268440079" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="157" parent="globals/QrEncoder" pc="268440089" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="158" parent="globals/QrEncoder" pc="268440096" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="159" parent="globals/QrEncoder" pc="268440099" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="160" parent="globals/QrEncoder" pc="268440112" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="161" parent="globals/QrEncoder" pc="268440130" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="164" parent="globals/QrEncoder" pc="268440140" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="165" parent="globals/QrEncoder" pc="268440152" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="166" parent="globals/QrEncoder" pc="268440156" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="167" parent="globals/QrEncoder" pc="268440162" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="168" parent="globals/QrEncoder" pc="268440165" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="169" parent="globals/QrEncoder" pc="268440182" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="170" parent="globals/QrEncoder" pc="268440191" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="171" parent="globals/QrEncoder" pc="268440201" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="172" parent="globals/QrEncoder" pc="268440212" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="173" parent="globals/QrEncoder" pc="268440217" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="173" parent="globals/QrEncoder" pc="268440228" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="174" parent="globals/QrEncoder" pc="268440251" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="175" parent="globals/QrEncoder" pc="268440263" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="179" parent="globals/QrEncoder" pc="268440290" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="180" parent="globals/QrEncoder" pc="268440300" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="180" parent="globals/QrEncoder" pc="268440316" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="181" parent="globals/QrEncoder" pc="268440336" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="184" parent="globals/QrEncoder" pc="268440348" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="185" parent="globals/QrEncoder" pc="268440352" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="186" parent="globals/QrEncoder" pc="268440368" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="189" parent="globals/QrEncoder" pc="268440403" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="190" parent="globals/QrEncoder" pc="268440406" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="191" parent="globals/QrEncoder" pc="268440422" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="191" parent="globals/QrEncoder" pc="268440439" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="193" parent="globals/QrEncoder" pc="268440462" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="194" parent="globals/QrEncoder" pc="268440466" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="195" parent="globals/QrEncoder" pc="268440477" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="196" parent="globals/QrEncoder" pc="268440493" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="196" parent="globals/QrEncoder" pc="268440510" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="199" parent="globals/QrEncoder" pc="268440548" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="200" parent="globals/QrEncoder" pc="268440552" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="201" parent="globals/QrEncoder" pc="268440563" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="202" parent="globals/QrEncoder" pc="268440579" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="205" parent="globals/QrEncoder" pc="268440617" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="206" parent="globals/QrEncoder" pc="268440621" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="206" parent="globals/QrEncoder" pc="268440637" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="207" parent="globals/QrEncoder" pc="268440662" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="207" parent="globals/QrEncoder" pc="268440678" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="29" lineNum="208" parent="globals/QrEncoder" pc="268440703" symbol="encodeBytes"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="30" lineNum="102" parent="globals/QrEncoder" pc="268440706" symbol="charCountBits"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="30" lineNum="103" parent="globals/QrEncoder" pc="268440716" symbol="charCountBits"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="30" lineNum="103" parent="globals/QrEncoder" pc="268440724" symbol="charCountBits"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="30" lineNum="104" parent="globals/QrEncoder" pc="268440727" symbol="charCountBits"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="38" parent="globals/QrEncoder" pc="268440730" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="39" parent="globals/QrEncoder" pc="268440741" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="40" parent="globals/QrEncoder" pc="268440762" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="40" parent="globals/QrEncoder" pc="268440778" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="41" parent="globals/QrEncoder" pc="268440794" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="42" parent="globals/QrEncoder" pc="268440810" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="43" parent="globals/QrEncoder" pc="268440817" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="43" parent="globals/QrEncoder" pc="268440824" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="44" parent="globals/QrEncoder" pc="268440827" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="45" parent="globals/QrEncoder" pc="268440843" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="46" parent="globals/QrEncoder" pc="268440850" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="46" parent="globals/QrEncoder" pc="268440857" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="47" parent="globals/QrEncoder" pc="268440860" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="31" lineNum="50" parent="globals/QrEncoder" pc="268440909" symbol="polyMul"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="400" parent="globals/QrEncoder" pc="268440912" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="401" parent="globals/QrEncoder" pc="268440923" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="402" parent="globals/QrEncoder" pc="268440936" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="403" parent="globals/QrEncoder" pc="268440948" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="404" parent="globals/QrEncoder" pc="268440965" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="405" parent="globals/QrEncoder" pc="268440983" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="406" parent="globals/QrEncoder" pc="268441002" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="32" lineNum="409" parent="globals/QrEncoder" pc="268441015" symbol="pickVersion"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="61" parent="globals/QrEncoder" pc="268441017" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="62" parent="globals/QrEncoder" pc="268441028" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="63" parent="globals/QrEncoder" pc="268441040" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="64" parent="globals/QrEncoder" pc="268441053" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="64" parent="globals/QrEncoder" pc="268441069" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="65" parent="globals/QrEncoder" pc="268441089" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="65" parent="globals/QrEncoder" pc="268441111" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="66" parent="globals/QrEncoder" pc="268441127" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="67" parent="globals/QrEncoder" pc="268441143" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="68" parent="globals/QrEncoder" pc="268441150" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="69" parent="globals/QrEncoder" pc="268441157" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="70" parent="globals/QrEncoder" pc="268441173" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="74" parent="globals/QrEncoder" pc="268441225" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="75" parent="globals/QrEncoder" pc="268441230" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="75" parent="globals/QrEncoder" pc="268441241" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="33" lineNum="76" parent="globals/QrEncoder" pc="268441269" symbol="rsEncode"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="92" parent="globals/EanEncoder" pc="268441272" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="93" parent="globals/EanEncoder" pc="268441283" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="94" parent="globals/EanEncoder" pc="268441323" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="95" parent="globals/EanEncoder" pc="268441335" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="97" parent="globals/EanEncoder" pc="268441337" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="98" parent="globals/EanEncoder" pc="268441342" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="98" parent="globals/EanEncoder" pc="268441353" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="100" parent="globals/EanEncoder" pc="268441380" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="101" parent="globals/EanEncoder" pc="268441383" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="102" parent="globals/EanEncoder" pc="268441394" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="104" parent="globals/EanEncoder" pc="268441432" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="106" parent="globals/EanEncoder" pc="268441445" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="107" parent="globals/EanEncoder" pc="268441450" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="107" parent="globals/EanEncoder" pc="268441461" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="108" parent="globals/EanEncoder" pc="268441481" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="110" parent="globals/EanEncoder" pc="268441488" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="111" parent="globals/EanEncoder" pc="268441495" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="111" parent="globals/EanEncoder" pc="268441506" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="112" parent="globals/EanEncoder" pc="268441532" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="113" parent="globals/EanEncoder" pc="268441542" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="113" parent="globals/EanEncoder" pc="268441553" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="114" parent="globals/EanEncoder" pc="268441582" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="34" lineNum="115" parent="globals/EanEncoder" pc="268441592" symbol="encode8"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="78" parent="globals/EanEncoder" pc="268441595" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="79" parent="globals/EanEncoder" pc="268441606" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="80" parent="globals/EanEncoder" pc="268441616" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="81" parent="globals/EanEncoder" pc="268441623" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="82" parent="globals/EanEncoder" pc="268441635" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="83" parent="globals/EanEncoder" pc="268441642" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="84" parent="globals/EanEncoder" pc="268441660" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="85" parent="globals/EanEncoder" pc="268441695" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="35" lineNum="87" parent="globals/EanEncoder" pc="268441705" symbol="CODES_B"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="36" lineNum="23" parent="globals/EanEncoder" pc="268441708" symbol="digitsOnly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="36" lineNum="24" parent="globals/EanEncoder" pc="268441719" symbol="digitsOnly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="36" lineNum="25" parent="globals/EanEncoder" pc="268441728" symbol="digitsOnly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="36" lineNum="26" parent="globals/EanEncoder" pc="268441744" symbol="digitsOnly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="36" lineNum="26" parent="globals/EanEncoder" pc="268441766" symbol="digitsOnly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="36" lineNum="28" parent="globals/EanEncoder" pc="268441778" symbol="digitsOnly"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="37" parent="globals/EanEncoder" pc="268441780" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="38" parent="globals/EanEncoder" pc="268441791" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="39" parent="globals/EanEncoder" pc="268441831" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="40" parent="globals/EanEncoder" pc="268441843" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="42" parent="globals/EanEncoder" pc="268441845" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="43" parent="globals/EanEncoder" pc="268441850" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="43" parent="globals/EanEncoder" pc="268441861" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="45" parent="globals/EanEncoder" pc="268441888" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="46" parent="globals/EanEncoder" pc="268441891" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="47" parent="globals/EanEncoder" pc="268441902" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="49" parent="globals/EanEncoder" pc="268441940" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="51" parent="globals/EanEncoder" pc="268441953" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="52" parent="globals/EanEncoder" pc="268441958" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="52" parent="globals/EanEncoder" pc="268441969" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="53" parent="globals/EanEncoder" pc="268441989" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="55" parent="globals/EanEncoder" pc="268441996" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="56" parent="globals/EanEncoder" pc="268442002" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="57" parent="globals/EanEncoder" pc="268442012" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="58" parent="globals/EanEncoder" pc="268442019" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="59" parent="globals/EanEncoder" pc="268442030" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="60" parent="globals/EanEncoder" pc="268442040" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="61" parent="globals/EanEncoder" pc="268442058" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="62" parent="globals/EanEncoder" pc="268442075" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="64" parent="globals/EanEncoder" pc="268442091" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="67" parent="globals/EanEncoder" pc="268442116" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="68" parent="globals/EanEncoder" pc="268442126" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="69" parent="globals/EanEncoder" pc="268442137" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="71" parent="globals/EanEncoder" pc="268442166" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="37" lineNum="72" parent="globals/EanEncoder" pc="268442176" symbol="encode13"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="38" lineNum="31" parent="globals/EanEncoder" pc="268442179" symbol="charToDigit"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\EanEncoder.mc" id="38" lineNum="32" parent="globals/EanEncoder" pc="268442189" symbol="charToDigit"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="39" lineNum="7" parent="globals/CodeListDelegate" pc="268442203" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="39" lineNum="8" parent="globals/CodeListDelegate" pc="268442205" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="11" parent="globals/CodeListDelegate" pc="268442218" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="12" parent="globals/CodeListDelegate" pc="268442221" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="13" parent="globals/CodeListDelegate" pc="268442230" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="14" parent="globals/CodeListDelegate" pc="268442247" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="17" parent="globals/CodeListDelegate" pc="268442248" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="18" parent="globals/CodeListDelegate" pc="268442268" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="20" parent="globals/CodeListDelegate" pc="268442277" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="21" parent="globals/CodeListDelegate" pc="268442305" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="22" parent="globals/CodeListDelegate" pc="268442333" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\CodeListDelegate.mc" id="40" lineNum="24" parent="globals/CodeListDelegate" pc="268442361" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="41" lineNum="109" parent="globals/QrEncoder/BitWriter" pc="268442419" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="41" lineNum="110" parent="globals/QrEncoder/BitWriter" pc="268442421" symbol="initialize"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="42" lineNum="112" parent="globals/QrEncoder/BitWriter" pc="268442431" symbol="put"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="42" lineNum="113" parent="globals/QrEncoder/BitWriter" pc="268442434" symbol="put"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="42" lineNum="114" parent="globals/QrEncoder/BitWriter" pc="268442441" symbol="put"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="42" lineNum="115" parent="globals/QrEncoder/BitWriter" pc="268442448" symbol="put"/>
+        <entry filename="C:\\Users\\ariza\\Downloads\\BarcodeWatch\\source\\QrEncoder.mc" id="42" lineNum="116" parent="globals/QrEncoder/BitWriter" pc="268442470" symbol="put"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="28" object="true" symbol="BitWriter"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="4" module="true" symbol="globals/EanEncoder"/>
+        <entry field="true" id="63" symbol="Slot2ValueTitle"/>
+        <entry id="37" method="true" symbol="pickVersion"/>
+        <entry id="11" object="true" symbol="BarcodesApp"/>
+        <entry field="true" id="72" symbol="Slot5ValueTitle"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="50" symbol="MIDDLE"/>
+        <entry field="true" id="60" symbol="Slot1ValueTitle"/>
+        <entry id="34" method="true" symbol="encodeBytes"/>
+        <entry id="42" method="true" symbol="rsEncode"/>
+        <entry field="true" id="69" symbol="Slot4ValueTitle"/>
+        <entry field="true" id="67" symbol="Slot4NameTitle"/>
+        <entry field="true" id="68" symbol="Slot4TypeTitle"/>
+        <entry id="54" method="true" symbol="encode8"/>
+        <entry field="true" id="26" symbol="mValue"/>
+        <entry field="true" id="85" symbol="TypeQR"/>
+        <entry field="true" id="79" symbol="Slot8NameTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="5" module="true" symbol="globals/QrEncoder"/>
+        <entry id="3" module="true" symbol="globals/CodeListView"/>
+        <entry field="true" id="25" symbol="mName"/>
+        <entry id="41" method="true" symbol="qrSize"/>
+        <entry field="true" id="56" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="64" symbol="Slot3NameTitle"/>
+        <entry field="true" id="65" symbol="Slot3TypeTitle"/>
+        <entry id="17" symbol="CODES"/>
+        <entry id="16" module="true" symbol="QrEncoder"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry id="8390425" module="true" symbol="Properties"/>
+        <entry id="6" module="true" symbol="globals/Rez"/>
+        <entry id="40" method="true" symbol="qrLBlocks"/>
+        <entry field="true" id="76" symbol="Slot7NameTitle"/>
+        <entry field="true" id="57" symbol="SettingsGroupTitle"/>
+        <entry field="true" id="18" symbol="START_B"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="48" symbol="EDGE"/>
+        <entry id="36" method="true" symbol="initTables"/>
+        <entry field="true" id="8389112" symbol="mType"/>
+        <entry id="53" method="true" symbol="encode13"/>
+        <entry id="9" object="true" symbol="BarcodeDelegate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="80" symbol="Slot8TypeTitle"/>
+        <entry field="true" id="61" symbol="Slot2NameTitle"/>
+        <entry id="10" object="true" symbol="BarcodeView"/>
+        <entry field="true" id="62" symbol="Slot2TypeTitle"/>
+        <entry field="true" id="82" symbol="TypeCode128"/>
+        <entry id="12" module="true" symbol="Code128Encoder"/>
+        <entry field="true" id="44" symbol="tablesReady"/>
+        <entry id="27" method="true" symbol="buildMenu"/>
+        <entry field="true" id="73" symbol="Slot6NameTitle"/>
+        <entry id="24" method="true" symbol="drawMatrix"/>
+        <entry id="7" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="20" method="true" symbol="encode"/>
+        <entry field="true" id="77" symbol="Slot7TypeTitle"/>
+        <entry field="true" id="58" symbol="Slot1NameTitle"/>
+        <entry field="true" id="59" symbol="Slot1TypeTitle"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="32" method="true" symbol="buildMatrix"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="83" symbol="TypeEAN13"/>
+        <entry id="13" object="true" symbol="CodeListDelegate"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="30" symbol="LOG"/>
+        <entry field="true" id="70" symbol="Slot5NameTitle"/>
+        <entry field="true" id="55" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="86" symbol="bits"/>
+        <entry id="39" method="true" symbol="qrL"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="29" symbol="EXP"/>
+        <entry id="49" symbol="LEFT_PATTERN"/>
+        <entry field="true" id="21" symbol="lastError"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="15" module="true" symbol="EanEncoder"/>
+        <entry field="true" id="74" symbol="Slot6TypeTitle"/>
+        <entry id="22" method="true" symbol="drawBars"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="23" method="true" symbol="drawError"/>
+        <entry id="38" method="true" symbol="polyMul"/>
+        <entry id="33" method="true" symbol="charCountBits"/>
+        <entry id="2" module="true" symbol="globals/Code128Encoder"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="35" method="true" symbol="gmul"/>
+        <entry field="true" id="81" symbol="Slot8ValueTitle"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8388788" method="true" symbol="put"/>
+        <entry id="52" method="true" symbol="digitsOnly"/>
+        <entry field="true" id="78" symbol="Slot7ValueTitle"/>
+        <entry field="true" id="84" symbol="TypeEAN8"/>
+        <entry id="47" symbol="CODES_C"/>
+        <entry id="46" method="true" symbol="CODES_B"/>
+        <entry id="45" symbol="CODES_A"/>
+        <entry field="true" id="19" symbol="STOP"/>
+        <entry field="true" id="71" symbol="Slot5TypeTitle"/>
+        <entry field="true" id="66" symbol="Slot3ValueTitle"/>
+        <entry id="31" method="true" symbol="alignCenters"/>
+        <entry id="51" method="true" symbol="charToDigit"/>
+        <entry id="14" module="true" symbol="CodeListView"/>
+        <entry field="true" id="75" symbol="Slot6ValueTitle"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry id="43" method="true" symbol="rsGeneratorPoly"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435824" name="text" stackId="1" startPc="268435548"/>
+        <entry endPc="268435629" name="i" stackId="3" startPc="268435584"/>
+        <entry endPc="268435687" name="i" stackId="5" startPc="268435660"/>
+        <entry endPc="268435733" name="i" stackId="7" startPc="268435711"/>
+        <entry endPc="268435801" name="i" stackId="9" startPc="268435776"/>
+        <entry arg="true" endPc="268435883" name="dc" stackId="1" startPc="268435825"/>
+        <entry arg="true" endPc="268435883" name="w" stackId="2" startPc="268435825"/>
+        <entry arg="true" endPc="268435883" name="h" stackId="3" startPc="268435825"/>
+        <entry arg="true" endPc="268435883" name="msg" stackId="4" startPc="268435825"/>
+        <entry arg="true" endPc="268436071" name="dc" stackId="1" startPc="268435884"/>
+        <entry arg="true" endPc="268436071" name="matrix" stackId="2" startPc="268435884"/>
+        <entry arg="true" endPc="268436071" name="w" stackId="3" startPc="268435884"/>
+        <entry arg="true" endPc="268436071" name="h" stackId="4" startPc="268435884"/>
+        <entry endPc="268436070" name="n" stackId="5" startPc="268435887"/>
+        <entry endPc="268436070" name="quiet" stackId="6" startPc="268435887"/>
+        <entry endPc="268436070" name="avail" stackId="7" startPc="268435887"/>
+        <entry endPc="268436070" name="scale" stackId="8" startPc="268435887"/>
+        <entry endPc="268436070" name="total" stackId="9" startPc="268435887"/>
+        <entry endPc="268436070" name="ox" stackId="10" startPc="268435887"/>
+        <entry endPc="268436070" name="oy" stackId="11" startPc="268435887"/>
+        <entry endPc="268436070" name="r" stackId="12" startPc="268435986"/>
+        <entry endPc="268436060" name="row" stackId="13" startPc="268435986"/>
+        <entry endPc="268436060" name="c" stackId="14" startPc="268436004"/>
+        <entry arg="true" endPc="268436280" name="dc" stackId="1" startPc="268436072"/>
+        <entry arg="true" endPc="268436280" name="bits" stackId="2" startPc="268436072"/>
+        <entry arg="true" endPc="268436280" name="w" stackId="3" startPc="268436072"/>
+        <entry arg="true" endPc="268436280" name="h" stackId="4" startPc="268436072"/>
+        <entry endPc="268436279" name="n" stackId="5" startPc="268436075"/>
+        <entry endPc="268436279" name="quiet" stackId="6" startPc="268436075"/>
+        <entry endPc="268436279" name="scale" stackId="7" startPc="268436075"/>
+        <entry endPc="268436279" name="total" stackId="8" startPc="268436075"/>
+        <entry endPc="268436279" name="ox" stackId="9" startPc="268436075"/>
+        <entry endPc="268436279" name="barH" stackId="10" startPc="268436075"/>
+        <entry endPc="268436279" name="oy" stackId="11" startPc="268436075"/>
+        <entry endPc="268436248" name="i" stackId="12" startPc="268436177"/>
+        <entry endPc="268436238" name="ch" stackId="13" startPc="268436177"/>
+        <entry arg="true" endPc="268436322" name="type" stackId="1" startPc="268436281"/>
+        <entry arg="true" endPc="268436322" name="value" stackId="2" startPc="268436281"/>
+        <entry arg="true" endPc="268436322" name="name" stackId="3" startPc="268436281"/>
+        <entry arg="true" endPc="268436775" name="dc" stackId="1" startPc="268436323"/>
+        <entry endPc="268436774" name="w" stackId="2" startPc="268436326"/>
+        <entry endPc="268436774" name="h" stackId="3" startPc="268436326"/>
+        <entry endPc="268436516" name="matrix" stackId="4" startPc="268436450"/>
+        <entry endPc="268436595" name="bits" stackId="5" startPc="268436529"/>
+        <entry endPc="268436674" name="bits" stackId="6" startPc="268436608"/>
+        <entry endPc="268436753" name="bits" stackId="7" startPc="268436687"/>
+        <entry endPc="268436980" name="i" stackId="3" startPc="268436876"/>
+        <entry endPc="268436970" name="name" stackId="4" startPc="268436876"/>
+        <entry arg="true" endPc="268438965" name="version" stackId="1" startPc="268437100"/>
+        <entry arg="true" endPc="268438965" name="allCodewords" stackId="2" startPc="268437100"/>
+        <entry endPc="268437208" name="r" stackId="6" startPc="268437144"/>
+        <entry endPc="268437198" name="c" stackId="7" startPc="268437171"/>
+        <entry endPc="268437524" name="f" stackId="9" startPc="268437269"/>
+        <entry endPc="268437514" name="r0" stackId="10" startPc="268437269"/>
+        <entry endPc="268437514" name="c0" stackId="11" startPc="268437269"/>
+        <entry endPc="268437514" name="i" stackId="12" startPc="268437300"/>
+        <entry endPc="268437504" name="j" stackId="13" startPc="268437312"/>
+        <entry endPc="268437494" name="rr" stackId="14" startPc="268437312"/>
+        <entry endPc="268437494" name="cc" stackId="15" startPc="268437312"/>
+        <entry endPc="268437494" name="val" stackId="16" startPc="268437356"/>
+        <entry endPc="268437605" name="i" stackId="17" startPc="268437540"/>
+        <entry endPc="268437595" name="v" stackId="18" startPc="268437540"/>
+        <entry endPc="268437915" name="ci" stackId="20" startPc="268437665"/>
+        <entry endPc="268437905" name="cj" stackId="21" startPc="268437681"/>
+        <entry endPc="268437895" name="r" stackId="22" startPc="268437681"/>
+        <entry endPc="268437895" name="c" stackId="23" startPc="268437681"/>
+        <entry endPc="268437895" name="i" stackId="24" startPc="268437764"/>
+        <entry endPc="268437885" name="j" stackId="25" startPc="268437776"/>
+        <entry endPc="268437875" name="ai" stackId="26" startPc="268437776"/>
+        <entry endPc="268437875" name="aj" stackId="27" startPc="268437776"/>
+        <entry endPc="268437875" name="mx" stackId="28" startPc="268437776"/>
+        <entry endPc="268437875" name="val" stackId="29" startPc="268437776"/>
+        <entry endPc="268437954" name="i" stackId="30" startPc="268437927"/>
+        <entry endPc="268437988" name="i" stackId="31" startPc="268437970"/>
+        <entry endPc="268438022" name="i" stackId="32" startPc="268438004"/>
+        <entry endPc="268438102" name="i" stackId="33" startPc="268438042"/>
+        <entry endPc="268438092" name="j" stackId="34" startPc="268438053"/>
+        <entry endPc="268438165" name="i" stackId="38" startPc="268438130"/>
+        <entry endPc="268438211" name="i" stackId="41" startPc="268438189"/>
+        <entry endPc="268438274" name="row" stackId="43" startPc="268438223"/>
+        <entry endPc="268438274" name="col" stackId="44" startPc="268438223"/>
+        <entry endPc="268438360" name="bi" stackId="46" startPc="268438305"/>
+        <entry endPc="268438350" name="byteVal" stackId="47" startPc="268438305"/>
+        <entry endPc="268438350" name="k" stackId="48" startPc="268438323"/>
+        <entry endPc="268438650" name="rowRange" stackId="53" startPc="268438390"/>
+        <entry endPc="268438485" name="r" stackId="55" startPc="268438453"/>
+        <entry endPc="268438638" name="ri" stackId="56" startPc="268438502"/>
+        <entry endPc="268438628" name="row" stackId="57" startPc="268438502"/>
+        <entry endPc="268438628" name="cols" stackId="58" startPc="268438502"/>
+        <entry endPc="268438628" name="cidx" stackId="59" startPc="268438539"/>
+        <entry endPc="268438618" name="c" stackId="60" startPc="268438539"/>
+        <entry endPc="268438618" name="bitVal" stackId="61" startPc="268438539"/>
+        <entry endPc="268438618" name="maskOn" stackId="62" startPc="268438539"/>
+        <entry endPc="268438720" name="i" stackId="67" startPc="268438685"/>
+        <entry endPc="268438770" name="i" stackId="70" startPc="268438748"/>
+        <entry endPc="268438804" name="i" stackId="71" startPc="268438782"/>
+        <entry endPc="268438881" name="i" stackId="72" startPc="268438856"/>
+        <entry endPc="268438921" name="i" stackId="73" startPc="268438893"/>
+        <entry endPc="268438962" name="i" stackId="74" startPc="268438934"/>
+        <entry arg="true" endPc="268439092" name="text" stackId="1" startPc="268438966"/>
+        <entry endPc="268439029" name="i" stackId="4" startPc="268439005"/>
+        <entry arg="true" endPc="268439111" name="version" stackId="1" startPc="268439093"/>
+        <entry endPc="268439255" name="x" stackId="1" startPc="268439123"/>
+        <entry endPc="268439203" name="i" stackId="2" startPc="268439148"/>
+        <entry endPc="268439247" name="i" stackId="3" startPc="268439218"/>
+        <entry arg="true" endPc="268439328" name="nsym" stackId="1" startPc="268439257"/>
+        <entry endPc="268439325" name="i" stackId="3" startPc="268439286"/>
+        <entry arg="true" endPc="268439432" name="version" stackId="1" startPc="268439329"/>
+        <entry arg="true" endPc="268439533" name="version" stackId="1" startPc="268439433"/>
+        <entry arg="true" endPc="268439656" name="version" stackId="1" startPc="268439534"/>
+        <entry arg="true" endPc="268439706" name="a" stackId="1" startPc="268439657"/>
+        <entry arg="true" endPc="268439706" name="b" stackId="2" startPc="268439657"/>
+        <entry arg="true" endPc="268440705" name="version" stackId="1" startPc="268439707"/>
+        <entry arg="true" endPc="268440705" name="dataBytes" stackId="2" startPc="268439707"/>
+        <entry arg="true" endPc="268440705" name="useEci" stackId="3" startPc="268439707"/>
+        <entry endPc="268439886" name="i" stackId="8" startPc="268439860"/>
+        <entry endPc="268440085" name="v" stackId="13" startPc="268440023"/>
+        <entry endPc="268440066" name="k" stackId="14" startPc="268440037"/>
+        <entry endPc="268440279" name="count" stackId="21" startPc="268440182"/>
+        <entry endPc="268440279" name="dlen" stackId="22" startPc="268440182"/>
+        <entry endPc="268440279" name="c" stackId="23" startPc="268440212"/>
+        <entry endPc="268440269" name="b" stackId="24" startPc="268440212"/>
+        <entry endPc="268440250" name="k" stackId="25" startPc="268440228"/>
+        <entry endPc="268440347" name="b" stackId="26" startPc="268440290"/>
+        <entry endPc="268440335" name="k" stackId="27" startPc="268440316"/>
+        <entry endPc="268440402" name="bi" stackId="29" startPc="268440368"/>
+        <entry endPc="268440461" name="bi" stackId="31" startPc="268440422"/>
+        <entry endPc="268440547" name="k" stackId="33" startPc="268440477"/>
+        <entry endPc="268440537" name="bi" stackId="34" startPc="268440493"/>
+        <entry endPc="268440616" name="k" stackId="36" startPc="268440563"/>
+        <entry endPc="268440606" name="bi" stackId="37" startPc="268440579"/>
+        <entry endPc="268440661" name="k" stackId="39" startPc="268440637"/>
+        <entry endPc="268440702" name="k" stackId="40" startPc="268440678"/>
+        <entry arg="true" endPc="268440729" name="version" stackId="1" startPc="268440706"/>
+        <entry arg="true" endPc="268440911" name="p" stackId="1" startPc="268440730"/>
+        <entry arg="true" endPc="268440911" name="q" stackId="2" startPc="268440730"/>
+        <entry endPc="268440793" name="i" stackId="4" startPc="268440778"/>
+        <entry endPc="268440908" name="i" stackId="5" startPc="268440810"/>
+        <entry endPc="268440898" name="pc" stackId="6" startPc="268440810"/>
+        <entry endPc="268440898" name="j" stackId="7" startPc="268440843"/>
+        <entry endPc="268440888" name="qc" stackId="8" startPc="268440843"/>
+        <entry arg="true" endPc="268441016" name="dataBytes" stackId="1" startPc="268440912"/>
+        <entry arg="true" endPc="268441016" name="useEci" stackId="2" startPc="268440912"/>
+        <entry endPc="268441014" name="v" stackId="4" startPc="268440948"/>
+        <entry endPc="268441004" name="cap" stackId="5" startPc="268440948"/>
+        <entry endPc="268441004" name="hdr" stackId="6" startPc="268440948"/>
+        <entry arg="true" endPc="268441271" name="data" stackId="1" startPc="268441017"/>
+        <entry arg="true" endPc="268441271" name="nsym" stackId="2" startPc="268441017"/>
+        <entry endPc="268441088" name="i" stackId="5" startPc="268441069"/>
+        <entry endPc="268441126" name="i" stackId="6" startPc="268441111"/>
+        <entry endPc="268441224" name="i" stackId="7" startPc="268441143"/>
+        <entry endPc="268441214" name="coef" stackId="8" startPc="268441143"/>
+        <entry endPc="268441268" name="i" stackId="11" startPc="268441241"/>
+        <entry arg="true" endPc="268441594" name="text" stackId="1" startPc="268441272"/>
+        <entry endPc="268441379" name="i" stackId="3" startPc="268441353"/>
+        <entry endPc="268441431" name="i" stackId="5" startPc="268441394"/>
+        <entry endPc="268441480" name="i" stackId="8" startPc="268441461"/>
+        <entry endPc="268441531" name="i" stackId="10" startPc="268441506"/>
+        <entry endPc="268441581" name="i" stackId="11" startPc="268441553"/>
+        <entry arg="true" endPc="268441707" name="d" stackId="1" startPc="268441595"/>
+        <entry endPc="268441701" name="ch" stackId="5" startPc="268441642"/>
+        <entry arg="true" endPc="268441779" name="text" stackId="1" startPc="268441708"/>
+        <entry endPc="268441777" name="i" stackId="3" startPc="268441744"/>
+        <entry arg="true" endPc="268442178" name="text" stackId="1" startPc="268441780"/>
+        <entry endPc="268441887" name="i" stackId="3" startPc="268441861"/>
+        <entry endPc="268441939" name="i" stackId="5" startPc="268441902"/>
+        <entry endPc="268441988" name="i" stackId="8" startPc="268441969"/>
+        <entry endPc="268442115" name="i" stackId="12" startPc="268442030"/>
+        <entry endPc="268442105" name="d" stackId="13" startPc="268442030"/>
+        <entry endPc="268442105" name="set" stackId="14" startPc="268442030"/>
+        <entry endPc="268442165" name="i" stackId="15" startPc="268442137"/>
+        <entry arg="true" endPc="268442202" name="text" stackId="1" startPc="268442179"/>
+        <entry arg="true" endPc="268442202" name="i" stackId="2" startPc="268442179"/>
+        <entry arg="true" endPc="268442418" name="item" stackId="1" startPc="268442218"/>
+        <entry endPc="268442417" name="id" stackId="2" startPc="268442221"/>
+        <entry endPc="268442417" name="numStr" stackId="3" startPc="268442221"/>
+        <entry endPc="268442417" name="i" stackId="4" startPc="268442221"/>
+        <entry endPc="268442417" name="name" stackId="5" startPc="268442221"/>
+        <entry endPc="268442417" name="type" stackId="6" startPc="268442221"/>
+        <entry endPc="268442417" name="value" stackId="7" startPc="268442221"/>
+        <entry arg="true" endPc="268442480" name="val" stackId="1" startPc="268442431"/>
+        <entry arg="true" endPc="268442480" name="n" stackId="2" startPc="268442431"/>
+        <entry endPc="268442479" name="i" stackId="3" startPc="268442434"/>
+    </localVars>
+    <deviceInfo deviceVersion="6ba91403eda5c30a6644610fa0938a238f4167f3" partNumber="006-B4585-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot6ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TypeCode128"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot7TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot1TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot8ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TypeQR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TypeEAN13"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot4TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot7NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot2ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot8NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot2NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot5NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot6TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SettingsGroupTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot5ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot7ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot6NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot3TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot3ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot3NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot5TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot8TypeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot1NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot4NameTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot1ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot4ValueTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TypeEAN8"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot2TypeTitle"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="85" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Code128Encoder" offset="197" parentId="globals" symbolId="Code128Encoder" type="module"/>
+        <dataEntry label="globals/BarcodeView" offset="268" parentId="globals" symbolId="BarcodeView" type="class"/>
+        <dataEntry label="globals/BarcodeDelegate" offset="375" parentId="globals" symbolId="BarcodeDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="428" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/CodeListView" offset="472" parentId="globals" symbolId="CodeListView" type="module"/>
+        <dataEntry label="globals/BarcodesApp" offset="507" parentId="globals" symbolId="BarcodesApp" type="class"/>
+        <dataEntry label="globals/QrEncoder" offset="578" parentId="globals" symbolId="QrEncoder" type="module"/>
+        <dataEntry label="globals/EanEncoder" offset="775" parentId="globals" symbolId="EanEncoder" type="module"/>
+        <dataEntry label="globals/CodeListDelegate" offset="900" parentId="globals" symbolId="CodeListDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="953" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="988" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/QrEncoder/BitWriter" offset="1284" parentId="QrEncoder" symbolId="BitWriter" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Code128Encoder">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="BarcodeView" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435480" name="&lt;init&gt;" parent="BarcodeDelegate" startPc="268435469">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="CodeListView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="BarcodesApp" startPc="268435501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435535" name="&lt;init&gt;" parent="QrEncoder" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="EanEncoder">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="CodeListDelegate" startPc="268435536">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435824" name="encode" parent="Code128Encoder" startPc="268435548">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435883" name="drawError" parent="BarcodeView" startPc="268435825">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <param id="msg"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436071" name="drawMatrix" parent="BarcodeView" startPc="268435884">
+            <param id="dc"/>
+            <param id="matrix"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436280" name="drawBars" parent="BarcodeView" startPc="268436072">
+            <param id="dc"/>
+            <param id="bits"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436322" name="initialize" parent="BarcodeView" startPc="268436281">
+            <param id="type"/>
+            <param id="value"/>
+            <param id="name"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436775" name="onUpdate" parent="BarcodeView" startPc="268436323">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436794" name="onBack" parent="BarcodeDelegate" startPc="268436776">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436809" name="initialize" parent="BarcodeDelegate" startPc="268436795">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437038" name="buildMenu" parent="CodeListView" startPc="268436810">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="BarcodesApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437084" name="getInitialView" parent="BarcodesApp" startPc="268437039">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437099" name="initialize" parent="BarcodesApp" startPc="268437085">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="BarcodesApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="BitWriter">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438965" name="buildMatrix" parent="QrEncoder" startPc="268437100">
+            <param id="version"/>
+            <param id="allCodewords"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439092" name="encode" parent="QrEncoder" startPc="268438966">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439111" name="qrSize" parent="QrEncoder" startPc="268439093">
+            <param id="version"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439256" name="initTables" parent="QrEncoder" startPc="268439112">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439328" name="rsGeneratorPoly" parent="QrEncoder" startPc="268439257">
+            <param id="nsym"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439432" name="qrL" parent="QrEncoder" startPc="268439329">
+            <param id="version"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439533" name="alignCenters" parent="QrEncoder" startPc="268439433">
+            <param id="version"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439656" name="qrLBlocks" parent="QrEncoder" startPc="268439534">
+            <param id="version"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439706" name="gmul" parent="QrEncoder" startPc="268439657">
+            <param id="a"/>
+            <param id="b"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440705" name="encodeBytes" parent="QrEncoder" startPc="268439707">
+            <param id="version"/>
+            <param id="dataBytes"/>
+            <param id="useEci"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440729" name="charCountBits" parent="QrEncoder" startPc="268440706">
+            <param id="version"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440911" name="polyMul" parent="QrEncoder" startPc="268440730">
+            <param id="p"/>
+            <param id="q"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441016" name="pickVersion" parent="QrEncoder" startPc="268440912">
+            <param id="dataBytes"/>
+            <param id="useEci"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441271" name="rsEncode" parent="QrEncoder" startPc="268441017">
+            <param id="data"/>
+            <param id="nsym"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441594" name="encode8" parent="EanEncoder" startPc="268441272">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441707" name="CODES_B" parent="EanEncoder" startPc="268441595">
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441779" name="digitsOnly" parent="EanEncoder" startPc="268441708">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442178" name="encode13" parent="EanEncoder" startPc="268441780">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442202" name="charToDigit" parent="EanEncoder" startPc="268442179">
+            <param id="text"/>
+            <param id="i"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442217" name="initialize" parent="CodeListDelegate" startPc="268442203">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442418" name="onSelect" parent="CodeListDelegate" startPc="268442218">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442430" name="initialize" parent="BitWriter" startPc="268442419">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442480" name="put" parent="BitWriter" startPc="268442431">
+            <param id="val"/>
+            <param id="n"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

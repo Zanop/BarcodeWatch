@@ -1,0 +1,236 @@
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; @symbol_usingAlias = [App,1,28,31]; ]
+using Toybox.Application as :App;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Application,2,13,24]; @symbol_usingdef<2> = [Storage,2,25,32]; @symbol_usingAlias = [Storage,2,36,43]; ]
+using Toybox.Application.Storage as :Storage;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 5; @symbol_classdef = [BarcodesApp,5,6,17]; @symbol_extends<0> = [App,5,26,29]; @symbol_extends<1> = [AppBase,5,30,37]; ]
+class BarcodesApp extends App.AppBase {
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_7_26_9_4_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 8 8 ]
+        symbol [ AppBase %tmp.2 8 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 8 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_7_26_9_4_stop:
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 11; @symbol_functiondef = [onStart,11,13,20]; @symbol_param<0> = [state,11,21,26]; ]
+    function onStart(state) {
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 14; @symbol_functiondef = [onStop,14,13,19]; @symbol_param<0> = [state,14,20,25]; ]
+    function onStop(state) {
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 17; @symbol_functiondef = [getInitialView,17,13,27]; ]
+    function getInitialView() {
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_17_30_36_4_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 18 8 ]
+        [ "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_17_30_36_4_start" "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_17_30_36_4_stop" ]
+        %slots.1 = local;
+        symbol [ slots %slots.1 18 12 17 ];
+        symbol [ CodeListView %tmp.2 18 20 32 ];
+        %tmp.2 = getv ? :CodeListView;
+        symbol [ getConfiguredSlots %tmp.3 18 33 51 ];
+        %tmp.3 = getv function %tmp.2 :getConfiguredSlots;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %slots.1 %tmp.4;
+        symbol [ slots %slots.1 18 12 17 ];
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 19 8 ]
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_8_33_8_if_stmt:
+        %tmp.5 = lgetv %slots.1;
+        symbol [ slots %tmp.5 19 12 17 ];
+        symbol [ size %tmp.6 19 18 22 ];
+        %tmp.6 = getv function %tmp.5 :size;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 0;
+        %tmp.9 = gt %tmp.7 %tmp.8;
+        bf %tmp.9 @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_8_33_8_if_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_8_33_8_if_true:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 20 12 ]
+        [ "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_start" "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_stop" ]
+        %lastSlot.2 = local;
+        symbol [ lastSlot %lastSlot.2 20 16 24 ];
+        symbol [ Storage %tmp.10 20 27 34 ];
+        %tmp.10 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.11 20 35 43 ];
+        %tmp.11 = getv function %tmp.10 :getValue;
+        %tmp.12 = "lastSlot";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        lputv %lastSlot.2 %tmp.13;
+        symbol [ lastSlot %lastSlot.2 20 16 24 ];
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 21 12 ]
+        [ "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_start" "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_stop" ]
+        %slotPosition.3 = local;
+        symbol [ slotPosition %slotPosition.3 21 16 28 ];
+        %tmp.14 = 0;
+        lputv %slotPosition.3 %tmp.14;
+        symbol [ slotPosition %slotPosition.3 21 16 28 ];
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 22 12 ]
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_12_29_12_if_stmt:
+        %tmp.15 = lgetv %lastSlot.2;
+        symbol [ lastSlot %tmp.15 22 16 24 ];
+        %tmp.16 = null;
+        %tmp.17 = ne %tmp.15 %tmp.16;
+        bf %tmp.17 @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_12_29_12_if_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_12_29_12_if_true:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_34_29_12_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 23 16 ]
+        for @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_test @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_incr @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_init:
+        [ "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_begin" "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_end" ]
+        %i.4 = local;
+        symbol [ i %i.4 23 25 26 ];
+        %tmp.18 = 0;
+        lputv %i.4 %tmp.18;
+        symbol [ i %i.4 23 25 26 ];
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_test:
+        %tmp.19 = lgetv %i.4;
+        symbol [ i %tmp.19 23 32 33 ];
+        %tmp.20 = lgetv %slots.1;
+        symbol [ slots %tmp.20 23 36 41 ];
+        symbol [ size %tmp.21 23 42 46 ];
+        %tmp.21 = getv function %tmp.20 :size;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        %tmp.23 = lt %tmp.19 %tmp.22;
+        bf %tmp.23 @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_begin:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_58_28_16_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 24 20 ]
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_20_27_20_if_stmt:
+        %tmp.24 = lgetv %slots.1;
+        symbol [ slots %tmp.24 24 24 29 ];
+        %tmp.25 = lgetv %i.4;
+        symbol [ i %tmp.25 24 30 31 ];
+        %tmp.26 = agetv %tmp.24 %tmp.25;
+        %tmp.27 = lgetv %lastSlot.2;
+        symbol [ lastSlot %tmp.27 24 36 44 ];
+        %tmp.28 = as %tmp.27 { (!Null) };
+        %tmp.29 = eq %tmp.26 %tmp.28;
+        bf %tmp.29 @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_20_27_20_if_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_20_27_20_if_true:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_46_27_20_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 25 24 ]
+        %tmp.30 = lgetv %i.4;
+        symbol [ i %tmp.30 25 39 40 ];
+        lputv %slotPosition.3 %tmp.30;
+        symbol [ slotPosition %slotPosition.3 25 24 36 ];
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 26 24 ]
+        goto break @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_46_27_20_stop:
+        goto @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_20_27_20_if_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_24_20_27_20_if_end:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_58_28_16_stop:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_incr:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 23 ]
+        %tmp.31 = lgetv %i.4;
+        symbol [ i %tmp.31 23 50 51 ];
+        %tmp.32 = 1;
+        %tmp.33 = add %tmp.31 %tmp.32;
+        lputv %i.4 %tmp.33;
+        symbol [ i %i.4 23 50 51 ];
+        goto @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_test;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_23_16_28_16_for_end:
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_34_29_12_stop:
+        goto @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_12_29_12_if_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_22_12_29_12_if_end:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 30 12 ]
+        [ "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_start" "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_stop" ]
+        %slotNumber.5 = local;
+        symbol [ slotNumber %slotNumber.5 30 16 26 ];
+        %tmp.34 = lgetv %slots.1;
+        symbol [ slots %tmp.34 30 29 34 ];
+        %tmp.35 = lgetv %slotPosition.3;
+        symbol [ slotPosition %tmp.35 30 35 47 ];
+        %tmp.36 = agetv %tmp.34 %tmp.35;
+        lputv %slotNumber.5 %tmp.36;
+        symbol [ slotNumber %slotNumber.5 30 16 26 ];
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 31 12 ]
+        symbol [ Storage %tmp.37 31 12 19 ];
+        %tmp.37 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.38 31 20 28 ];
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = "lastSlot";
+        %tmp.40 = lgetv %slotNumber.5;
+        symbol [ slotNumber %tmp.40 31 41 51 ];
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40);
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 32 12 ]
+        %tmp.41 = newa 2;
+        symbol [ CodeListView %tmp.43 32 21 33 ];
+        %tmp.43 = getv ? :CodeListView;
+        symbol [ buildBarcodeView %tmp.44 32 34 50 ];
+        %tmp.44 = getv function %tmp.43 :buildBarcodeView;
+        %tmp.45 = lgetv %slotNumber.5;
+        symbol [ slotNumber %tmp.45 32 51 61 ];
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        %tmp.47 = dup %tmp.41;
+        %tmp.48 = aputv %tmp.47 0 %tmp.46;
+        symbol [ BarcodeDelegate %tmp.52 32 68 83 ];
+        %tmp.52 = getv ? :BarcodeDelegate;
+        %tmp.53 = lgetv %slots.1;
+        symbol [ slots %tmp.53 32 84 89 ];
+        %tmp.54 = lgetv %slotPosition.3;
+        symbol [ slotPosition %tmp.54 32 91 103 ];
+        %tmp.49 = newc %tmp.52 (%tmp.53, %tmp.54);
+        %tmp.55 = dup %tmp.48;
+        %tmp.56 = aputv %tmp.55 1 %tmp.49;
+        ret %tmp.56;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_30_33_8_stop:
+        goto @c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_8_33_8_if_end;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_19_8_33_8_if_end:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 34 8 ]
+        [ "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_17_30_36_4_start" "c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_17_30_36_4_stop" ]
+        %menu.6 = local;
+        symbol [ menu %menu.6 34 12 16 ];
+        symbol [ CodeListView %tmp.58 34 19 31 ];
+        %tmp.58 = getv ? :CodeListView;
+        symbol [ buildMenu %tmp.59 34 32 41 ];
+        %tmp.59 = getv function %tmp.58 :buildMenu;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        lputv %menu.6 %tmp.60;
+        symbol [ menu %menu.6 34 12 16 ];
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 35 8 ]
+        %tmp.61 = newa 2;
+        %tmp.62 = lgetv %menu.6;
+        symbol [ menu %tmp.62 35 17 21 ];
+        %tmp.63 = dup %tmp.61;
+        %tmp.64 = aputv %tmp.63 0 %tmp.62;
+        symbol [ CodeListDelegate %tmp.68 35 27 43 ];
+        %tmp.68 = getv ? :CodeListDelegate;
+        %tmp.65 = newc %tmp.68 ();
+        %tmp.69 = dup %tmp.64;
+        %tmp.70 = aputv %tmp.69 1 %tmp.65;
+        ret %tmp.70;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_17_30_36_4_stop:
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 38; @symbol_functiondef = [getGlanceView,38,13,26]; ]
+    function getGlanceView() {
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_38_29_40_4_start:
+[ "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc" 39 8 ]
+        %tmp.1 = newa 2;
+        symbol [ BarcodeGlanceView %tmp.5 39 21 38 ];
+        %tmp.5 = getv ? :BarcodeGlanceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        symbol [ BarcodeGlanceDelegate %tmp.11 39 46 67 ];
+        %tmp.11 = getv ? :BarcodeGlanceDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 1 %tmp.8;
+        ret %tmp.13;
+c__Users_ariza_Downloads_BarcodeWatch_source_BarcodesApp_mc_38_29_40_4_stop:
+    }
+}
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\source\BarcodesApp.mc"; @line = 1; ]
+<init> {
+}

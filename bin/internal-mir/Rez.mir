@@ -1,0 +1,1588 @@
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [Slot7TypeTitle,13,27,41]; @symbol_type<0> = [ResourceId,13,45,55]; ]
+        var Slot7TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [Slot4TypeTitle,14,27,41]; @symbol_type<0> = [ResourceId,14,45,55]; ]
+        var Slot4TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [Slot7ValueTitle,15,27,42]; @symbol_type<0> = [ResourceId,15,46,56]; ]
+        var Slot7ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [Slot1TypeTitle,16,27,41]; @symbol_type<0> = [ResourceId,16,45,55]; ]
+        var Slot1TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [Slot5ValueTitle,17,27,42]; @symbol_type<0> = [ResourceId,17,46,56]; ]
+        var Slot5ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [Slot4NameTitle,18,27,41]; @symbol_type<0> = [ResourceId,18,45,55]; ]
+        var Slot4NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [AppName,19,27,34]; @symbol_type<0> = [ResourceId,19,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [SettingsGroupTitle,20,27,45]; @symbol_type<0> = [ResourceId,20,49,59]; ]
+        var SettingsGroupTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [Slot7NameTitle,21,27,41]; @symbol_type<0> = [ResourceId,21,45,55]; ]
+        var Slot7NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [TypeQR,22,27,33]; @symbol_type<0> = [ResourceId,22,37,47]; ]
+        var TypeQR as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [Slot3ValueTitle,23,27,42]; @symbol_type<0> = [ResourceId,23,46,56]; ]
+        var Slot3ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [TypeCode128,24,27,38]; @symbol_type<0> = [ResourceId,24,42,52]; ]
+        var TypeCode128 as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [Slot2NameTitle,25,27,41]; @symbol_type<0> = [ResourceId,25,45,55]; ]
+        var Slot2NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [Slot3TypeTitle,26,27,41]; @symbol_type<0> = [ResourceId,26,45,55]; ]
+        var Slot3TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [Slot8NameTitle,27,27,41]; @symbol_type<0> = [ResourceId,27,45,55]; ]
+        var Slot8NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [TypeEAN13,28,27,36]; @symbol_type<0> = [ResourceId,28,40,50]; ]
+        var TypeEAN13 as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [Slot1ValueTitle,29,27,42]; @symbol_type<0> = [ResourceId,29,46,56]; ]
+        var Slot1ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [Slot6TypeTitle,30,27,41]; @symbol_type<0> = [ResourceId,30,45,55]; ]
+        var Slot6TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [Slot5NameTitle,31,27,41]; @symbol_type<0> = [ResourceId,31,45,55]; ]
+        var Slot5NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [Slot6ValueTitle,32,27,42]; @symbol_type<0> = [ResourceId,32,46,56]; ]
+        var Slot6ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [TypeEAN8,33,27,35]; @symbol_type<0> = [ResourceId,33,39,49]; ]
+        var TypeEAN8 as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [Slot8ValueTitle,34,27,42]; @symbol_type<0> = [ResourceId,34,46,56]; ]
+        var Slot8ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [Slot6NameTitle,35,27,41]; @symbol_type<0> = [ResourceId,35,45,55]; ]
+        var Slot6NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [Slot4ValueTitle,36,27,42]; @symbol_type<0> = [ResourceId,36,46,56]; ]
+        var Slot4ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [Slot8TypeTitle,37,27,41]; @symbol_type<0> = [ResourceId,37,45,55]; ]
+        var Slot8TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [Slot3NameTitle,38,27,41]; @symbol_type<0> = [ResourceId,38,45,55]; ]
+        var Slot3NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [Slot2ValueTitle,39,27,42]; @symbol_type<0> = [ResourceId,39,46,56]; ]
+        var Slot2ValueTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [Slot5TypeTitle,40,27,41]; @symbol_type<0> = [ResourceId,40,45,55]; ]
+        var Slot5TypeTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [Slot1NameTitle,41,27,41]; @symbol_type<0> = [ResourceId,41,45,55]; ]
+        var Slot1NameTitle as ResourceId;
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [Slot2TypeTitle,42,27,41]; @symbol_type<0> = [ResourceId,42,45,55]; ]
+        var Slot2TypeTitle as ResourceId;
+    }
+    [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 45; @symbol_moduledef = [Styles,45,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 45; ]
+        <init> {
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 46; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,46,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 46; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [exclude,47,18,25]; @symbol_type<0> = [Boolean,47,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 50; @symbol_moduledef = [system_size__menu_header,50,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [width,51,18,23]; @symbol_type<0> = [Number,51,27,33]; ]
+            const width as Number = 175;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [height,52,18,24]; @symbol_type<0> = [Number,52,28,34]; ]
+            const height as Number = 62;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 55; @symbol_moduledef = [system_loc__hint_button_left_bottom,55,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [exclude,56,18,25]; @symbol_type<0> = [Boolean,56,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 59; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,59,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [exclude,60,18,25]; @symbol_type<0> = [Boolean,60,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 63; @symbol_moduledef = [prompt_loc__body_no_title,63,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 63; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [x,64,18,19]; @symbol_type<0> = [Number,64,23,29]; ]
+            const x as Number = 5;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [y,65,18,19]; @symbol_type<0> = [Number,65,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 68; @symbol_moduledef = [system_icon_dark__about,68,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 68; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [filename,69,18,26]; @symbol_type<0> = [String,69,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [disableTransparency,70,18,37]; @symbol_type<0> = [Boolean,70,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [dithering,71,18,27]; @symbol_type<0> = [String,71,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [automaticPalette,72,18,34]; @symbol_type<0> = [Boolean,72,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 75; @symbol_moduledef = [system_icon_light__question,75,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [filename,76,18,26]; @symbol_type<0> = [String,76,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__question.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [disableTransparency,77,18,37]; @symbol_type<0> = [Boolean,77,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [dithering,78,18,27]; @symbol_type<0> = [String,78,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [automaticPalette,79,18,34]; @symbol_type<0> = [Boolean,79,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 82; @symbol_moduledef = [system_loc__hint_button_left_top,82,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 82; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [exclude,83,18,25]; @symbol_type<0> = [Boolean,83,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 86; @symbol_moduledef = [prompt_font__title,86,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 86; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 87 18 ]
+                symbol [ Graphics %tmp.1 87 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_RIGHT %tmp.2 87 43 61 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_RIGHT;
+                symbol [ Graphics %tmp.3 87 62 70 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 87 71 91 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 88 18 ]
+                symbol [ Graphics %tmp.6 88 25 33 ];
+                %tmp.6 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.7 88 34 43 ];
+                %tmp.7 = getv %tmp.6 :FONT_TINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [justification,87,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [font,88,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 91; @symbol_moduledef = [system_icon_dark__discard,91,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 91; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 92; @position = 18; @symbol_constdef = [filename,92,18,26]; @symbol_type<0> = [String,92,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [disableTransparency,93,18,37]; @symbol_type<0> = [Boolean,93,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [dithering,94,18,27]; @symbol_type<0> = [String,94,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [automaticPalette,95,18,34]; @symbol_type<0> = [Boolean,95,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 98; @symbol_moduledef = [system_size__menu_item,98,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [width,99,18,23]; @symbol_type<0> = [Number,99,27,33]; ]
+            const width as Number = 175;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [height,100,18,24]; @symbol_type<0> = [Number,100,28,34]; ]
+            const height as Number = 58;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 103; @symbol_moduledef = [system_color_dark__text,103,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 103; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 105 18 ]
+                symbol [ Graphics %tmp.8 105 31 39 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.9 105 40 57 ];
+                %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                putv self :background %tmp.9;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [color,104,18,23]; @symbol_type<0> = [Number,104,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [background,105,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 108; @symbol_moduledef = [system_icon_destructive__discard,108,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [filename,109,18,26]; @symbol_type<0> = [String,109,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [disableTransparency,110,18,37]; @symbol_type<0> = [Boolean,110,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [dithering,111,18,27]; @symbol_type<0> = [String,111,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [automaticPalette,112,18,34]; @symbol_type<0> = [Boolean,112,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 115; @symbol_moduledef = [system_icon_dark__hint_action_menu,115,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 115; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [filename,116,18,26]; @symbol_type<0> = [String,116,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [disableTransparency,117,18,37]; @symbol_type<0> = [Boolean,117,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [dithering,118,18,27]; @symbol_type<0> = [String,118,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [automaticPalette,119,18,34]; @symbol_type<0> = [Boolean,119,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 122; @symbol_moduledef = [prompt_size__title,122,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [width,123,18,23]; @symbol_type<0> = [Number,123,27,33]; ]
+            const width as Number = 67;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [height,124,18,24]; @symbol_type<0> = [Number,124,28,34]; ]
+            const height as Number = 60;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 127; @symbol_moduledef = [confirmation_font__body,127,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 127; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 128 18 ]
+                symbol [ Graphics %tmp.10 128 34 42 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.11 128 43 62 ];
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.11;
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 129 18 ]
+                symbol [ Graphics %tmp.12 129 25 33 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.13 129 34 44 ];
+                %tmp.13 = getv %tmp.12 :FONT_XTINY;
+                putv self :font %tmp.13;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [justification,128,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [font,129,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 132; @symbol_moduledef = [system_color_dark__background,132,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 132; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [color,133,18,23]; @symbol_type<0> = [Number,133,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [background,134,18,28]; @symbol_type<0> = [Number,134,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 137; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,137,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [exclude,138,18,25]; @symbol_type<0> = [Boolean,138,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 141; @symbol_moduledef = [system_size__launch_icon,141,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [scaleX,142,18,24]; @symbol_type<0> = [Number,142,28,34]; ]
+            const scaleX as Number = 62;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [scaleY,143,18,24]; @symbol_type<0> = [Number,143,28,34]; ]
+            const scaleY as Number = 62;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [scaleRelativeTo,144,18,33]; @symbol_type<0> = [String,144,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 147; @symbol_moduledef = [confirmation_input__confirm,147,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 148 18 ]
+                symbol [ WatchUi %tmp.14 148 27 34 ];
+                %tmp.14 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.15 148 35 44 ];
+                %tmp.15 = getv %tmp.14 :KEY_ENTER;
+                putv self :button %tmp.15;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [button,148,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [prompt_font__body_with_title,151,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 152 18 ]
+                symbol [ Graphics %tmp.16 152 34 42 ];
+                %tmp.16 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.17 152 43 62 ];
+                %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.17;
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 153 18 ]
+                symbol [ Graphics %tmp.18 153 25 33 ];
+                %tmp.18 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.19 153 34 43 ];
+                %tmp.19 = getv %tmp.18 :FONT_TINY;
+                putv self :font %tmp.19;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [justification,152,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [font,153,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 156; @symbol_moduledef = [confirmation_loc__body,156,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [x,157,18,19]; @symbol_type<0> = [Number,157,23,29]; ]
+            const x as Number = 2;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [y,158,18,19]; @symbol_type<0> = [Number,158,23,29]; ]
+            const y as Number = 81;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,161,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [exclude,162,18,25]; @symbol_type<0> = [Boolean,162,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 165; @symbol_moduledef = [prompt_color_dark__background,165,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [background,166,18,28]; @symbol_type<0> = [Number,166,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 169; @symbol_moduledef = [system_icon_destructive__hint_action_menu,169,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 169; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 170; @position = 18; @symbol_constdef = [filename,170,18,26]; @symbol_type<0> = [String,170,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [disableTransparency,171,18,37]; @symbol_type<0> = [Boolean,171,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [dithering,172,18,27]; @symbol_type<0> = [String,172,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [automaticPalette,173,18,34]; @symbol_type<0> = [Boolean,173,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [system_loc__hint_action_menu,176,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [x,177,18,19]; @symbol_type<0> = [Number,177,23,29]; ]
+            const x as Number = 166;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [y,178,18,19]; @symbol_type<0> = [Number,178,23,29]; ]
+            const y as Number = 31;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [horizontalJustification,179,18,41]; @symbol_type<0> = [String,179,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 180; @position = 18; @symbol_constdef = [verticalJustification,180,18,39]; @symbol_type<0> = [String,180,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 183; @symbol_moduledef = [confirmation_icon__hint_confirm,183,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [filename,184,18,26]; @symbol_type<0> = [String,184,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 185; @position = 18; @symbol_constdef = [disableTransparency,185,18,37]; @symbol_type<0> = [Boolean,185,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [dithering,186,18,27]; @symbol_type<0> = [String,186,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [automaticPalette,187,18,34]; @symbol_type<0> = [Boolean,187,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 190; @symbol_moduledef = [system_loc__hint_button_left_middle,190,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [exclude,191,18,25]; @symbol_type<0> = [Boolean,191,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 194; @symbol_moduledef = [prompt_size__body_no_title,194,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 194; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [width,195,18,23]; @symbol_type<0> = [Number,195,27,33]; ]
+            const width as Number = 166;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [height,196,18,24]; @symbol_type<0> = [Number,196,28,34]; ]
+            const height as Number = 99;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 199; @symbol_moduledef = [system_icon_light__hint_button_left_top,199,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [exclude,200,18,25]; @symbol_type<0> = [Boolean,200,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 203; @symbol_moduledef = [prompt_color_light__background,203,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 203; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 204; @position = 18; @symbol_constdef = [background,204,18,28]; @symbol_type<0> = [Number,204,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 207; @symbol_moduledef = [confirmation_input__delete,207,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 207; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 208 18 ]
+                symbol [ WatchUi %tmp.20 208 27 34 ];
+                %tmp.20 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.21 208 35 44 ];
+                %tmp.21 = getv %tmp.20 :KEY_ENTER;
+                putv self :button %tmp.21;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [button,208,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 211; @symbol_moduledef = [system_icon_dark__hint_button_left_top,211,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 211; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [exclude,212,18,25]; @symbol_type<0> = [Boolean,212,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [system_input__action_menu,215,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 216 18 ]
+                symbol [ WatchUi %tmp.22 216 27 34 ];
+                %tmp.22 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.23 216 35 44 ];
+                %tmp.23 = getv %tmp.22 :KEY_ENTER;
+                putv self :button %tmp.23;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [button,216,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 219; @symbol_moduledef = [system_icon_light__save,219,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [filename,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__save.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [disableTransparency,221,18,37]; @symbol_type<0> = [Boolean,221,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [dithering,222,18,27]; @symbol_type<0> = [String,222,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [automaticPalette,223,18,34]; @symbol_type<0> = [Boolean,223,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 226; @symbol_moduledef = [prompt_color_light__body,226,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 228 18 ]
+                symbol [ Graphics %tmp.24 228 31 39 ];
+                %tmp.24 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.25 228 40 57 ];
+                %tmp.25 = getv %tmp.24 :COLOR_TRANSPARENT;
+                putv self :background %tmp.25;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [color,227,18,23]; @symbol_type<0> = [Number,227,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [background,228,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 231; @symbol_moduledef = [system_loc__subwindow,231,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [x,232,18,19]; @symbol_type<0> = [Number,232,23,29]; ]
+            const x as Number = 114;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [y,233,18,19]; @symbol_type<0> = [Number,233,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 236; @symbol_moduledef = [system_icon_light__warning,236,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [filename,237,18,26]; @symbol_type<0> = [String,237,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [disableTransparency,238,18,37]; @symbol_type<0> = [Boolean,238,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [dithering,239,18,27]; @symbol_type<0> = [String,239,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [automaticPalette,240,18,34]; @symbol_type<0> = [Boolean,240,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 243; @symbol_moduledef = [confirmation_color_light__body,243,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 243; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 245 18 ]
+                symbol [ Graphics %tmp.26 245 31 39 ];
+                %tmp.26 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.27 245 40 57 ];
+                %tmp.27 = getv %tmp.26 :COLOR_TRANSPARENT;
+                putv self :background %tmp.27;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [color,244,18,23]; @symbol_type<0> = [Number,244,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [background,245,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 248; @symbol_moduledef = [confirmation_icon_light__hint_keep,248,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [filename,249,18,26]; @symbol_type<0> = [String,249,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [disableTransparency,250,18,37]; @symbol_type<0> = [Boolean,250,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [dithering,251,18,27]; @symbol_type<0> = [String,251,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [automaticPalette,252,18,34]; @symbol_type<0> = [Boolean,252,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 255; @symbol_moduledef = [activity_color_light__background,255,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [color,256,18,23]; @symbol_type<0> = [Number,256,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [background,257,18,28]; @symbol_type<0> = [Number,257,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 260; @symbol_moduledef = [system_icon_positive__hint_button_right_top,260,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [filename,261,18,26]; @symbol_type<0> = [String,261,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [disableTransparency,262,18,37]; @symbol_type<0> = [Boolean,262,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 263; @position = 18; @symbol_constdef = [dithering,263,18,27]; @symbol_type<0> = [String,263,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [automaticPalette,264,18,34]; @symbol_type<0> = [Boolean,264,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 267; @symbol_moduledef = [system_size__screen,267,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 267; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 268; @position = 18; @symbol_constdef = [width,268,18,23]; @symbol_type<0> = [Number,268,27,33]; ]
+            const width as Number = 176;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [height,269,18,24]; @symbol_type<0> = [Number,269,28,34]; ]
+            const height as Number = 176;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 272; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,272,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [exclude,273,18,25]; @symbol_type<0> = [Boolean,273,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 276; @symbol_moduledef = [system_color_light__background,276,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 276; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [color,277,18,23]; @symbol_type<0> = [Number,277,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [background,278,18,28]; @symbol_type<0> = [Number,278,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 281; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,281,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [filename,282,18,26]; @symbol_type<0> = [String,282,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [disableTransparency,283,18,37]; @symbol_type<0> = [Boolean,283,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [dithering,284,18,27]; @symbol_type<0> = [String,284,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [automaticPalette,285,18,34]; @symbol_type<0> = [Boolean,285,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [confirmation_loc__hint_confirm,288,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [x,289,18,19]; @symbol_type<0> = [Number,289,23,29]; ]
+            const x as Number = 113;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [y,290,18,19]; @symbol_type<0> = [Number,290,23,29]; ]
+            const y as Number = 1;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 293; @symbol_moduledef = [activity_color_dark__text,293,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 295 18 ]
+                symbol [ Graphics %tmp.28 295 31 39 ];
+                %tmp.28 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.29 295 40 57 ];
+                %tmp.29 = getv %tmp.28 :COLOR_TRANSPARENT;
+                putv self :background %tmp.29;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [color,294,18,23]; @symbol_type<0> = [Number,294,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [background,295,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 298; @symbol_moduledef = [confirmation_input__keep,298,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 298; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 299 18 ]
+                symbol [ WatchUi %tmp.30 299 27 34 ];
+                %tmp.30 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.31 299 35 43 ];
+                %tmp.31 = getv %tmp.30 :KEY_DOWN;
+                putv self :button %tmp.31;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [button,299,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 302; @symbol_moduledef = [prompt_loc__body_with_title,302,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [x,303,18,19]; @symbol_type<0> = [Number,303,23,29]; ]
+            const x as Number = 5;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [y,304,18,19]; @symbol_type<0> = [Number,304,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_dark__search,307,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [disableTransparency,309,18,37]; @symbol_type<0> = [Boolean,309,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [dithering,310,18,27]; @symbol_type<0> = [String,310,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [automaticPalette,311,18,34]; @symbol_type<0> = [Boolean,311,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 314; @symbol_moduledef = [activity_color_light__text,314,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 316 18 ]
+                symbol [ Graphics %tmp.32 316 31 39 ];
+                %tmp.32 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.33 316 40 57 ];
+                %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+                putv self :background %tmp.33;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [color,315,18,23]; @symbol_type<0> = [Number,315,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [background,316,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 319; @symbol_moduledef = [confirmation_icon__hint_keep,319,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [filename,320,18,26]; @symbol_type<0> = [String,320,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [disableTransparency,321,18,37]; @symbol_type<0> = [Boolean,321,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [dithering,322,18,27]; @symbol_type<0> = [String,322,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [automaticPalette,323,18,34]; @symbol_type<0> = [Boolean,323,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 326; @symbol_moduledef = [system_icon_dark__save,326,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [filename,327,18,26]; @symbol_type<0> = [String,327,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [disableTransparency,328,18,37]; @symbol_type<0> = [Boolean,328,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [dithering,329,18,27]; @symbol_type<0> = [String,329,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [automaticPalette,330,18,34]; @symbol_type<0> = [Boolean,330,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 333; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,333,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 333; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [exclude,334,18,25]; @symbol_type<0> = [Boolean,334,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 337; @symbol_moduledef = [system_icon_light__search,337,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 337; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [filename,338,18,26]; @symbol_type<0> = [String,338,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__search.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [disableTransparency,339,18,37]; @symbol_type<0> = [Boolean,339,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [dithering,340,18,27]; @symbol_type<0> = [String,340,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [automaticPalette,341,18,34]; @symbol_type<0> = [Boolean,341,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 344; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,344,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 344; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [exclude,345,18,25]; @symbol_type<0> = [Boolean,345,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 348; @symbol_moduledef = [system_icon_positive__hint_button_left_top,348,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 348; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [exclude,349,18,25]; @symbol_type<0> = [Boolean,349,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 352; @symbol_moduledef = [system_loc__hint_button_right_bottom,352,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [exclude,353,18,25]; @symbol_type<0> = [Boolean,353,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 356; @symbol_moduledef = [confirmation_icon_dark__hint_reject,356,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [filename,357,18,26]; @symbol_type<0> = [String,357,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [disableTransparency,358,18,37]; @symbol_type<0> = [Boolean,358,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [dithering,359,18,27]; @symbol_type<0> = [String,359,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [automaticPalette,360,18,34]; @symbol_type<0> = [Boolean,360,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 363; @symbol_moduledef = [confirmation_color_dark__body,363,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 363; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 365 18 ]
+                symbol [ Graphics %tmp.34 365 31 39 ];
+                %tmp.34 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.35 365 40 57 ];
+                %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+                putv self :background %tmp.35;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [color,364,18,23]; @symbol_type<0> = [Number,364,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [background,365,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 368; @symbol_moduledef = [confirmation_icon_light__hint_confirm,368,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [filename,369,18,26]; @symbol_type<0> = [String,369,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [disableTransparency,370,18,37]; @symbol_type<0> = [Boolean,370,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [dithering,371,18,27]; @symbol_type<0> = [String,371,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [automaticPalette,372,18,34]; @symbol_type<0> = [Boolean,372,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 375; @symbol_moduledef = [prompt_color_dark__title,375,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 377 18 ]
+                symbol [ Graphics %tmp.36 377 31 39 ];
+                %tmp.36 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.37 377 40 57 ];
+                %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
+                putv self :background %tmp.37;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [color,376,18,23]; @symbol_type<0> = [Number,376,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [background,377,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 380; @symbol_moduledef = [system_icon_destructive__cancel,380,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [filename,381,18,26]; @symbol_type<0> = [String,381,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [disableTransparency,382,18,37]; @symbol_type<0> = [Boolean,382,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [dithering,383,18,27]; @symbol_type<0> = [String,383,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [automaticPalette,384,18,34]; @symbol_type<0> = [Boolean,384,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 387; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,387,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 387; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [exclude,388,18,25]; @symbol_type<0> = [Boolean,388,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 391; @symbol_moduledef = [prompt_loc__title,391,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [x,392,18,19]; @symbol_type<0> = [Number,392,23,29]; ]
+            const x as Number = 25;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [y,393,18,19]; @symbol_type<0> = [Number,393,23,29]; ]
+            const y as Number = 9;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 396; @symbol_moduledef = [confirmation_font_enhanced_readability__body,396,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [exclude,397,18,25]; @symbol_type<0> = [Boolean,397,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 400; @symbol_moduledef = [prompt_color_light__title,400,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 402 18 ]
+                symbol [ Graphics %tmp.38 402 31 39 ];
+                %tmp.38 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.39 402 40 57 ];
+                %tmp.39 = getv %tmp.38 :COLOR_TRANSPARENT;
+                putv self :background %tmp.39;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [color,401,18,23]; @symbol_type<0> = [Number,401,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [background,402,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 405; @symbol_moduledef = [system_icon_dark__hint_button_right_top,405,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [filename,406,18,26]; @symbol_type<0> = [String,406,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [disableTransparency,407,18,37]; @symbol_type<0> = [Boolean,407,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [dithering,408,18,27]; @symbol_type<0> = [String,408,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [automaticPalette,409,18,34]; @symbol_type<0> = [Boolean,409,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 412; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,412,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [exclude,413,18,25]; @symbol_type<0> = [Boolean,413,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 416; @symbol_moduledef = [confirmation_icon_dark__hint_keep,416,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [filename,417,18,26]; @symbol_type<0> = [String,417,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 418; @position = 18; @symbol_constdef = [disableTransparency,418,18,37]; @symbol_type<0> = [Boolean,418,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 419; @position = 18; @symbol_constdef = [dithering,419,18,27]; @symbol_type<0> = [String,419,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [automaticPalette,420,18,34]; @symbol_type<0> = [Boolean,420,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 423; @symbol_moduledef = [system_icon_light__cancel,423,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 423; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 424; @position = 18; @symbol_constdef = [filename,424,18,26]; @symbol_type<0> = [String,424,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [disableTransparency,425,18,37]; @symbol_type<0> = [Boolean,425,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [dithering,426,18,27]; @symbol_type<0> = [String,426,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [automaticPalette,427,18,34]; @symbol_type<0> = [Boolean,427,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 430; @symbol_moduledef = [confirmation_icon_light__hint_reject,430,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [disableTransparency,432,18,37]; @symbol_type<0> = [Boolean,432,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 433; @position = 18; @symbol_constdef = [dithering,433,18,27]; @symbol_type<0> = [String,433,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [automaticPalette,434,18,34]; @symbol_type<0> = [Boolean,434,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 437; @symbol_moduledef = [system_icon_light__about,437,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 437; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 438; @position = 18; @symbol_constdef = [filename,438,18,26]; @symbol_type<0> = [String,438,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__about.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [disableTransparency,439,18,37]; @symbol_type<0> = [Boolean,439,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [dithering,440,18,27]; @symbol_type<0> = [String,440,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [automaticPalette,441,18,34]; @symbol_type<0> = [Boolean,441,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 444; @symbol_moduledef = [system_size__toast_icon,444,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [width,445,18,23]; @symbol_type<0> = [Number,445,27,33]; ]
+            const width as Number = 44;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [scaleRelativeTo,446,18,33]; @symbol_type<0> = [String,446,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,449,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [exclude,450,18,25]; @symbol_type<0> = [Boolean,450,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 453; @symbol_moduledef = [confirmation_icon__hint_reject,453,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [filename,454,18,26]; @symbol_type<0> = [String,454,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [disableTransparency,455,18,37]; @symbol_type<0> = [Boolean,455,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [dithering,456,18,27]; @symbol_type<0> = [String,456,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [automaticPalette,457,18,34]; @symbol_type<0> = [Boolean,457,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 460; @symbol_moduledef = [system_icon_light__hint_action_menu,460,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [filename,461,18,26]; @symbol_type<0> = [String,461,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [disableTransparency,462,18,37]; @symbol_type<0> = [Boolean,462,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [dithering,463,18,27]; @symbol_type<0> = [String,463,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [automaticPalette,464,18,34]; @symbol_type<0> = [Boolean,464,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 467; @symbol_moduledef = [system_icon_light__hint_button_right_middle,467,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [exclude,468,18,25]; @symbol_type<0> = [Boolean,468,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 471; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,471,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [exclude,472,18,25]; @symbol_type<0> = [Boolean,472,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 475; @symbol_moduledef = [confirmation_loc__hint_reject,475,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [x,476,18,19]; @symbol_type<0> = [Number,476,23,29]; ]
+            const x as Number = 0;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [y,477,18,19]; @symbol_type<0> = [Number,477,23,29]; ]
+            const y as Number = 138;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 480; @symbol_moduledef = [confirmation_icon_dark__hint_delete,480,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [filename,481,18,26]; @symbol_type<0> = [String,481,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [disableTransparency,482,18,37]; @symbol_type<0> = [Boolean,482,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [dithering,483,18,27]; @symbol_type<0> = [String,483,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [automaticPalette,484,18,34]; @symbol_type<0> = [Boolean,484,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 487; @symbol_moduledef = [activity_color_dark__background,487,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [color,488,18,23]; @symbol_type<0> = [Number,488,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [background,489,18,28]; @symbol_type<0> = [Number,489,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 492; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,492,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [exclude,493,18,25]; @symbol_type<0> = [Boolean,493,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 496; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,496,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 496; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [exclude,497,18,25]; @symbol_type<0> = [Boolean,497,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 500; @symbol_moduledef = [system_size__menu_icon,500,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [scaleX,501,18,24]; @symbol_type<0> = [Number,501,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [scaleY,502,18,24]; @symbol_type<0> = [Number,502,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [scaleRelativeTo,503,18,33]; @symbol_type<0> = [String,503,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 506; @symbol_moduledef = [system_icon_destructive__warning,506,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [filename,507,18,26]; @symbol_type<0> = [String,507,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [disableTransparency,508,18,37]; @symbol_type<0> = [Boolean,508,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [dithering,509,18,27]; @symbol_type<0> = [String,509,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [automaticPalette,510,18,34]; @symbol_type<0> = [Boolean,510,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 513; @symbol_moduledef = [system_loc__hint_button_right_middle,513,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [exclude,514,18,25]; @symbol_type<0> = [Boolean,514,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 517; @symbol_moduledef = [system_icon_dark__cancel,517,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 517; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [filename,518,18,26]; @symbol_type<0> = [String,518,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [disableTransparency,519,18,37]; @symbol_type<0> = [Boolean,519,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [dithering,520,18,27]; @symbol_type<0> = [String,520,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [automaticPalette,521,18,34]; @symbol_type<0> = [Boolean,521,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 524; @symbol_moduledef = [prompt_size__body_with_title,524,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 524; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [width,525,18,23]; @symbol_type<0> = [Number,525,27,33]; ]
+            const width as Number = 166;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [height,526,18,24]; @symbol_type<0> = [Number,526,28,34]; ]
+            const height as Number = 99;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 529; @symbol_moduledef = [system_loc__hint_button_right_top,529,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [x,530,18,19]; @symbol_type<0> = [Number,530,23,29]; ]
+            const x as Number = 166;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [y,531,18,19]; @symbol_type<0> = [Number,531,23,29]; ]
+            const y as Number = 31;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [horizontalJustification,532,18,41]; @symbol_type<0> = [String,532,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [verticalJustification,533,18,39]; @symbol_type<0> = [String,533,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 536; @symbol_moduledef = [system_color_light__text,536,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 538 18 ]
+                symbol [ Graphics %tmp.40 538 31 39 ];
+                %tmp.40 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.41 538 40 57 ];
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                putv self :background %tmp.41;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [color,537,18,23]; @symbol_type<0> = [Number,537,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [background,538,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 541; @symbol_moduledef = [system_icon_light__check,541,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [filename,542,18,26]; @symbol_type<0> = [String,542,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__check.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [disableTransparency,543,18,37]; @symbol_type<0> = [Boolean,543,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [dithering,544,18,27]; @symbol_type<0> = [String,544,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [automaticPalette,545,18,34]; @symbol_type<0> = [Boolean,545,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 548; @symbol_moduledef = [confirmation_input__reject,548,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 548; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 549 18 ]
+                symbol [ WatchUi %tmp.42 549 27 34 ];
+                %tmp.42 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.43 549 35 43 ];
+                %tmp.43 = getv %tmp.42 :KEY_DOWN;
+                putv self :button %tmp.43;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [button,549,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 552; @symbol_moduledef = [system_icon_light__revert,552,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [filename,553,18,26]; @symbol_type<0> = [String,553,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [disableTransparency,554,18,37]; @symbol_type<0> = [Boolean,554,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [dithering,555,18,27]; @symbol_type<0> = [String,555,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [automaticPalette,556,18,34]; @symbol_type<0> = [Boolean,556,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 559; @symbol_moduledef = [system_size__subwindow,559,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [width,560,18,23]; @symbol_type<0> = [Number,560,27,33]; ]
+            const width as Number = 62;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [height,561,18,24]; @symbol_type<0> = [Number,561,28,34]; ]
+            const height as Number = 62;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 564; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,564,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [exclude,565,18,25]; @symbol_type<0> = [Boolean,565,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 568; @symbol_moduledef = [system_icon_dark__check,568,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [filename,569,18,26]; @symbol_type<0> = [String,569,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [disableTransparency,570,18,37]; @symbol_type<0> = [Boolean,570,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [dithering,571,18,27]; @symbol_type<0> = [String,571,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [automaticPalette,572,18,34]; @symbol_type<0> = [Boolean,572,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 575; @symbol_moduledef = [confirmation_loc__hint_keep,575,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [x,576,18,19]; @symbol_type<0> = [Number,576,23,29]; ]
+            const x as Number = 0;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [y,577,18,19]; @symbol_type<0> = [Number,577,23,29]; ]
+            const y as Number = 138;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 580; @symbol_moduledef = [confirmation_loc__hint_delete,580,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 580; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [verticallJustification,581,18,40]; @symbol_type<0> = [String,581,44,50]; ]
+            const verticallJustification as String = "center";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [x,582,18,19]; @symbol_type<0> = [Number,582,23,29]; ]
+            const x as Number = 146;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [y,583,18,19]; @symbol_type<0> = [Number,583,23,29]; ]
+            const y as Number = 15;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [horizontalJustification,584,18,41]; @symbol_type<0> = [String,584,45,51]; ]
+            const horizontalJustification as String = "center";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 587; @symbol_moduledef = [system_icon_positive__hint_action_menu,587,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [filename,588,18,26]; @symbol_type<0> = [String,588,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [disableTransparency,589,18,37]; @symbol_type<0> = [Boolean,589,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [dithering,590,18,27]; @symbol_type<0> = [String,590,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [automaticPalette,591,18,34]; @symbol_type<0> = [Boolean,591,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 594; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,594,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 594; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 595; @position = 18; @symbol_constdef = [exclude,595,18,25]; @symbol_type<0> = [Boolean,595,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 598; @symbol_moduledef = [system_icon_light__hint_button_left_middle,598,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 598; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [exclude,599,18,25]; @symbol_type<0> = [Boolean,599,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 602; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,602,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 602; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [exclude,603,18,25]; @symbol_type<0> = [Boolean,603,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 606; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,606,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [exclude,607,18,25]; @symbol_type<0> = [Boolean,607,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 610; @symbol_moduledef = [system_icon_dark__revert,610,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [filename,611,18,26]; @symbol_type<0> = [String,611,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [disableTransparency,612,18,37]; @symbol_type<0> = [Boolean,612,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [dithering,613,18,27]; @symbol_type<0> = [String,613,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [automaticPalette,614,18,34]; @symbol_type<0> = [Boolean,614,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 617; @symbol_moduledef = [confirmation_icon_light__hint_delete,617,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 617; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [filename,618,18,26]; @symbol_type<0> = [String,618,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [disableTransparency,619,18,37]; @symbol_type<0> = [Boolean,619,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [dithering,620,18,27]; @symbol_type<0> = [String,620,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [automaticPalette,621,18,34]; @symbol_type<0> = [Boolean,621,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 624; @symbol_moduledef = [system_icon_dark__question,624,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 624; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [filename,625,18,26]; @symbol_type<0> = [String,625,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [disableTransparency,626,18,37]; @symbol_type<0> = [Boolean,626,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [dithering,627,18,27]; @symbol_type<0> = [String,627,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [automaticPalette,628,18,34]; @symbol_type<0> = [Boolean,628,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 631; @symbol_moduledef = [system_icon_light__discard,631,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [filename,632,18,26]; @symbol_type<0> = [String,632,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [disableTransparency,633,18,37]; @symbol_type<0> = [Boolean,633,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [dithering,634,18,27]; @symbol_type<0> = [String,634,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [automaticPalette,635,18,34]; @symbol_type<0> = [Boolean,635,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 638; @symbol_moduledef = [device_info,638,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 638; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 640 18 ]
+                symbol [ Toybox %tmp.45 640 32 38 ];
+                %tmp.45 = getv ? :Toybox;
+                symbol [ System %tmp.46 640 39 45 ];
+                %tmp.46 = getv %tmp.45 :System;
+                symbol [ SCREEN_SHAPE_SEMI_OCTAGON %tmp.47 640 46 71 ];
+                %tmp.47 = getv %tmp.46 :SCREEN_SHAPE_SEMI_OCTAGON;
+                putv self :screenShape %tmp.47;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [screenWidth,639,18,29]; @symbol_type<0> = [Number,639,33,39]; ]
+            const screenWidth as Number = 176;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [screenShape,640,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [hasNightMode,641,18,30]; @symbol_type<0> = [Boolean,641,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [hasGpu,642,18,24]; @symbol_type<0> = [Boolean,642,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [screenHeight,643,18,30]; @symbol_type<0> = [Number,643,34,40]; ]
+            const screenHeight as Number = 176;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [hasTouchScreen,644,18,32]; @symbol_type<0> = [Boolean,644,36,43]; ]
+            const hasTouchScreen as Boolean = false;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,645,18,44]; @symbol_type<0> = [Boolean,645,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 648; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,648,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 648; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [filename,649,18,26]; @symbol_type<0> = [String,649,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [disableTransparency,650,18,37]; @symbol_type<0> = [Boolean,650,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [dithering,651,18,27]; @symbol_type<0> = [String,651,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [automaticPalette,652,18,34]; @symbol_type<0> = [Boolean,652,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 655; @symbol_moduledef = [prompt_font__body_no_title,655,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 655; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 656 18 ]
+                symbol [ Graphics %tmp.48 656 34 42 ];
+                %tmp.48 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.49 656 43 62 ];
+                %tmp.49 = getv %tmp.48 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.49;
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 657 18 ]
+                symbol [ Graphics %tmp.50 657 25 33 ];
+                %tmp.50 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.51 657 34 43 ];
+                %tmp.51 = getv %tmp.50 :FONT_TINY;
+                putv self :font %tmp.51;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [justification,656,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [font,657,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 660; @symbol_moduledef = [prompt_size__title_icon,660,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 660; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [scaleX,661,18,24]; @symbol_type<0> = [Number,661,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [scaleY,662,18,24]; @symbol_type<0> = [Number,662,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [scaleRelativeTo,663,18,33]; @symbol_type<0> = [String,663,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 666; @symbol_moduledef = [system_icon_dark__warning,666,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 666; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [filename,667,18,26]; @symbol_type<0> = [String,667,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [disableTransparency,668,18,37]; @symbol_type<0> = [Boolean,668,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [dithering,669,18,27]; @symbol_type<0> = [String,669,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [automaticPalette,670,18,34]; @symbol_type<0> = [Boolean,670,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 673; @symbol_moduledef = [prompt_loc__title_icon,673,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [x,674,18,19]; @symbol_type<0> = [Number,674,23,29]; ]
+            const x as Number = 145;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [y,675,18,19]; @symbol_type<0> = [Number,675,23,29]; ]
+            const y as Number = 31;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 676; @position = 18; @symbol_constdef = [horizontalJustification,676,18,41]; @symbol_type<0> = [String,676,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 677; @position = 18; @symbol_constdef = [verticalJustification,677,18,39]; @symbol_type<0> = [String,677,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 680; @symbol_moduledef = [prompt_font_enhanced_readability__title,680,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 680; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [exclude,681,18,25]; @symbol_type<0> = [Boolean,681,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 684; @symbol_moduledef = [prompt_color_dark__body,684,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 684; ]
+            <init> {
+[ "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen" 686 18 ]
+                symbol [ Graphics %tmp.52 686 31 39 ];
+                %tmp.52 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.53 686 40 57 ];
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [color,685,18,23]; @symbol_type<0> = [Number,685,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [background,686,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 689; @symbol_moduledef = [confirmation_icon__hint_delete,689,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 689; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [filename,690,18,26]; @symbol_type<0> = [String,690,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 691; @position = 18; @symbol_constdef = [disableTransparency,691,18,37]; @symbol_type<0> = [Boolean,691,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 692; @position = 18; @symbol_constdef = [dithering,692,18,27]; @symbol_type<0> = [String,692,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [automaticPalette,693,18,34]; @symbol_type<0> = [Boolean,693,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 696; @symbol_moduledef = [system_icon_light__hint_button_right_top,696,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 696; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 697; @position = 18; @symbol_constdef = [filename,697,18,26]; @symbol_type<0> = [String,697,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [disableTransparency,698,18,37]; @symbol_type<0> = [Boolean,698,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [dithering,699,18,27]; @symbol_type<0> = [String,699,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 700; @position = 18; @symbol_constdef = [automaticPalette,700,18,34]; @symbol_type<0> = [Boolean,700,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 703; @symbol_moduledef = [confirmation_size__body,703,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 703; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [width,704,18,23]; @symbol_type<0> = [Number,704,27,33]; ]
+            const width as Number = 173;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 705; @position = 18; @symbol_constdef = [height,705,18,24]; @symbol_type<0> = [Number,705,28,34]; ]
+            const height as Number = 63;
+        }
+        [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 708; @symbol_moduledef = [system_icon_positive__check,708,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 708; ]
+            <init> {
+            }
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [filename,709,18,26]; @symbol_type<0> = [String,709,30,36]; ]
+            const filename as String = "C:\\Users\\ariza\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 710; @position = 18; @symbol_constdef = [disableTransparency,710,18,37]; @symbol_type<0> = [Boolean,710,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 711; @position = 18; @symbol_constdef = [dithering,711,18,27]; @symbol_type<0> = [String,711,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 712; @position = 18; @symbol_constdef = [automaticPalette,712,18,34]; @symbol_type<0> = [Boolean,712,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
+}
+[ @file = "c:\Users\ariza\Downloads\BarcodeWatch\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

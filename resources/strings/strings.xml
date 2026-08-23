@@ -1,0 +1,42 @@
+<strings>
+    <string id="AppName">BarcodeWatch</string>
+
+    <string id="SettingsGroupTitle">Codes</string>
+
+    <string id="Slot1NameTitle">1: Name</string>
+    <string id="Slot1TypeTitle">1: Type</string>
+    <string id="Slot1ValueTitle">1: Value</string>
+
+    <string id="Slot2NameTitle">2: Name</string>
+    <string id="Slot2TypeTitle">2: Type</string>
+    <string id="Slot2ValueTitle">2: Value</string>
+
+    <string id="Slot3NameTitle">3: Name</string>
+    <string id="Slot3TypeTitle">3: Type</string>
+    <string id="Slot3ValueTitle">3: Value</string>
+
+    <string id="Slot4NameTitle">4: Name</string>
+    <string id="Slot4TypeTitle">4: Type</string>
+    <string id="Slot4ValueTitle">4: Value</string>
+
+    <string id="Slot5NameTitle">5: Name</string>
+    <string id="Slot5TypeTitle">5: Type</string>
+    <string id="Slot5ValueTitle">5: Value</string>
+
+    <string id="Slot6NameTitle">6: Name</string>
+    <string id="Slot6TypeTitle">6: Type</string>
+    <string id="Slot6ValueTitle">6: Value</string>
+
+    <string id="Slot7NameTitle">7: Name</string>
+    <string id="Slot7TypeTitle">7: Type</string>
+    <string id="Slot7ValueTitle">7: Value</string>
+
+    <string id="Slot8NameTitle">8: Name</string>
+    <string id="Slot8TypeTitle">8: Type</string>
+    <string id="Slot8ValueTitle">8: Value</string>
+
+    <string id="TypeQR">QR code</string>
+    <string id="TypeCode128">Code 128 (text/number)</string>
+    <string id="TypeEAN13">EAN-13 (retail barcode)</string>
+    <string id="TypeEAN8">EAN-8 (retail barcode)</string>
+</strings>

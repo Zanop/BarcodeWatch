@@ -1,0 +1,44 @@
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 3; @symbol_classdef = [BarcodeDelegate,3,6,21]; @symbol_extends<0> = [Ui,3,30,32]; @symbol_extends<1> = [BehaviorDelegate,3,33,49]; ]
+class BarcodeDelegate extends Ui.BehaviorDelegate {
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+C__Users_ariza_Downloads_BarcodeWatch_backup_BarcodeDelegate_bak_mc_5_26_7_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc" 6 8 ]
+        symbol [ BehaviorDelegate %tmp.2 6 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 6 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_ariza_Downloads_BarcodeWatch_backup_BarcodeDelegate_bak_mc_5_26_7_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 9; @symbol_functiondef = [onBack,9,13,19]; ]
+    function onBack() {
+C__Users_ariza_Downloads_BarcodeWatch_backup_BarcodeDelegate_bak_mc_9_22_12_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc" 10 8 ]
+        symbol [ Ui %tmp.1 10 8 10 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 10 11 18 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ Ui %tmp.3 10 19 21 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.4 10 22 33 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc" 11 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+C__Users_ariza_Downloads_BarcodeWatch_backup_BarcodeDelegate_bak_mc_9_22_12_4_stop:
+    }
+}
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\backup\BarcodeDelegate_bak.mc"; @line = 1; ]
+<init> {
+}

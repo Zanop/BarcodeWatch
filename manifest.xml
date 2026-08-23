@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="2a71c014-07bd-4afb-8648-67f03bd2d540" type="widget" name="@Strings.AppName" entry="BarcodesApp" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="3.2.0">
+        <!--
+            Only the 45mm id is listed here for now - the SDK on this machine
+            rejected "instinct3solar50mm" as invalid (even though that's the
+            documented id; likely an SDK-version quirk). If your watch is the
+            50mm variant, open this file with the Monkey C VS Code extension's
+            manifest editor GUI and check the correct box there - it reads the
+            exact valid ids straight from your installed SDK rather than a
+            hardcoded string.
+        -->
+        <iq:products>
+            <iq:product id="instinct3solar45mm"/>
+        </iq:products>
+        <iq:permissions/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

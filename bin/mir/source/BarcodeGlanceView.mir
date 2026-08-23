@@ -1,0 +1,101 @@
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 5; glance = true; @symbol_classdef = [BarcodeGlanceView,5,6,23]; @symbol_extends<0> = [Ui,5,32,34]; @symbol_extends<1> = [GlanceView,5,35,45]; ]
+class BarcodeGlanceView extends Ui.GlanceView {
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceView_mc_7_26_9_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc" 8 8 ]
+        symbol [ GlanceView %tmp.2 8 8 18 ];
+        %tmp.2 = getv ? :GlanceView;
+        symbol [ initialize %tmp.3 8 19 29 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceView_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 11; @symbol_functiondef = [onUpdate,11,13,21]; @symbol_param<0> = [dc,11,22,24]; ]
+    function onUpdate(dc) {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceView_mc_11_26_17_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc" 12 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 12 8 10 ];
+        symbol [ setColor %tmp.2 12 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Gfx %tmp.3 12 20 23 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.4 12 24 35 ];
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        symbol [ Gfx %tmp.5 12 37 40 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.6 12 41 52 ];
+        %tmp.6 = getv %tmp.5 :COLOR_WHITE;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc" 13 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 13 8 10 ];
+        symbol [ clear %tmp.8 13 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc" 14 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 14 8 10 ];
+        symbol [ setColor %tmp.10 14 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Gfx %tmp.11 14 20 23 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.12 14 24 35 ];
+        %tmp.12 = getv %tmp.11 :COLOR_BLACK;
+        symbol [ Gfx %tmp.13 14 37 40 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 14 41 58 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc" 15 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 15 8 10 ];
+        symbol [ drawText %tmp.16 15 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 15 20 22 ];
+        symbol [ getWidth %tmp.18 15 23 31 ];
+        %tmp.18 = getv function %tmp.17 :getWidth;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = lgetv %dc;
+        symbol [ dc %tmp.22 15 39 41 ];
+        symbol [ getHeight %tmp.23 15 42 51 ];
+        %tmp.23 = getv function %tmp.22 :getHeight;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        symbol [ Gfx %tmp.27 15 59 62 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ FONT_GLANCE %tmp.28 15 63 74 ];
+        %tmp.28 = getv %tmp.27 :FONT_GLANCE;
+        %tmp.29 = "Barcodes";
+        symbol [ Gfx %tmp.30 16 24 27 ];
+        %tmp.30 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.31 16 28 47 ];
+        %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_CENTER;
+        symbol [ Gfx %tmp.32 16 50 53 ];
+        %tmp.32 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.33 16 54 74 ];
+        %tmp.33 = getv %tmp.32 :TEXT_JUSTIFY_VCENTER;
+        %tmp.34 = bitor %tmp.31 %tmp.33;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.26, %tmp.28, %tmp.29, %tmp.34);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeGlanceView_mc_11_26_17_4_stop:
+    }
+}
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeGlanceView.mc"; @line = 1; ]
+<init> {
+}

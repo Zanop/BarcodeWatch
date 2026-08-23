@@ -1,0 +1,114 @@
+<settings>
+    <setting propertyKey="@Properties.Slot1Name" title="@Strings.Slot1NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot1Type" title="@Strings.Slot1TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot1Value" title="@Strings.Slot1ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot2Name" title="@Strings.Slot2NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot2Type" title="@Strings.Slot2TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot2Value" title="@Strings.Slot2ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot3Name" title="@Strings.Slot3NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot3Type" title="@Strings.Slot3TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot3Value" title="@Strings.Slot3ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot4Name" title="@Strings.Slot4NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot4Type" title="@Strings.Slot4TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot4Value" title="@Strings.Slot4ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot5Name" title="@Strings.Slot5NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot5Type" title="@Strings.Slot5TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot5Value" title="@Strings.Slot5ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot6Name" title="@Strings.Slot6NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot6Type" title="@Strings.Slot6TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot6Value" title="@Strings.Slot6ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot7Name" title="@Strings.Slot7NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot7Type" title="@Strings.Slot7TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot7Value" title="@Strings.Slot7ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot8Name" title="@Strings.Slot8NameTitle">
+        <settingConfig type="alphaNumeric" maxLength="18"/>
+    </setting>
+    <setting propertyKey="@Properties.Slot8Type" title="@Strings.Slot8TypeTitle">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.TypeEAN13</listEntry>
+            <listEntry value="0">@Strings.TypeQR</listEntry>
+            <listEntry value="1">@Strings.TypeCode128</listEntry>
+            <listEntry value="3">@Strings.TypeEAN8</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Slot8Value" title="@Strings.Slot8ValueTitle">
+        <settingConfig type="alphaNumeric" maxLength="120"/>
+    </setting>
+</settings>

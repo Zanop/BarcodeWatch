@@ -1,0 +1,26 @@
+<properties>
+    <property id="Slot1Name" type="string"></property>
+    <property id="Slot1Type" type="number">2</property>
+    <property id="Slot1Value" type="string"></property>
+    <property id="Slot2Name" type="string"></property>
+    <property id="Slot2Type" type="number">2</property>
+    <property id="Slot2Value" type="string"></property>
+    <property id="Slot3Name" type="string"></property>
+    <property id="Slot3Type" type="number">2</property>
+    <property id="Slot3Value" type="string"></property>
+    <property id="Slot4Name" type="string"></property>
+    <property id="Slot4Type" type="number">2</property>
+    <property id="Slot4Value" type="string"></property>
+    <property id="Slot5Name" type="string"></property>
+    <property id="Slot5Type" type="number">2</property>
+    <property id="Slot5Value" type="string"></property>
+    <property id="Slot6Name" type="string"></property>
+    <property id="Slot6Type" type="number">2</property>
+    <property id="Slot6Value" type="string"></property>
+    <property id="Slot7Name" type="string"></property>
+    <property id="Slot7Type" type="number">2</property>
+    <property id="Slot7Value" type="string"></property>
+    <property id="Slot8Name" type="string"></property>
+    <property id="Slot8Type" type="number">2</property>
+    <property id="Slot8Value" type="string"></property>
+</properties>

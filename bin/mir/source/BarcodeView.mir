@@ -1,0 +1,990 @@
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 4; @symbol_classdef = [BarcodeView,4,6,17]; @symbol_extends<0> = [Ui,4,26,28]; @symbol_extends<1> = [View,4,29,33]; ]
+class BarcodeView extends Ui.View {
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 6; @position = 10; @symbol_constdef = [TYPE_QR,6,10,17]; ]
+    const TYPE_QR = 0;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 7; @position = 10; @symbol_constdef = [TYPE_CODE128,7,10,22]; ]
+    const TYPE_CODE128 = 1;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 8; @position = 10; @symbol_constdef = [TYPE_EAN13,8,10,20]; ]
+    const TYPE_EAN13 = 2;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 9; @position = 10; @symbol_constdef = [TYPE_EAN8,9,10,19]; ]
+    const TYPE_EAN8 = 3;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 11; @position = 8; @symbol_vardef = [mType,11,8,13]; ]
+    var mType;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 12; @position = 8; @symbol_vardef = [mValue,12,8,14]; ]
+    var mValue;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 13; @position = 8; @symbol_vardef = [mName,13,8,13]; ]
+    var mName;
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 15; @symbol_functiondef = [initialize,15,13,23]; @symbol_param<0> = [type,15,24,28]; @symbol_param<1> = [value,15,30,35]; @symbol_param<2> = [name,15,37,41]; ]
+    function initialize(type, value, name) as Void {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_15_43_20_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 16 8 ]
+        symbol [ View %tmp.2 16 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 16 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 17 8 ]
+        %tmp.4 = lgetv %type;
+        symbol [ type %tmp.4 17 16 20 ];
+        symbol [ mType ? 17 8 13 ];
+        putv self :mType %tmp.4;
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 18 8 ]
+        %tmp.5 = lgetv %value;
+        symbol [ value %tmp.5 18 17 22 ];
+        symbol [ mValue ? 18 8 14 ];
+        putv self :mValue %tmp.5;
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 19 8 ]
+        %tmp.6 = lgetv %name;
+        symbol [ name %tmp.6 19 16 20 ];
+        symbol [ mName ? 19 8 13 ];
+        putv self :mName %tmp.6;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_15_43_20_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 22; @symbol_functiondef = [onUpdate,22,13,21]; @symbol_param<0> = [dc,22,22,24]; ]
+    function onUpdate(dc) {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_22_26_66_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 23 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 23 8 10 ];
+        symbol [ setColor %tmp.2 23 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Gfx %tmp.3 23 20 23 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.4 23 24 35 ];
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        symbol [ Gfx %tmp.5 23 37 40 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.6 23 41 52 ];
+        %tmp.6 = getv %tmp.5 :COLOR_WHITE;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 24 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 24 8 10 ];
+        symbol [ clear %tmp.8 24 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 25 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 25 8 10 ];
+        symbol [ setColor %tmp.10 25 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Gfx %tmp.11 25 20 23 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.12 25 24 35 ];
+        %tmp.12 = getv %tmp.11 :COLOR_BLACK;
+        symbol [ Gfx %tmp.13 25 37 40 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 25 41 58 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 27 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_22_26_66_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_22_26_66_4_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 27 12 13 ];
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 27 16 18 ];
+        symbol [ getWidth %tmp.16 27 19 27 ];
+        %tmp.16 = getv function %tmp.15 :getWidth;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %w.1 %tmp.17;
+        symbol [ w %w.1 27 12 13 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 28 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_22_26_66_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_22_26_66_4_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 28 12 13 ];
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 28 16 18 ];
+        symbol [ getHeight %tmp.19 28 19 28 ];
+        %tmp.19 = getv function %tmp.18 :getHeight;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        lputv %h.2 %tmp.20;
+        symbol [ h %h.2 28 12 13 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 30 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_8_33_8_if_stmt:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_12_30_49_begin:
+        symbol [ mValue %tmp.22 30 12 18 ];
+        %tmp.22 = getv ? :mValue;
+        %tmp.23 = null;
+        %tmp.24 = eq %tmp.22 %tmp.23;
+        bt %tmp.24 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_8_33_8_if_true;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_30_30_49_false:
+        symbol [ mValue %tmp.26 30 30 36 ];
+        %tmp.26 = getv ? :mValue;
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ length %tmp.28 30 37 43 ];
+        %tmp.28 = getv function %tmp.27 :length;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        %tmp.30 = 0;
+        %tmp.31 = eq %tmp.29 %tmp.30;
+        push %tmp.31;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_30_30_49_end:
+        %tmp.32 = phi [%tmp.24 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_12_30_49_begin] [%tmp.31 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_30_30_49_false] [%tmp.32 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_30_30_49_end];
+        bf %tmp.32 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_8_33_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_8_33_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_52_33_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 31 12 ]
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 31 12 14 ];
+        symbol [ drawText %tmp.34 31 15 23 ];
+        %tmp.34 = getv function %tmp.33 :drawText;
+        %tmp.35 = lgetv %w.1;
+        symbol [ w %tmp.35 31 24 25 ];
+        %tmp.36 = 2;
+        %tmp.37 = div %tmp.35 %tmp.36;
+        %tmp.38 = lgetv %h.2;
+        symbol [ h %tmp.38 31 31 32 ];
+        %tmp.39 = 2;
+        %tmp.40 = div %tmp.38 %tmp.39;
+        symbol [ Gfx %tmp.41 31 38 41 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.42 31 42 52 ];
+        %tmp.42 = getv %tmp.41 :FONT_SMALL;
+        %tmp.43 = "No value set";
+        symbol [ Gfx %tmp.44 31 70 73 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.45 31 74 93 ];
+        %tmp.45 = getv %tmp.44 :TEXT_JUSTIFY_CENTER;
+        symbol [ Gfx %tmp.46 31 96 99 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.47 31 100 120 ];
+        %tmp.47 = getv %tmp.46 :TEXT_JUSTIFY_VCENTER;
+        %tmp.48 = bitor %tmp.45 %tmp.47;
+        invoke %tmp.33 %tmp.34(%tmp.37, %tmp.40, %tmp.42, %tmp.43, %tmp.48);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 32 12 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_52_33_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_8_33_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_30_8_33_8_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 35 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_8_65_8_if_stmt:
+        symbol [ mType %tmp.50 35 12 17 ];
+        %tmp.50 = getv ? :mType;
+        symbol [ TYPE_QR %tmp.52 35 21 28 ];
+        %tmp.52 = getv ? :TYPE_QR;
+        %tmp.53 = eq %tmp.50 %tmp.52;
+        bf %tmp.53 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_8_65_8_if_false;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_8_65_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_30_42_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 36 12 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_30_42_8_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_30_42_8_stop" ]
+        %matrix.3 = local;
+        symbol [ matrix %matrix.3 36 16 22 ];
+        symbol [ QrEncoder %tmp.55 36 25 34 ];
+        %tmp.55 = getv ? :QrEncoder;
+        symbol [ encode %tmp.56 36 35 41 ];
+        %tmp.56 = getv function %tmp.55 :encode;
+        symbol [ mValue %tmp.58 36 42 48 ];
+        %tmp.58 = getv ? :mValue;
+        %tmp.59 = invoke %tmp.55 %tmp.56(%tmp.58);
+        lputv %matrix.3 %tmp.59;
+        symbol [ matrix %matrix.3 36 16 22 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 37 12 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_12_40_12_if_stmt:
+        %tmp.60 = lgetv %matrix.3;
+        symbol [ matrix %tmp.60 37 16 22 ];
+        %tmp.61 = null;
+        %tmp.62 = eq %tmp.60 %tmp.61;
+        bf %tmp.62 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_12_40_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_12_40_12_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_32_40_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 38 16 ]
+        %tmp.63 = self;
+        symbol [ drawError %tmp.64 38 16 25 ];
+        %tmp.64 = getv function %tmp.63 :drawError;
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 38 26 28 ];
+        %tmp.66 = lgetv %w.1;
+        symbol [ w %tmp.66 38 30 31 ];
+        %tmp.67 = lgetv %h.2;
+        symbol [ h %tmp.67 38 33 34 ];
+        symbol [ QrEncoder %tmp.69 38 36 45 ];
+        %tmp.69 = getv ? :QrEncoder;
+        symbol [ lastError %tmp.70 38 46 55 ];
+        %tmp.70 = getv %tmp.69 :lastError;
+        invoke %tmp.63 %tmp.64(%tmp.65, %tmp.66, %tmp.67, %tmp.70);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 39 16 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_32_40_12_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_12_40_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_37_12_40_12_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 41 12 ]
+        %tmp.71 = self;
+        symbol [ drawMatrix %tmp.72 41 12 22 ];
+        %tmp.72 = getv function %tmp.71 :drawMatrix;
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 41 23 25 ];
+        %tmp.74 = lgetv %matrix.3;
+        symbol [ matrix %tmp.74 41 27 33 ];
+        %tmp.75 = lgetv %w.1;
+        symbol [ w %tmp.75 41 35 36 ];
+        %tmp.76 = lgetv %h.2;
+        symbol [ h %tmp.76 41 38 39 ];
+        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.74, %tmp.75, %tmp.76);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_30_42_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_8_65_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_8_65_8_if_false:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 42 15 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_15_65_8_if_stmt:
+        symbol [ mType %tmp.78 42 19 24 ];
+        %tmp.78 = getv ? :mType;
+        symbol [ TYPE_CODE128 %tmp.80 42 28 40 ];
+        %tmp.80 = getv ? :TYPE_CODE128;
+        %tmp.81 = eq %tmp.78 %tmp.80;
+        bf %tmp.81 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_15_65_8_if_false;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_15_65_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_42_49_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 43 12 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_42_49_8_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_42_49_8_stop" ]
+        %bits.4 = local;
+        symbol [ bits %bits.4 43 16 20 ];
+        symbol [ Code128Encoder %tmp.83 43 23 37 ];
+        %tmp.83 = getv ? :Code128Encoder;
+        symbol [ encode %tmp.84 43 38 44 ];
+        %tmp.84 = getv function %tmp.83 :encode;
+        symbol [ mValue %tmp.86 43 45 51 ];
+        %tmp.86 = getv ? :mValue;
+        %tmp.87 = invoke %tmp.83 %tmp.84(%tmp.86);
+        lputv %bits.4 %tmp.87;
+        symbol [ bits %bits.4 43 16 20 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 44 12 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_12_47_12_if_stmt:
+        %tmp.88 = lgetv %bits.4;
+        symbol [ bits %tmp.88 44 16 20 ];
+        %tmp.89 = null;
+        %tmp.90 = eq %tmp.88 %tmp.89;
+        bf %tmp.90 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_12_47_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_12_47_12_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_30_47_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 45 16 ]
+        %tmp.91 = self;
+        symbol [ drawError %tmp.92 45 16 25 ];
+        %tmp.92 = getv function %tmp.91 :drawError;
+        %tmp.93 = lgetv %dc;
+        symbol [ dc %tmp.93 45 26 28 ];
+        %tmp.94 = lgetv %w.1;
+        symbol [ w %tmp.94 45 30 31 ];
+        %tmp.95 = lgetv %h.2;
+        symbol [ h %tmp.95 45 33 34 ];
+        symbol [ Code128Encoder %tmp.97 45 36 50 ];
+        %tmp.97 = getv ? :Code128Encoder;
+        symbol [ lastError %tmp.98 45 51 60 ];
+        %tmp.98 = getv %tmp.97 :lastError;
+        invoke %tmp.91 %tmp.92(%tmp.93, %tmp.94, %tmp.95, %tmp.98);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 46 16 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_30_47_12_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_12_47_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_44_12_47_12_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 48 12 ]
+        %tmp.99 = self;
+        symbol [ drawBars %tmp.100 48 12 20 ];
+        %tmp.100 = getv function %tmp.99 :drawBars;
+        %tmp.101 = lgetv %dc;
+        symbol [ dc %tmp.101 48 21 23 ];
+        %tmp.102 = lgetv %bits.4;
+        symbol [ bits %tmp.102 48 25 29 ];
+        %tmp.103 = lgetv %w.1;
+        symbol [ w %tmp.103 48 31 32 ];
+        %tmp.104 = lgetv %h.2;
+        symbol [ h %tmp.104 48 34 35 ];
+        invoke %tmp.99 %tmp.100(%tmp.101, %tmp.102, %tmp.103, %tmp.104);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_42_49_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_15_65_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_15_65_8_if_false:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 49 15 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_15_65_8_if_stmt:
+        symbol [ mType %tmp.106 49 19 24 ];
+        %tmp.106 = getv ? :mType;
+        symbol [ TYPE_EAN13 %tmp.108 49 28 38 ];
+        %tmp.108 = getv ? :TYPE_EAN13;
+        %tmp.109 = eq %tmp.106 %tmp.108;
+        bf %tmp.109 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_15_65_8_if_false;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_15_65_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_40_56_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 50 12 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_40_56_8_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_40_56_8_stop" ]
+        %bits.5 = local;
+        symbol [ bits %bits.5 50 16 20 ];
+        symbol [ EanEncoder %tmp.111 50 23 33 ];
+        %tmp.111 = getv ? :EanEncoder;
+        symbol [ encode13 %tmp.112 50 34 42 ];
+        %tmp.112 = getv function %tmp.111 :encode13;
+        symbol [ mValue %tmp.114 50 43 49 ];
+        %tmp.114 = getv ? :mValue;
+        %tmp.115 = invoke %tmp.111 %tmp.112(%tmp.114);
+        lputv %bits.5 %tmp.115;
+        symbol [ bits %bits.5 50 16 20 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 51 12 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_12_54_12_if_stmt:
+        %tmp.116 = lgetv %bits.5;
+        symbol [ bits %tmp.116 51 16 20 ];
+        %tmp.117 = null;
+        %tmp.118 = eq %tmp.116 %tmp.117;
+        bf %tmp.118 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_12_54_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_12_54_12_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_30_54_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 52 16 ]
+        %tmp.119 = self;
+        symbol [ drawError %tmp.120 52 16 25 ];
+        %tmp.120 = getv function %tmp.119 :drawError;
+        %tmp.121 = lgetv %dc;
+        symbol [ dc %tmp.121 52 26 28 ];
+        %tmp.122 = lgetv %w.1;
+        symbol [ w %tmp.122 52 30 31 ];
+        %tmp.123 = lgetv %h.2;
+        symbol [ h %tmp.123 52 33 34 ];
+        symbol [ EanEncoder %tmp.125 52 36 46 ];
+        %tmp.125 = getv ? :EanEncoder;
+        symbol [ lastError %tmp.126 52 47 56 ];
+        %tmp.126 = getv %tmp.125 :lastError;
+        invoke %tmp.119 %tmp.120(%tmp.121, %tmp.122, %tmp.123, %tmp.126);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 53 16 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_30_54_12_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_12_54_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_51_12_54_12_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 55 12 ]
+        %tmp.127 = self;
+        symbol [ drawBars %tmp.128 55 12 20 ];
+        %tmp.128 = getv function %tmp.127 :drawBars;
+        %tmp.129 = lgetv %dc;
+        symbol [ dc %tmp.129 55 21 23 ];
+        %tmp.130 = lgetv %bits.5;
+        symbol [ bits %tmp.130 55 25 29 ];
+        %tmp.131 = lgetv %w.1;
+        symbol [ w %tmp.131 55 31 32 ];
+        %tmp.132 = lgetv %h.2;
+        symbol [ h %tmp.132 55 34 35 ];
+        invoke %tmp.127 %tmp.128(%tmp.129, %tmp.130, %tmp.131, %tmp.132);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_40_56_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_15_65_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_15_65_8_if_false:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 56 15 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_15_65_8_if_stmt:
+        symbol [ mType %tmp.134 56 19 24 ];
+        %tmp.134 = getv ? :mType;
+        symbol [ TYPE_EAN8 %tmp.136 56 28 37 ];
+        %tmp.136 = getv ? :TYPE_EAN8;
+        %tmp.137 = eq %tmp.134 %tmp.136;
+        bf %tmp.137 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_15_65_8_if_else_false;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_15_65_8_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_39_63_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 57 12 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_39_63_8_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_39_63_8_stop" ]
+        %bits.6 = local;
+        symbol [ bits %bits.6 57 16 20 ];
+        symbol [ EanEncoder %tmp.139 57 23 33 ];
+        %tmp.139 = getv ? :EanEncoder;
+        symbol [ encode8 %tmp.140 57 34 41 ];
+        %tmp.140 = getv function %tmp.139 :encode8;
+        symbol [ mValue %tmp.142 57 42 48 ];
+        %tmp.142 = getv ? :mValue;
+        %tmp.143 = invoke %tmp.139 %tmp.140(%tmp.142);
+        lputv %bits.6 %tmp.143;
+        symbol [ bits %bits.6 57 16 20 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 58 12 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_12_61_12_if_stmt:
+        %tmp.144 = lgetv %bits.6;
+        symbol [ bits %tmp.144 58 16 20 ];
+        %tmp.145 = null;
+        %tmp.146 = eq %tmp.144 %tmp.145;
+        bf %tmp.146 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_12_61_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_12_61_12_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_30_61_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 59 16 ]
+        %tmp.147 = self;
+        symbol [ drawError %tmp.148 59 16 25 ];
+        %tmp.148 = getv function %tmp.147 :drawError;
+        %tmp.149 = lgetv %dc;
+        symbol [ dc %tmp.149 59 26 28 ];
+        %tmp.150 = lgetv %w.1;
+        symbol [ w %tmp.150 59 30 31 ];
+        %tmp.151 = lgetv %h.2;
+        symbol [ h %tmp.151 59 33 34 ];
+        symbol [ EanEncoder %tmp.153 59 36 46 ];
+        %tmp.153 = getv ? :EanEncoder;
+        symbol [ lastError %tmp.154 59 47 56 ];
+        %tmp.154 = getv %tmp.153 :lastError;
+        invoke %tmp.147 %tmp.148(%tmp.149, %tmp.150, %tmp.151, %tmp.154);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 60 16 ]
+        ret ?;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_30_61_12_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_12_61_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_58_12_61_12_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 62 12 ]
+        %tmp.155 = self;
+        symbol [ drawBars %tmp.156 62 12 20 ];
+        %tmp.156 = getv function %tmp.155 :drawBars;
+        %tmp.157 = lgetv %dc;
+        symbol [ dc %tmp.157 62 21 23 ];
+        %tmp.158 = lgetv %bits.6;
+        symbol [ bits %tmp.158 62 25 29 ];
+        %tmp.159 = lgetv %w.1;
+        symbol [ w %tmp.159 62 31 32 ];
+        %tmp.160 = lgetv %h.2;
+        symbol [ h %tmp.160 62 34 35 ];
+        invoke %tmp.155 %tmp.156(%tmp.157, %tmp.158, %tmp.159, %tmp.160);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_39_63_8_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_15_65_8_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_15_65_8_if_else_false:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_63_15_65_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 64 12 ]
+        %tmp.161 = self;
+        symbol [ drawError %tmp.162 64 12 21 ];
+        %tmp.162 = getv function %tmp.161 :drawError;
+        %tmp.163 = lgetv %dc;
+        symbol [ dc %tmp.163 64 22 24 ];
+        %tmp.164 = lgetv %w.1;
+        symbol [ w %tmp.164 64 26 27 ];
+        %tmp.165 = lgetv %h.2;
+        symbol [ h %tmp.165 64 29 30 ];
+        %tmp.166 = "Unknown code type";
+        invoke %tmp.161 %tmp.162(%tmp.163, %tmp.164, %tmp.165, %tmp.166);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_63_15_65_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_56_15_65_8_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_49_15_65_8_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_42_15_65_8_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_35_8_65_8_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_22_26_66_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 68; @symbol_functiondef = [drawError,68,13,22]; @symbol_param<0> = [dc,68,23,25]; @symbol_param<1> = [w,68,27,28]; @symbol_param<2> = [h,68,30,31]; @symbol_param<3> = [msg,68,33,36]; ]
+    function drawError(dc, w, h, msg) {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_68_38_71_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 69 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 69 8 10 ];
+        symbol [ drawText %tmp.2 69 11 19 ];
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = lgetv %w;
+        symbol [ w %tmp.3 69 20 21 ];
+        %tmp.4 = 2;
+        %tmp.5 = div %tmp.3 %tmp.4;
+        %tmp.6 = lgetv %h;
+        symbol [ h %tmp.6 69 27 28 ];
+        %tmp.7 = 2;
+        %tmp.8 = div %tmp.6 %tmp.7;
+        %tmp.9 = 20;
+        %tmp.10 = sub %tmp.8 %tmp.9;
+        symbol [ Gfx %tmp.11 69 39 42 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.12 69 43 53 ];
+        %tmp.12 = getv %tmp.11 :FONT_XTINY;
+        %tmp.13 = "Couldn't render code:";
+        symbol [ Gfx %tmp.14 69 80 83 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.15 69 84 103 ];
+        %tmp.15 = getv %tmp.14 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.5, %tmp.10, %tmp.12, %tmp.13, %tmp.15);
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 70 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 70 8 10 ];
+        symbol [ drawText %tmp.17 70 11 19 ];
+        %tmp.17 = getv function %tmp.16 :drawText;
+        %tmp.18 = lgetv %w;
+        symbol [ w %tmp.18 70 20 21 ];
+        %tmp.19 = 2;
+        %tmp.20 = div %tmp.18 %tmp.19;
+        %tmp.21 = lgetv %h;
+        symbol [ h %tmp.21 70 27 28 ];
+        %tmp.22 = 2;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        symbol [ Gfx %tmp.24 70 34 37 ];
+        %tmp.24 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.25 70 38 48 ];
+        %tmp.25 = getv %tmp.24 :FONT_XTINY;
+        %tmp.26 = lgetv %msg;
+        symbol [ msg %tmp.26 70 50 53 ];
+        symbol [ Gfx %tmp.27 70 55 58 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.28 70 59 78 ];
+        %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.16 %tmp.17(%tmp.20, %tmp.23, %tmp.25, %tmp.26, %tmp.28);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_68_38_71_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 77; @symbol_functiondef = [drawMatrix,77,13,23]; @symbol_param<0> = [dc,77,24,26]; @symbol_param<1> = [matrix,77,28,34]; @symbol_param<2> = [w,77,36,37]; @symbol_param<3> = [h,77,39,40]; ]
+    function drawMatrix(dc, matrix, w, h) {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 78 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %n.1 = local;
+        symbol [ n %n.1 78 12 13 ];
+        %tmp.1 = lgetv %matrix;
+        symbol [ matrix %tmp.1 78 16 22 ];
+        symbol [ size %tmp.2 78 23 27 ];
+        %tmp.2 = getv function %tmp.1 :size;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %n.1 %tmp.3;
+        symbol [ n %n.1 78 12 13 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 79 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %quiet.2 = local;
+        symbol [ quiet %quiet.2 79 12 17 ];
+        %tmp.4 = 2;
+        lputv %quiet.2 %tmp.4;
+        symbol [ quiet %quiet.2 79 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 80 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %avail.3 = local;
+        symbol [ avail %avail.3 80 12 17 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_begin:
+        %tmp.5 = lgetv %w;
+        symbol [ w %tmp.5 80 21 22 ];
+        %tmp.6 = lgetv %h;
+        symbol [ h %tmp.6 80 25 26 ];
+        %tmp.7 = lt %tmp.5 %tmp.6;
+        bf %tmp.7 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_else_false;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_true:
+        %tmp.8 = lgetv %w;
+        symbol [ w %tmp.8 80 30 31 ];
+        push %tmp.8;
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_else_false:
+        %tmp.9 = lgetv %h;
+        symbol [ h %tmp.9 80 34 35 ];
+        push %tmp.9;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_end:
+        %tmp.10 = phi [%tmp.7 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_begin] [%tmp.8 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_true] [%tmp.9 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_else_false] [%tmp.10 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_80_20_80_34_end];
+        lputv %avail.3 %tmp.10;
+        symbol [ avail %avail.3 80 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 81 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %scale.4 = local;
+        symbol [ scale %scale.4 81 12 17 ];
+        %tmp.11 = lgetv %avail.3;
+        symbol [ avail %tmp.11 81 20 25 ];
+        %tmp.12 = lgetv %n.1;
+        symbol [ n %tmp.12 81 29 30 ];
+        %tmp.13 = lgetv %quiet.2;
+        symbol [ quiet %tmp.13 81 33 38 ];
+        %tmp.14 = 2;
+        %tmp.15 = mul %tmp.13 %tmp.14;
+        %tmp.16 = add %tmp.12 %tmp.15;
+        %tmp.17 = div %tmp.11 %tmp.16;
+        lputv %scale.4 %tmp.17;
+        symbol [ scale %scale.4 81 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 82 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_8_82_36_if_stmt:
+        %tmp.18 = lgetv %scale.4;
+        symbol [ scale %tmp.18 82 12 17 ];
+        %tmp.19 = 1;
+        %tmp.20 = lt %tmp.18 %tmp.19;
+        bf %tmp.20 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_8_82_36_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_8_82_36_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_23_82_36_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 82 25 ]
+        %tmp.21 = 1;
+        lputv %scale.4 %tmp.21;
+        symbol [ scale %scale.4 82 25 30 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_23_82_36_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_8_82_36_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_82_8_82_36_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 83 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %total.5 = local;
+        symbol [ total %total.5 83 12 17 ];
+        %tmp.22 = lgetv %n.1;
+        symbol [ n %tmp.22 83 21 22 ];
+        %tmp.23 = lgetv %quiet.2;
+        symbol [ quiet %tmp.23 83 25 30 ];
+        %tmp.24 = 2;
+        %tmp.25 = mul %tmp.23 %tmp.24;
+        %tmp.26 = add %tmp.22 %tmp.25;
+        %tmp.27 = lgetv %scale.4;
+        symbol [ scale %tmp.27 83 38 43 ];
+        %tmp.28 = mul %tmp.26 %tmp.27;
+        lputv %total.5 %tmp.28;
+        symbol [ total %total.5 83 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 84 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %ox.6 = local;
+        symbol [ ox %ox.6 84 12 14 ];
+        %tmp.29 = lgetv %w;
+        symbol [ w %tmp.29 84 18 19 ];
+        %tmp.30 = lgetv %total.5;
+        symbol [ total %tmp.30 84 22 27 ];
+        %tmp.31 = sub %tmp.29 %tmp.30;
+        %tmp.32 = 2;
+        %tmp.33 = div %tmp.31 %tmp.32;
+        lputv %ox.6 %tmp.33;
+        symbol [ ox %ox.6 84 12 14 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 85 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop" ]
+        %oy.7 = local;
+        symbol [ oy %oy.7 85 12 14 ];
+        %tmp.34 = lgetv %h;
+        symbol [ h %tmp.34 85 18 19 ];
+        %tmp.35 = lgetv %total.5;
+        symbol [ total %tmp.35 85 22 27 ];
+        %tmp.36 = sub %tmp.34 %tmp.35;
+        %tmp.37 = 2;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        lputv %oy.7 %tmp.38;
+        symbol [ oy %oy.7 85 12 14 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 87 8 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_end" ]
+        %r.8 = local;
+        symbol [ r %r.8 87 17 18 ];
+        %tmp.39 = 0;
+        lputv %r.8 %tmp.39;
+        symbol [ r %r.8 87 17 18 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_test:
+        %tmp.40 = lgetv %r.8;
+        symbol [ r %tmp.40 87 24 25 ];
+        %tmp.41 = lgetv %n.1;
+        symbol [ n %tmp.41 87 28 29 ];
+        %tmp.42 = lt %tmp.40 %tmp.41;
+        bf %tmp.42 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_39_94_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 88 12 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_39_94_8_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_39_94_8_stop" ]
+        %row.9 = local;
+        symbol [ row %row.9 88 16 19 ];
+        %tmp.43 = lgetv %matrix;
+        symbol [ matrix %tmp.43 88 22 28 ];
+        %tmp.44 = lgetv %r.8;
+        symbol [ r %tmp.44 88 29 30 ];
+        %tmp.45 = agetv %tmp.43 %tmp.44;
+        lputv %row.9 %tmp.45;
+        symbol [ row %row.9 88 16 19 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 89 12 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_end" ]
+        %c.10 = local;
+        symbol [ c %c.10 89 21 22 ];
+        %tmp.46 = 0;
+        lputv %c.10 %tmp.46;
+        symbol [ c %c.10 89 21 22 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_test:
+        %tmp.47 = lgetv %c.10;
+        symbol [ c %tmp.47 89 28 29 ];
+        %tmp.48 = lgetv %n.1;
+        symbol [ n %tmp.48 89 32 33 ];
+        %tmp.49 = lt %tmp.47 %tmp.48;
+        bf %tmp.49 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_43_93_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 90 16 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_16_92_16_if_stmt:
+        %tmp.50 = lgetv %row.9;
+        symbol [ row %tmp.50 90 20 23 ];
+        %tmp.51 = lgetv %c.10;
+        symbol [ c %tmp.51 90 24 25 ];
+        %tmp.52 = agetv %tmp.50 %tmp.51;
+        %tmp.53 = 1;
+        %tmp.54 = eq %tmp.52 %tmp.53;
+        bf %tmp.54 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_16_92_16_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_16_92_16_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_33_92_16_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 91 20 ]
+        %tmp.55 = lgetv %dc;
+        symbol [ dc %tmp.55 91 20 22 ];
+        symbol [ fillRectangle %tmp.56 91 23 36 ];
+        %tmp.56 = getv function %tmp.55 :fillRectangle;
+        %tmp.57 = lgetv %ox.6;
+        symbol [ ox %tmp.57 91 37 39 ];
+        %tmp.58 = lgetv %quiet.2;
+        symbol [ quiet %tmp.58 91 43 48 ];
+        %tmp.59 = lgetv %c.10;
+        symbol [ c %tmp.59 91 51 52 ];
+        %tmp.60 = add %tmp.58 %tmp.59;
+        %tmp.61 = lgetv %scale.4;
+        symbol [ scale %tmp.61 91 56 61 ];
+        %tmp.62 = mul %tmp.60 %tmp.61;
+        %tmp.63 = add %tmp.57 %tmp.62;
+        %tmp.64 = lgetv %oy.7;
+        symbol [ oy %tmp.64 91 63 65 ];
+        %tmp.65 = lgetv %quiet.2;
+        symbol [ quiet %tmp.65 91 69 74 ];
+        %tmp.66 = lgetv %r.8;
+        symbol [ r %tmp.66 91 77 78 ];
+        %tmp.67 = add %tmp.65 %tmp.66;
+        %tmp.68 = lgetv %scale.4;
+        symbol [ scale %tmp.68 91 82 87 ];
+        %tmp.69 = mul %tmp.67 %tmp.68;
+        %tmp.70 = add %tmp.64 %tmp.69;
+        %tmp.71 = lgetv %scale.4;
+        symbol [ scale %tmp.71 91 89 94 ];
+        %tmp.72 = lgetv %scale.4;
+        symbol [ scale %tmp.72 91 96 101 ];
+        invoke %tmp.55 %tmp.56(%tmp.63, %tmp.70, %tmp.71, %tmp.72);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_33_92_16_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_16_92_16_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_90_16_92_16_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_43_93_12_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 89 ]
+        %tmp.73 = lgetv %c.10;
+        symbol [ c %tmp.73 89 35 36 ];
+        %tmp.74 = 1;
+        %tmp.75 = add %tmp.73 %tmp.74;
+        lputv %c.10 %tmp.75;
+        symbol [ c %c.10 89 35 36 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_89_12_93_12_for_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_39_94_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 87 ]
+        %tmp.76 = lgetv %r.8;
+        symbol [ r %tmp.76 87 31 32 ];
+        %tmp.77 = 1;
+        %tmp.78 = add %tmp.76 %tmp.77;
+        lputv %r.8 %tmp.78;
+        symbol [ r %r.8 87 31 32 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_87_8_94_8_for_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_77_42_95_4_stop:
+    }
+    [ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 102; @symbol_functiondef = [drawBars,102,13,21]; @symbol_param<0> = [dc,102,22,24]; @symbol_param<1> = [bits,102,26,30]; @symbol_param<2> = [w,102,32,33]; @symbol_param<3> = [h,102,35,36]; ]
+    function drawBars(dc, bits, w, h) {
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 103 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %n.1 = local;
+        symbol [ n %n.1 103 12 13 ];
+        %tmp.1 = lgetv %bits;
+        symbol [ bits %tmp.1 103 16 20 ];
+        symbol [ length %tmp.2 103 21 27 ];
+        %tmp.2 = getv function %tmp.1 :length;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %n.1 %tmp.3;
+        symbol [ n %n.1 103 12 13 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 104 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %quiet.2 = local;
+        symbol [ quiet %quiet.2 104 12 17 ];
+        %tmp.4 = 6;
+        lputv %quiet.2 %tmp.4;
+        symbol [ quiet %quiet.2 104 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 105 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %scale.3 = local;
+        symbol [ scale %scale.3 105 12 17 ];
+        %tmp.5 = lgetv %w;
+        symbol [ w %tmp.5 105 20 21 ];
+        %tmp.6 = lgetv %n.1;
+        symbol [ n %tmp.6 105 25 26 ];
+        %tmp.7 = lgetv %quiet.2;
+        symbol [ quiet %tmp.7 105 29 34 ];
+        %tmp.8 = 2;
+        %tmp.9 = mul %tmp.7 %tmp.8;
+        %tmp.10 = add %tmp.6 %tmp.9;
+        %tmp.11 = div %tmp.5 %tmp.10;
+        lputv %scale.3 %tmp.11;
+        symbol [ scale %scale.3 105 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 106 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_8_106_36_if_stmt:
+        %tmp.12 = lgetv %scale.3;
+        symbol [ scale %tmp.12 106 12 17 ];
+        %tmp.13 = 1;
+        %tmp.14 = lt %tmp.12 %tmp.13;
+        bf %tmp.14 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_8_106_36_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_8_106_36_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_23_106_36_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 106 25 ]
+        %tmp.15 = 1;
+        lputv %scale.3 %tmp.15;
+        symbol [ scale %scale.3 106 25 30 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_23_106_36_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_8_106_36_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_106_8_106_36_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 107 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %total.4 = local;
+        symbol [ total %total.4 107 12 17 ];
+        %tmp.16 = lgetv %n.1;
+        symbol [ n %tmp.16 107 21 22 ];
+        %tmp.17 = lgetv %quiet.2;
+        symbol [ quiet %tmp.17 107 25 30 ];
+        %tmp.18 = 2;
+        %tmp.19 = mul %tmp.17 %tmp.18;
+        %tmp.20 = add %tmp.16 %tmp.19;
+        %tmp.21 = lgetv %scale.3;
+        symbol [ scale %tmp.21 107 38 43 ];
+        %tmp.22 = mul %tmp.20 %tmp.21;
+        lputv %total.4 %tmp.22;
+        symbol [ total %total.4 107 12 17 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 108 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %ox.5 = local;
+        symbol [ ox %ox.5 108 12 14 ];
+        %tmp.23 = lgetv %w;
+        symbol [ w %tmp.23 108 18 19 ];
+        %tmp.24 = lgetv %total.4;
+        symbol [ total %tmp.24 108 22 27 ];
+        %tmp.25 = sub %tmp.23 %tmp.24;
+        %tmp.26 = 2;
+        %tmp.27 = div %tmp.25 %tmp.26;
+        lputv %ox.5 %tmp.27;
+        symbol [ ox %ox.5 108 12 14 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 109 8 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_8_109_30_if_stmt:
+        %tmp.28 = lgetv %ox.5;
+        symbol [ ox %tmp.28 109 12 14 ];
+        %tmp.29 = 0;
+        %tmp.30 = lt %tmp.28 %tmp.29;
+        bf %tmp.30 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_8_109_30_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_8_109_30_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_20_109_30_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 109 22 ]
+        %tmp.31 = 0;
+        lputv %ox.5 %tmp.31;
+        symbol [ ox %ox.5 109 22 24 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_20_109_30_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_8_109_30_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_109_8_109_30_if_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 110 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %barH.6 = local;
+        symbol [ barH %barH.6 110 12 16 ];
+        %tmp.32 = lgetv %h;
+        symbol [ h %tmp.32 110 20 21 ];
+        %tmp.33 = 60;
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        %tmp.35 = 100;
+        %tmp.36 = div %tmp.34 %tmp.35;
+        lputv %barH.6 %tmp.36;
+        symbol [ barH %barH.6 110 12 16 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 111 8 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop" ]
+        %oy.7 = local;
+        symbol [ oy %oy.7 111 12 14 ];
+        %tmp.37 = lgetv %h;
+        symbol [ h %tmp.37 111 18 19 ];
+        %tmp.38 = lgetv %barH.6;
+        symbol [ barH %tmp.38 111 22 26 ];
+        %tmp.39 = sub %tmp.37 %tmp.38;
+        %tmp.40 = 2;
+        %tmp.41 = div %tmp.39 %tmp.40;
+        lputv %oy.7 %tmp.41;
+        symbol [ oy %oy.7 111 12 14 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 113 8 ]
+        for @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_test @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_incr @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_init:
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_begin" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_end" ]
+        %i.8 = local;
+        symbol [ i %i.8 113 17 18 ];
+        %tmp.42 = 0;
+        lputv %i.8 %tmp.42;
+        symbol [ i %i.8 113 17 18 ];
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_test:
+        %tmp.43 = lgetv %i.8;
+        symbol [ i %tmp.43 113 24 25 ];
+        %tmp.44 = lgetv %n.1;
+        symbol [ n %tmp.44 113 28 29 ];
+        %tmp.45 = lt %tmp.43 %tmp.44;
+        bf %tmp.45 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_begin:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_39_118_8_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 114 12 ]
+        [ "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_39_118_8_start" "C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_39_118_8_stop" ]
+        %ch.9 = local;
+        symbol [ ch %ch.9 114 16 18 ];
+        %tmp.46 = lgetv %bits;
+        symbol [ bits %tmp.46 114 21 25 ];
+        symbol [ substring %tmp.47 114 26 35 ];
+        %tmp.47 = getv function %tmp.46 :substring;
+        %tmp.48 = lgetv %i.8;
+        symbol [ i %tmp.48 114 36 37 ];
+        %tmp.49 = lgetv %i.8;
+        symbol [ i %tmp.49 114 39 40 ];
+        %tmp.50 = 1;
+        %tmp.51 = add %tmp.49 %tmp.50;
+        %tmp.52 = invoke %tmp.46 %tmp.47(%tmp.48, %tmp.51);
+        lputv %ch.9 %tmp.52;
+        symbol [ ch %ch.9 114 16 18 ];
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 115 12 ]
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_12_117_12_if_stmt:
+        %tmp.53 = lgetv %ch.9;
+        symbol [ ch %tmp.53 115 16 18 ];
+        symbol [ equals %tmp.54 115 19 25 ];
+        %tmp.54 = getv function %tmp.53 :equals;
+        %tmp.55 = "1";
+        %tmp.56 = invoke %tmp.53 %tmp.54(%tmp.55);
+        bf %tmp.56 @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_12_117_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_12_117_12_if_true:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_32_117_12_start:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 116 16 ]
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 116 16 18 ];
+        symbol [ fillRectangle %tmp.58 116 19 32 ];
+        %tmp.58 = getv function %tmp.57 :fillRectangle;
+        %tmp.59 = lgetv %ox.5;
+        symbol [ ox %tmp.59 116 33 35 ];
+        %tmp.60 = lgetv %quiet.2;
+        symbol [ quiet %tmp.60 116 39 44 ];
+        %tmp.61 = lgetv %i.8;
+        symbol [ i %tmp.61 116 47 48 ];
+        %tmp.62 = add %tmp.60 %tmp.61;
+        %tmp.63 = lgetv %scale.3;
+        symbol [ scale %tmp.63 116 52 57 ];
+        %tmp.64 = mul %tmp.62 %tmp.63;
+        %tmp.65 = add %tmp.59 %tmp.64;
+        %tmp.66 = lgetv %oy.7;
+        symbol [ oy %tmp.66 116 59 61 ];
+        %tmp.67 = lgetv %scale.3;
+        symbol [ scale %tmp.67 116 63 68 ];
+        %tmp.68 = lgetv %barH.6;
+        symbol [ barH %tmp.68 116 70 74 ];
+        invoke %tmp.57 %tmp.58(%tmp.65, %tmp.66, %tmp.67, %tmp.68);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_32_117_12_stop:
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_12_117_12_if_end;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_115_12_117_12_if_end:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_39_118_8_stop:
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_incr:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 113 ]
+        %tmp.69 = lgetv %i.8;
+        symbol [ i %tmp.69 113 31 32 ];
+        %tmp.70 = 1;
+        %tmp.71 = add %tmp.69 %tmp.70;
+        lputv %i.8 %tmp.71;
+        symbol [ i %i.8 113 31 32 ];
+        goto @C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_test;
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_113_8_118_8_for_end:
+[ "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc" 120 8 ]
+        %tmp.72 = lgetv %dc;
+        symbol [ dc %tmp.72 120 8 10 ];
+        symbol [ drawText %tmp.73 120 11 19 ];
+        %tmp.73 = getv function %tmp.72 :drawText;
+        %tmp.74 = lgetv %w;
+        symbol [ w %tmp.74 120 20 21 ];
+        %tmp.75 = 2;
+        %tmp.76 = div %tmp.74 %tmp.75;
+        %tmp.77 = lgetv %oy.7;
+        symbol [ oy %tmp.77 120 27 29 ];
+        %tmp.78 = lgetv %barH.6;
+        symbol [ barH %tmp.78 120 32 36 ];
+        %tmp.79 = add %tmp.77 %tmp.78;
+        %tmp.80 = 4;
+        %tmp.81 = add %tmp.79 %tmp.80;
+        symbol [ Gfx %tmp.82 120 42 45 ];
+        %tmp.82 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.83 120 46 56 ];
+        %tmp.83 = getv %tmp.82 :FONT_XTINY;
+        symbol [ mValue %tmp.85 120 58 64 ];
+        %tmp.85 = getv ? :mValue;
+        symbol [ Gfx %tmp.86 120 66 69 ];
+        %tmp.86 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.87 120 70 89 ];
+        %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.72 %tmp.73(%tmp.76, %tmp.81, %tmp.83, %tmp.85, %tmp.87);
+C__Users_ariza_Downloads_BarcodeWatch_source_BarcodeView_mc_102_38_121_4_stop:
+    }
+}
+[ @file = "C:\Users\ariza\Downloads\BarcodeWatch\source\BarcodeView.mc"; @line = 1; ]
+<init> {
+}
