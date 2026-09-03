@@ -152,12 +152,18 @@ C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate_mc_13_8_15_8_if_en
         %tmp.45 = newc %tmp.48 (%tmp.49, %tmp.50, %tmp.51);
         symbol [ BarcodeDelegate %tmp.55 24 60 75 ];
         %tmp.55 = getv ? :BarcodeDelegate;
-        %tmp.52 = newc %tmp.55 ();
-        symbol [ Ui %tmp.56 24 79 81 ];
-        %tmp.56 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_LEFT %tmp.57 24 82 92 ];
-        %tmp.57 = getv %tmp.56 :SLIDE_LEFT;
-        invoke %tmp.43 %tmp.44(%tmp.45, %tmp.52, %tmp.57);
+        %tmp.56 = newa 1;
+        %tmp.57 = lgetv %i.3;
+        symbol [ i %tmp.57 24 77 78 ];
+        %tmp.58 = dup %tmp.56;
+        %tmp.59 = aputv %tmp.58 0 %tmp.57;
+        %tmp.60 = 0;
+        %tmp.52 = newc %tmp.55 (%tmp.59, %tmp.60);
+        symbol [ Ui %tmp.61 24 85 87 ];
+        %tmp.61 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.62 24 88 98 ];
+        %tmp.62 = getv %tmp.61 :SLIDE_LEFT;
+        invoke %tmp.43 %tmp.44(%tmp.45, %tmp.52, %tmp.62);
 C__Users_ariza_Downloads_BarcodeWatch_source_CodeListDelegate_mc_11_28_25_4_stop:
     }
 }

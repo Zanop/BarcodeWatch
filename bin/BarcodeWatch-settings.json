@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "Slot1Name",
     "valueType" : "string",
-    "defaultValue" : "",
+    "defaultValue" : "Albert Heijn",
     "configTitle" : "Slot1NameTitle",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
@@ -17,7 +17,7 @@
   }, {
     "key" : "Slot1Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot1TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -26,14 +26,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -44,7 +44,7 @@
   }, {
     "key" : "Slot1Value",
     "valueType" : "string",
-    "defaultValue" : "",
+    "defaultValue" : "2412345678901",
     "configTitle" : "Slot1ValueTitle",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
@@ -59,7 +59,7 @@
   }, {
     "key" : "Slot2Name",
     "valueType" : "string",
-    "defaultValue" : "",
+    "defaultValue" : "Jumbo",
     "configTitle" : "Slot2NameTitle",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
@@ -83,14 +83,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -101,7 +101,7 @@
   }, {
     "key" : "Slot2Value",
     "valueType" : "string",
-    "defaultValue" : "",
+    "defaultValue" : "1234567890123",
     "configTitle" : "Slot2ValueTitle",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
@@ -131,7 +131,7 @@
   }, {
     "key" : "Slot3Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot3TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -140,14 +140,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -188,7 +188,7 @@
   }, {
     "key" : "Slot4Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot4TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -197,14 +197,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -245,7 +245,7 @@
   }, {
     "key" : "Slot5Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot5TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -254,14 +254,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -302,7 +302,7 @@
   }, {
     "key" : "Slot6Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot6TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -311,14 +311,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -359,7 +359,7 @@
   }, {
     "key" : "Slot7Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot7TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -368,14 +368,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -416,7 +416,7 @@
   }, {
     "key" : "Slot8Type",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 2,
     "configTitle" : "Slot8TypeTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -425,14 +425,14 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
+      "display" : "TypeEAN13",
+      "value" : 2
+    }, {
       "display" : "TypeQR",
       "value" : 0
     }, {
       "display" : "TypeCode128",
       "value" : 1
-    }, {
-      "display" : "TypeEAN13",
-      "value" : 2
     }, {
       "display" : "TypeEAN8",
       "value" : 3
@@ -465,7 +465,7 @@
       "Slot1TypeTitle" : "1: Type",
       "Slot5ValueTitle" : "5: Value",
       "Slot4NameTitle" : "4: Name",
-      "AppName" : "Codes",
+      "AppName" : "BarcodeWatch",
       "SettingsGroupTitle" : "Codes",
       "Slot7NameTitle" : "7: Name",
       "TypeQR" : "QR code",
